@@ -122,7 +122,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .btn-main, .btn-small, .btn-transparent, .btn-solid-border {
   background: #000;
-  color: #fff;
+  color: white;
   display: inline-block;
   font-size: 11px;
   letter-spacing: 1px;
@@ -138,12 +138,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .btn-main:hover, .btn-small:hover, .btn-transparent:hover, .btn-solid-border:hover {
   background: black;
-  color: #fff;
+  color: white;
 }
 
 .btn-solid-border {
   border: 1px solid #000;
-  background: #fff;
+  background: white;
   color: #000;
 }
 
@@ -228,14 +228,18 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   z-index: 999999999;
 }
 
+.bg-pink {
+  background: #f8e2ea;
+}
+
 .bg-shadow {
-  background-color: #fff;
+  background-color: white;
   box-shadow: 0 16px 24px rgba(0, 0, 0, 0.08);
   padding: 20px;
 }
 
 .bg-gray {
-  background: #f9f9f9;
+  background: #f8e2ea;
 }
 
 .section {
@@ -325,7 +329,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .page-header {
-  background: #f5f5f5;
+  background: #f8e2ea;
   margin-top: 20px;
   border-bottom: none;
   padding: 30px 0;
@@ -385,7 +389,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #333;
   display: inline-block;
   padding: 7px 12px;
-  color: #fff;
+  color: white;
 }
 .social-media-icons ul li .twitter {
   background: #00aced;
@@ -514,11 +518,11 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .tabCommon .nav-tabs a:hover {
   border: 1px solid transparent;
   background: #000;
-  color: #fff;
+  color: white;
 }
 .tabCommon .tab-content {
   padding: 20px;
-  border: 1px solid #dedede;
+  border: 1px solid #f8e2ea;
 }
 
 .commonAccordion .panel, .commonAccordion-2 .panel {
@@ -557,7 +561,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .play-icon {
-  border: 1px solid #dedede;
+  border: 1px solid #f8e2ea;
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -596,14 +600,17 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .single-page-header {
   padding: 140px 0 70px;
   text-align: center;
-  color: #fff;
+  color: #f8e2ea;
   position: relative;
 }
 
+.top-header {
+  background-color: #f8e2ea;
+}
 .top-header .container {
   padding-top: 35px;
   padding-bottom: 35px;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #f8e2ea;
 }
 .top-header .dropdown-menu {
   left: auto;
@@ -672,7 +679,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .cart-dropdown .media {
   position: relative;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #f8e2ea;
   padding-bottom: 15px;
 }
 .cart-dropdown .media .pull-left {
@@ -723,6 +730,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .navigation {
+  background-color: #f8e2ea;
   margin-bottom: 0;
   padding: 10px 0;
 }
@@ -788,7 +796,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .navigation .dropdown-slide .dropdown-menu li a:hover {
   background-color: #000;
-  color: #fff;
+  color: white;
 }
 
 .slider-item {
@@ -822,12 +830,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   position: absolute;
 }
 .slider-item h1 {
-  color: #fff;
+  color: white;
   font-weight: bold;
   font-size: 60px;
 }
 .slider-item p {
-  color: #fff;
+  color: white;
 }
 .slider-item .btn-main, .slider-item .btn-solid-border, .slider-item .btn-transparent, .slider-item .btn-small {
   margin-top: 25px;
@@ -855,7 +863,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   width: 60px;
   height: 60px;
   display: inline-block;
-  background: #fff;
+  background: white;
   text-align: center;
 }
 .home-slider .owl-nav .owl-next {
@@ -959,7 +967,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   top: 12px;
   right: 12px;
   background: #000;
-  color: #fff;
+  color: white;
   font-size: 12px;
   padding: 4px 12px;
   font-weight: 300;
@@ -991,7 +999,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   display: inline-block;
 }
 .product-item .product-thumb .preview-meta li a, .product-item .product-thumb .preview-meta li span {
-  background: #fff;
+  background: white;
   padding: 10px 0px;
   cursor: pointer;
   display: inline-block;
@@ -1001,7 +1009,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .product-item .product-thumb .preview-meta li a:hover, .product-item .product-thumb .preview-meta li span:hover {
   background: #000;
-  color: #fff;
+  color: white;
 }
 .product-item:hover .product-thumb:before {
   opacity: 1;
@@ -1118,6 +1126,9 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   margin-right: 15px;
 }
 
+.product-category {
+  background-color: #f8e2ea;
+}
 .product-category ul {
   padding-left: 15px;
 }
@@ -1182,7 +1193,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .single-product-slider .carousel .carousel-control {
   bottom: auto;
-  background: #fff;
+  background: white;
   width: 6%;
   padding: 10px 0;
 }
@@ -1365,7 +1376,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 ==================================================================*/
 .pricing-table .pricing-item {
   padding: 40px 55px 65px;
-  background: #fff;
+  background: white;
   margin-bottom: 20px;
 }
 .pricing-table .pricing-item a.btn-main, .pricing-table .pricing-item a.btn-solid-border, .pricing-table .pricing-item a.btn-transparent, .pricing-table .pricing-item a.btn-small {
@@ -1423,7 +1434,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .dashboard-menu .active {
   background: #000;
-  color: #fff;
+  color: white;
   border: 1px solid #000;
 }
 .dashboard-menu li {
@@ -1432,7 +1443,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .dashboard-menu li a {
   padding: 10px 20px;
-  border: 1px solid #dedede;
+  border: 1px solid #f8e2ea;
   display: inline-block;
 }
 @media (max-width: 768px) {
@@ -1454,7 +1465,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .dashboard-wrapper {
-  border: 1px solid #dedede;
+  border: 1px solid #f8e2ea;
   margin-top: 30px;
   padding: 20px;
 }
@@ -1494,9 +1505,9 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .post {
-  background: #fff;
+  background: white;
   margin-bottom: 40px;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #f8e2ea;
   padding-bottom: 20px;
 }
 .post .post-media.post-thumb img {
@@ -1567,7 +1578,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #000;
 }
 .post-pagination > li > a:hover {
-  color: #fff;
+  color: white;
   background: #000;
   border: 1px solid #000;
 }
@@ -1842,7 +1853,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-size: 12px;
 }
 .widget.widget-tag ul li a:hover {
-  color: #fff;
+  color: white;
   background: #000;
   border: 1px solid #000;
 }
@@ -1886,7 +1897,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .coming-soon {
-  color: #fff;
+  color: white;
   padding: 150px 0;
 }
 .coming-soon .block h1 {
@@ -1895,7 +1906,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-weight: 400;
 }
 .coming-soon .block p {
-  color: #fff;
+  color: white;
   margin-top: 20px;
   font-size: 12px;
 }
@@ -1948,8 +1959,8 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .account .block {
-  background-color: #fff;
-  border: 1px solid #dedede;
+  background-color: white;
+  border: 1px solid #f8e2ea;
   padding: 30px;
   margin: 100px 0;
 }
@@ -1983,7 +1994,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .shopping .widget-title {
   font-weight: 400;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #f8e2ea;
   padding-bottom: 15px;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -2079,8 +2090,8 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   cursor: pointer;
 }
 .product-checkout-details .discount-code {
-  border-top: 1px solid #dedede;
-  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #f8e2ea;
+  border-bottom: 1px solid #f8e2ea;
   margin: 20px 0 10px;
   padding: 10px 0;
 }
@@ -2093,7 +2104,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .product-checkout-details .summary-prices {
   border-style: solid;
-  border-color: #dedede;
+  border-color: #f8e2ea;
   border-width: 0px 0 1px 0;
   padding-bottom: 10px;
 }
@@ -2122,7 +2133,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .purchase-confirmation .purchase-confirmation-details {
   padding: 20px;
-  border: 1px solid #dedede;
+  border: 1px solid #f8e2ea;
 }
 .purchase-confirmation .purchase-confirmation-details .table {
   margin: 0;
@@ -2139,7 +2150,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .success-msg .block i {
   font-size: 40px;
   background: #1bbb1b;
-  color: #fff;
+  color: white;
   width: 60px;
   height: 60px;
   border-radius: 100px;
@@ -2222,7 +2233,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   width: 100%;
   margin: 0;
   background: #000;
-  color: #fff;
+  color: white;
   border-radius: 0;
 }
 .contact-form textarea.form-control {
@@ -2270,11 +2281,11 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .social-icon ul li a:hover {
   background: #000;
-  color: #fff;
+  color: white;
   border: 1px solid #000;
 }
 .social-icon ul li a:hover i {
-  color: #fff;
+  color: white;
 }
 .social-icon ul li a i {
   color: #000;
@@ -2303,7 +2314,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .footer {
-  background: #F7F7F7;
+  background: #738252;
   padding: 50px 0;
 }
 .footer .footer-menu {

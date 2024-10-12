@@ -1,5 +1,6 @@
 // Top Header
 .top-header {
+  background-color: $brand;
   .container {
     padding-top:35px;
     padding-bottom:35px;
@@ -126,6 +127,7 @@
 
 // Main Menu Scss File
 .navigation {
+  background-color: $brand;
   margin-bottom:0;
   padding:10px 0;
   .menu-title {
