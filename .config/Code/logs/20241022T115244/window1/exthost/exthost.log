@@ -1,0 +1,52 @@
+2024-10-22 11:52:46.310 [info] Extension host with pid 6818 started
+2024-10-22 11:52:46.310 [info] Skipping acquiring lock for /home/pmickler09/.config/Code/User/workspaceStorage/c5772b1aed059831d4749d46c4f51f37.
+2024-10-22 11:52:46.563 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 11:52:46.587 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-22 11:52:47.445 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-22 11:52:47.484 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-22 11:52:47.585 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-22 11:52:47.703 [info] Eager extensions activated
+2024-10-22 11:52:47.733 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:47.735 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:47.755 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:47.765 [info] ExtensionService#_doActivateExtension tonybaloney.vscode-pets, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:52.560 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-22 11:52:52.586 [info] Extension host with pid 6818 exiting with code 0
+2024-10-22 11:52:54.181 [info] Extension host with pid 7131 started
+2024-10-22 11:52:54.181 [info] Skipping acquiring lock for /home/pmickler09/.config/Code/User/workspaceStorage/54ed5c05762a044d1a53e3d5279e119a.
+2024-10-22 11:52:54.430 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 11:52:54.456 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-22 11:52:55.346 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-22 11:52:55.350 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-22 11:52:55.404 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-22 11:52:55.483 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-22 11:52:55.582 [info] Eager extensions activated
+2024-10-22 11:52:55.615 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:55.618 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:55.639 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:55.645 [info] ExtensionService#_doActivateExtension tonybaloney.vscode-pets, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:53:00.432 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 11:53:00.443 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 11:53:00.459 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 12:01:24.106 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-10-22 12:20:35.681 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 12:20:35.975 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 12:20:36.619 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-22 12:21:08.057 [error] CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as Patrick-Mickler.
+    at authShowWarnings (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:144:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at nae.getCopilotToken (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:174:33)
+    at onDidChangeSessionsHandler (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/session.ts:78:13)
+    at /home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/extension.ts:184:9
+2024-10-22 12:21:08.059 [error] CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as Patrick-Mickler.
+    at authShowWarnings (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:144:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at nae.getCopilotToken (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:174:33)
+    at onDidChangeSessionsHandler (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/session.ts:78:13)
+    at /home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/extension.ts:184:9
+2024-10-22 12:21:08.071 [error] CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as Patrick-Mickler.
+    at authShowWarnings (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:144:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at nae.getCopilotToken (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:174:33)
+    at onDidChangeSessionsHandler (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/session.ts:78:13)
+    at /home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/extension.ts:184:9

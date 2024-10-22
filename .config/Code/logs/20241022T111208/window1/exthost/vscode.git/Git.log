@@ -1,0 +1,119 @@
+2024-10-22 11:12:13.476 [info] [main] Log level: Info
+2024-10-22 11:12:13.476 [info] [main] Validating found git in: "git"
+2024-10-22 11:12:13.476 [info] [main] Using git "2.39.5" from "git"
+2024-10-22 11:12:13.476 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-22 11:12:13.476 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-22 11:12:13.476 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.476 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-22 11:12:13.476 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.477 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-22 11:12:13.477 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.484 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:12:13.485 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.491 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-22 11:12:13.491 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.498 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:12:13.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.501 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-22 11:12:13.637 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:12:13.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.869 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:12:13.869 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:13.896 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:12:13.896 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:12:14.017 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:12:14.017 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:31.041 [info] [main] Log level: Info
+2024-10-22 11:14:31.042 [info] [main] Validating found git in: "git"
+2024-10-22 11:14:31.042 [info] [main] Using git "2.39.5" from "git"
+2024-10-22 11:14:31.042 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-22 11:14:31.042 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-22 11:14:31.042 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:31.085 [info] > git rev-parse --show-toplevel [38ms]
+2024-10-22 11:14:31.085 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:31.116 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-22 11:14:31.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:31.121 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:14:31.121 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:31.125 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-22 11:14:32.401 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:14:32.401 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:33.816 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:14:33.816 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:14:38.237 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:14:38.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.362 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.367 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.367 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.373 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.373 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.378 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.378 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.384 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.384 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.389 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.396 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:16:14.396 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.401 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.408 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.408 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.413 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:16:14.413 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.418 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.418 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.423 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.423 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.429 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.429 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.434 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.434 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.440 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.440 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.445 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.445 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.450 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.450 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.457 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:16:14.457 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.468 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-22 11:16:14.468 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.473 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.473 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.478 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.478 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.483 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.483 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.488 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.488 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.493 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-22 11:16:14.493 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:14.497 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:14.497 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:15.189 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-22 11:16:15.189 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:38.884 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:38.884 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:38.889 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:16:38.889 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:38.895 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:16:38.895 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:16:38.895 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/gopd/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/gopd/'
+2024-10-22 11:16:38.901 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/call-bind/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/call-bind/'
+2024-10-22 11:16:38.905 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/es-errors/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/es-errors/'
+2024-10-22 11:16:38.910 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/has-proto/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/has-proto/'
+2024-10-22 11:16:38.914 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/stream-shift/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/stream-shift/'
+2024-10-22 11:16:38.919 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/has-symbols/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/has-symbols/'
+2024-10-22 11:16:38.923 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/buffer-equal/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/buffer-equal/'
+2024-10-22 11:16:38.928 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/get-intrinsic/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/get-intrinsic/'
+2024-10-22 11:16:38.932 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/is-descriptor/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/is-descriptor/'
+2024-10-22 11:16:38.936 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/object.assign/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/object.assign/'
+2024-10-22 11:16:38.940 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/define-properties/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/define-properties/'
+2024-10-22 11:16:38.945 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/es-define-property/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/es-define-property/'
+2024-10-22 11:16:38.948 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/is-data-descriptor/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/is-data-descriptor/'
+2024-10-22 11:16:38.952 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/set-function-length/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/set-function-length/'
+2024-10-22 11:16:38.956 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/define-data-property/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/define-data-property/'
+2024-10-22 11:16:38.960 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/is-accessor-descriptor/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/is-accessor-descriptor/'
+2024-10-22 11:16:38.963 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/has-property-descriptors/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/has-property-descriptors/'

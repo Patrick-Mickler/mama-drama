@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/pmickler09/class22-materials/turbo-review/js/main.js" added="2024-09-19T15:22:30.905949Z" modified="2024-09-23T14:48:52.657558Z" visited="2024-09-19T15:22:30.905950Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T14:48:52.657554Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class23-materials/turbo-review/js/main.js" added="2024-09-20T14:47:40.127790Z" modified="2024-09-23T14:48:10.910568Z" visited="2024-09-20T14:47:40.127791Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T14:48:10.910565Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/oop" added="2024-09-23T13:58:29.974969Z" modified="2024-09-23T13:58:29.974973Z" visited="2024-09-23T13:58:29.974969Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T13:58:29.974971Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/oop/index.html" added="2024-09-23T13:59:08.495679Z" modified="2024-09-23T13:59:08.495685Z" visited="2024-09-23T13:59:08.495680Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T13:59:08.495683Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class23-materials/turbo-review/index.html" added="2024-09-23T14:19:26.816552Z" modified="2024-09-23T14:19:26.816557Z" visited="2024-09-23T14:19:26.816553Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T14:19:26.816555Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/turbo-review/js/main.js" added="2024-09-23T14:34:16.227945Z" modified="2024-09-23T14:34:16.227950Z" visited="2024-09-23T14:34:16.227946Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T14:34:16.227948Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/turbo-review/index.html" added="2024-09-23T14:34:29.340813Z" modified="2024-09-23T14:34:29.340820Z" visited="2024-09-23T14:34:29.340814Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T14:34:29.340817Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-lost-galaxy/js/main.js" added="2024-09-23T15:00:22.476403Z" modified="2024-09-23T15:00:22.476409Z" visited="2024-09-23T15:00:22.476404Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T15:00:22.476406Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-lost-galaxy/index.html" added="2024-09-23T15:00:29.359867Z" modified="2024-09-23T15:00:29.359874Z" visited="2024-09-23T15:00:29.359868Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T15:00:29.359871Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-constructor-fun/js/main.js" added="2024-09-23T15:44:29.420825Z" modified="2024-09-23T15:44:29.420830Z" visited="2024-09-23T15:44:29.420826Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T15:44:29.420827Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-constructor-fun/index.html" added="2024-09-23T15:57:12.331852Z" modified="2024-09-23T15:57:12.331860Z" visited="2024-09-23T15:57:12.331853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T15:57:12.331855Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-dog-photos/js/main.js" added="2024-09-23T16:49:37.632783Z" modified="2024-09-23T16:49:37.632790Z" visited="2024-09-23T16:49:37.632785Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T16:49:37.632787Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-dog-photos/index.html" added="2024-09-23T16:52:02.901379Z" modified="2024-09-23T16:52:02.901387Z" visited="2024-09-23T16:52:02.901380Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T16:52:02.901383Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-shots/js/main.js" added="2024-09-23T17:04:21.358403Z" modified="2024-09-23T19:35:58.865152Z" visited="2024-09-23T17:04:21.358404Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:35:58.865148Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-shots/index.html" added="2024-09-23T17:04:32.765279Z" modified="2024-09-23T19:38:21.386470Z" visited="2024-09-23T17:04:32.765279Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:38:21.386467Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-shots/css/style.css" added="2024-09-23T18:33:57.614822Z" modified="2024-09-23T18:33:57.614826Z" visited="2024-09-23T18:33:57.614823Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T18:33:57.614824Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/api-template/js/main.js" added="2024-09-23T19:27:27.777526Z" modified="2024-09-23T19:27:27.777532Z" visited="2024-09-23T19:27:27.777527Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:27:27.777529Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/dictionary/index.html" added="2024-09-23T19:29:41.951268Z" modified="2024-09-23T19:29:41.951273Z" visited="2024-09-23T19:29:41.951269Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:29:41.951270Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/dictionary" added="2024-09-23T19:31:21.007088Z" modified="2024-09-23T19:31:21.007092Z" visited="2024-09-23T19:31:21.007089Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:31:21.007090Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-nasa/index.html" added="2024-09-23T19:44:18.891955Z" modified="2024-09-23T19:44:18.891961Z" visited="2024-09-23T19:44:18.891956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:44:18.891958Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/objects-nasa/js/main.js" added="2024-09-23T19:44:27.097140Z" modified="2024-09-23T19:44:27.097145Z" visited="2024-09-23T19:44:27.097141Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-23T19:44:27.097143Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class27-materials/objects-netflix-tv-shows/js/main.js" added="2024-09-24T15:29:25.374179Z" modified="2024-09-24T15:29:25.374185Z" visited="2024-09-24T15:29:25.374180Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-24T15:29:25.374182Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class27-materials/api-template/js/main.js" added="2024-09-24T16:23:01.809722Z" modified="2024-09-26T13:10:18.782729Z" visited="2024-09-24T16:23:01.809722Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-26T13:10:18.782726Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class27-materials/api-template/index.html" added="2024-09-24T16:23:10.282730Z" modified="2024-09-26T13:10:30.412333Z" visited="2024-09-24T16:23:10.282730Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-26T13:10:30.412329Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class28-materials/dnd/js/main.js" added="2024-09-25T14:21:05.984950Z" modified="2024-09-25T14:21:05.984980Z" visited="2024-09-25T14:21:05.984951Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-25T14:21:05.984953Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class28-materials/dnd/index.html" added="2024-09-25T14:32:31.996023Z" modified="2024-09-25T14:32:31.996029Z" visited="2024-09-25T14:32:31.996024Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-25T14:32:31.996026Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class28-materials/api-template/js/main.js" added="2024-09-25T16:49:41.602329Z" modified="2024-09-25T16:49:41.602334Z" visited="2024-09-25T16:49:41.602330Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-25T16:49:41.602331Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class28-materials/api-template/index.html" added="2024-09-25T16:49:56.610311Z" modified="2024-09-25T16:49:56.610316Z" visited="2024-09-25T16:49:56.610311Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-25T16:49:56.610313Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class26-materials/api-template/index.html" added="2024-09-26T13:09:17.641303Z" modified="2024-09-26T13:09:17.641325Z" visited="2024-09-26T13:09:17.641304Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-26T13:09:17.641306Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/boulder-badge/js/main.js" added="2024-09-30T14:12:13.651636Z" modified="2024-09-30T14:12:13.651641Z" visited="2024-09-30T14:12:13.651637Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T14:12:13.651638Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/boulder-badge/index.html" added="2024-09-30T14:12:23.302821Z" modified="2024-09-30T14:12:23.302827Z" visited="2024-09-30T14:12:23.302821Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T14:12:23.302824Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/cascade-badge/index.html" added="2024-09-30T14:58:31.604780Z" modified="2024-09-30T14:58:31.604787Z" visited="2024-09-30T14:58:31.604782Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T14:58:31.604784Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/cascade-badge/js/main.js" added="2024-09-30T14:58:37.861655Z" modified="2024-09-30T14:58:37.861660Z" visited="2024-09-30T14:58:37.861656Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T14:58:37.861657Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/repos/code/script.js" added="2024-09-30T16:37:22.075281Z" modified="2024-09-30T16:37:22.075286Z" visited="2024-09-30T16:37:22.075281Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T16:37:22.075283Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/repos/script.js" added="2024-09-30T16:41:28.910802Z" modified="2024-09-30T16:41:28.910811Z" visited="2024-09-30T16:41:28.910804Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T16:41:28.910807Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/repos/repos" added="2024-09-30T16:44:39.434578Z" modified="2024-09-30T16:44:39.434585Z" visited="2024-09-30T16:44:39.434579Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T16:44:39.434581Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/repository/scripts.js" added="2024-09-30T16:50:17.585804Z" modified="2024-09-30T16:50:17.585810Z" visited="2024-09-30T16:50:17.585805Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-09-30T16:50:17.585807Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/thunder-badge/js/main.js" added="2024-10-01T01:01:36.226009Z" modified="2024-10-01T01:01:36.226025Z" visited="2024-10-01T01:01:36.226010Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T01:01:36.226012Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/rainbow-badge/js/main.js" added="2024-10-01T01:02:03.171853Z" modified="2024-10-01T01:02:03.171859Z" visited="2024-10-01T01:02:03.171854Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T01:02:03.171856Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class29-materials/rainbow-badge/index.html" added="2024-10-01T11:44:50.770022Z" modified="2024-10-01T11:57:53.375409Z" visited="2024-10-01T11:44:50.770022Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T11:57:53.375375Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class30-materials/objects-espresso-machine/index.html" added="2024-10-01T12:54:42.369808Z" modified="2024-10-01T12:54:42.369813Z" visited="2024-10-01T12:54:42.369808Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T12:54:42.369810Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class30-materials/objects-espresso-machine/js/main.js" added="2024-10-01T12:54:53.814683Z" modified="2024-10-01T12:54:53.814689Z" visited="2024-10-01T12:54:53.814684Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T12:54:53.814686Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class30-materials/scratch/index.html" added="2024-10-01T14:10:54.810635Z" modified="2024-10-01T14:10:54.810642Z" visited="2024-10-01T14:10:54.810636Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T14:10:54.810639Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class30-materials/scratch/js/main.js" added="2024-10-01T14:11:02.888293Z" modified="2024-10-10T19:14:56.349499Z" visited="2024-10-01T14:11:02.888297Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-10T19:14:56.349451Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/tic-tac-toe" added="2024-10-01T15:05:20.629873Z" modified="2024-10-01T15:05:20.629877Z" visited="2024-10-01T15:05:20.629874Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T15:05:20.629875Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/New%20folder/index.html" added="2024-10-01T20:50:36.012868Z" modified="2024-10-01T20:50:36.017627Z" visited="2024-10-01T20:50:36.012869Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T20:50:36.012871Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/New%20folder/images/bg.jpg" added="2024-10-01T20:55:12.760298Z" modified="2024-10-01T20:55:12.760310Z" visited="2024-10-01T20:55:12.760299Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T20:55:12.760301Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/New%20folder/assets/css/main.css" added="2024-10-01T20:55:44.641061Z" modified="2024-10-01T20:55:44.641066Z" visited="2024-10-01T20:55:44.641062Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-01T20:55:44.641064Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class31-materials/objects-child-class/js/main.js" added="2024-10-02T14:14:34.445114Z" modified="2024-10-10T19:15:16.193192Z" visited="2024-10-02T14:14:34.445115Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-10T19:15:16.193180Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class31-materials/complete/js/main.js" added="2024-10-02T15:45:09.289291Z" modified="2024-10-02T15:45:09.289297Z" visited="2024-10-02T15:45:09.289292Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-02T15:45:09.289294Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/code%20wars%20solution" added="2024-10-03T12:45:05.301883Z" modified="2024-10-16T13:16:02.971415Z" visited="2024-10-03T12:45:05.301884Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-16T13:16:02.971413Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class31-materials/objects-child-class/index.html" added="2024-10-03T14:22:39.642493Z" modified="2024-10-03T14:22:39.642499Z" visited="2024-10-03T14:22:39.642494Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-03T14:22:39.642496Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/code%20wars%20solution/scripts.js" added="2024-10-04T12:44:01.663330Z" modified="2024-10-04T12:44:01.663335Z" visited="2024-10-04T12:44:01.663331Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-04T12:44:01.663332Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/html5up-dimension.zip" added="2024-10-04T13:42:08.085165Z" modified="2024-10-04T13:42:08.085171Z" visited="2024-10-04T13:42:08.085167Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-04T13:42:08.085168Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/gatsby-ecommerce-theme-main/README.md" added="2024-10-04T13:43:41.928009Z" modified="2024-10-04T13:43:41.928014Z" visited="2024-10-04T13:43:41.928009Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-04T13:43:41.928011Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/aviato-bootstrap-main" added="2024-10-04T13:58:16.071461Z" modified="2024-10-22T15:14:29.225205Z" visited="2024-10-04T13:58:16.071462Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-22T15:14:29.225203Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/aviato-bootstrap-main-mama-drama" added="2024-10-04T14:00:15.607639Z" modified="2024-10-22T15:52:29.065414Z" visited="2024-10-04T14:00:15.607639Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-22T15:52:29.065411Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/aviato-bootstrap-main-mama-drama/theme/index.html" added="2024-10-04T14:11:07.639303Z" modified="2024-10-04T14:11:07.639309Z" visited="2024-10-04T14:11:07.639304Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-04T14:11:07.639305Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/mama-drama" added="2024-10-04T15:08:42.333407Z" modified="2024-10-17T17:26:05.441452Z" visited="2024-10-04T15:08:42.333407Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T17:26:05.441450Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/mama-drama/theme/css/style.css" added="2024-10-04T15:44:04.335759Z" modified="2024-10-04T15:44:04.335766Z" visited="2024-10-04T15:44:04.335760Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-04T15:44:04.335762Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/code%20wars%20solution/day2.js" added="2024-10-08T13:31:36.325658Z" modified="2024-10-16T13:15:52.065951Z" visited="2024-10-08T13:31:36.325660Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-16T13:15:52.065948Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class35-materials" added="2024-10-09T19:04:11.023521Z" modified="2024-10-09T19:04:11.023526Z" visited="2024-10-09T19:04:11.023522Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-09T19:04:11.023523Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class36-materials" added="2024-10-10T14:40:42.867079Z" modified="2024-10-10T14:40:42.867082Z" visited="2024-10-10T14:40:42.867079Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-10T14:40:42.867080Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/simple-crud/server.js" added="2024-10-10T19:47:17.318376Z" modified="2024-10-10T19:47:17.318381Z" visited="2024-10-10T19:47:17.318377Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-10T19:47:17.318379Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/simple-crud" added="2024-10-10T19:49:25.646245Z" modified="2024-10-17T17:10:42.606735Z" visited="2024-10-10T19:49:25.646246Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T17:10:42.606733Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/simple-crud/index.html" added="2024-10-10T20:00:41.742015Z" modified="2024-10-10T20:00:41.742020Z" visited="2024-10-10T20:00:41.742016Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-10T20:00:41.742018Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/simple-crud/node_modules/@mongodb-js" added="2024-10-12T23:16:02.350166Z" modified="2024-10-12T23:16:02.350170Z" visited="2024-10-12T23:16:02.350167Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-12T23:16:02.350168Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class28-materials" added="2024-10-12T23:37:32.415614Z" modified="2024-10-12T23:37:32.415618Z" visited="2024-10-12T23:37:32.415615Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-12T23:37:32.415616Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/rock-paper-scissors" added="2024-10-12T23:51:15.078550Z" modified="2024-10-14T16:46:45.405294Z" visited="2024-10-12T23:51:15.078550Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-14T16:46:45.405291Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class37-materials" added="2024-10-14T15:33:23.297166Z" modified="2024-10-14T15:33:23.297172Z" visited="2024-10-14T15:33:23.297168Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-14T15:33:23.297169Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class37-materials/node-backend-simple-json/js/main.js" added="2024-10-14T16:59:59.295586Z" modified="2024-10-14T16:59:59.295593Z" visited="2024-10-14T16:59:59.295587Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-14T16:59:59.295589Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class37-materials/node-backend-simple-json/server.js" added="2024-10-14T17:07:13.460904Z" modified="2024-10-14T17:07:13.460911Z" visited="2024-10-14T17:07:13.460905Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-14T17:07:13.460907Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class38-materials" added="2024-10-16T13:57:56.989261Z" modified="2024-10-16T13:57:56.989265Z" visited="2024-10-16T13:57:56.989261Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-16T13:57:56.989263Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/one-piece-app" added="2024-10-17T12:50:15.878106Z" modified="2024-10-17T12:50:15.878109Z" visited="2024-10-17T12:50:15.878106Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T12:50:15.878107Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class38-materials/express-api/server.js" added="2024-10-17T13:01:10.123289Z" modified="2024-10-17T13:38:30.221339Z" visited="2024-10-17T13:01:10.123290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T13:38:30.221336Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class38-materials/client-side-code/js/main.js" added="2024-10-17T13:34:15.100293Z" modified="2024-10-17T13:34:15.100308Z" visited="2024-10-17T13:34:15.100293Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T13:34:15.100295Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/class38-materials/express-api/index.html" added="2024-10-17T13:36:01.115060Z" modified="2024-10-17T13:36:01.115069Z" visited="2024-10-17T13:36:01.115061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T13:36:01.115064Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/one-piece-app%20(1)" added="2024-10-17T17:02:10.631109Z" modified="2024-10-17T17:02:10.631113Z" visited="2024-10-17T17:02:10.631110Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T17:02:10.631111Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/one-piece-app%20/node_modules" added="2024-10-17T17:03:16.173835Z" modified="2024-10-17T17:03:16.173839Z" visited="2024-10-17T17:03:16.173836Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T17:03:16.173837Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/one-piece-app%20" added="2024-10-17T17:03:38.518821Z" modified="2024-10-17T17:03:38.518825Z" visited="2024-10-17T17:03:38.518822Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T17:03:38.518823Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/mama-drama/mamadrama/gulpfile.js" added="2024-10-17T17:25:15.209233Z" modified="2024-10-17T17:25:15.209239Z" visited="2024-10-17T17:25:15.209234Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-17T17:25:15.209236Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pmickler09/mamadrama" added="2024-10-17T18:48:46.733117Z" modified="2024-10-22T15:52:52.532266Z" visited="2024-10-17T18:48:46.733118Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-10-22T15:52:52.532265Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

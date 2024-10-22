@@ -1,0 +1,13 @@
+2024-10-22 12:20:36.750 [info] [certificates] Removed 3 expired certificates
+2024-10-22 12:21:07.047 [info] [auth] Invalid copilot token: missing token: 403 
+2024-10-22 12:21:07.053 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as Patrick-Mickler.
+    at authShowWarnings (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:144:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at nae.getCopilotToken (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:174:33)
+    at attemptAuthentication (/home/pmickler09/.vscode/extensions/github.copilot-1.241.0/extension/src/auth.ts:58:9) {
+  cause: undefined
+}
+2024-10-22 12:21:07.053 [error] [auth] No access to GitHub Copilot found. You are currently logged in as Patrick-Mickler.
+2024-10-22 12:21:07.055 [info] [auth] Invalid copilot token: missing token: 403 
+2024-10-22 12:21:07.058 [info] [auth] Invalid copilot token: missing token: 403 
+2024-10-22 12:21:07.070 [info] [auth] Invalid copilot token: missing token: 403 

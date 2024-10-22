@@ -1,0 +1,2599 @@
+0 verbose cli /home/pmickler09/.config/nvm/versions/node/v20.17.0/bin/node /home/pmickler09/.config/nvm/versions/node/v20.17.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:/home/pmickler09/.config/nvm/versions/node/v20.17.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/pmickler09/aviato-bootstrap-main/.npmrc
+5 silly config load:file:/home/pmickler09/.npmrc
+6 silly config load:file:/home/pmickler09/.config/nvm/versions/node/v20.17.0/etc/npmrc
+7 verbose title npm install shopify-cartjs
+8 verbose argv "install" "shopify-cartjs"
+9 verbose logfile logs-max:10 dir:/home/pmickler09/.npm/_logs/2024-10-22T15_31_55_602Z-
+10 verbose logfile /home/pmickler09/.npm/_logs/2024-10-22T15_31_55_602Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest shopify-cartjs@*
+16 silly packumentCache full:https://registry.npmjs.org/shopify-cartjs cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/shopify-cartjs 731ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/shopify-cartjs set size:undefined disposed:false
+19 silly placeDep ROOT shopify-cartjs@1.1.0 OK for: aviato@1.1.0 want: *
+20 silly reify moves {}
+21 silly tarball no local data for shopify-cartjs@https://registry.npmjs.org/shopify-cartjs/-/shopify-cartjs-1.1.0.tgz. Extracting by manifest.
+22 http fetch GET 200 https://registry.npmjs.org/shopify-cartjs/-/shopify-cartjs-1.1.0.tgz 286ms (cache miss)
+23 silly audit bulk request {
+23 silly audit   '@gulp-sourcemaps/identity-map': [ '1.0.2' ],
+23 silly audit   'normalize-path': [ '2.1.1', '3.0.0' ],
+23 silly audit   'readable-stream': [ '2.3.8', '3.6.2', '2.3.6', '1.1.14', '1.0.34' ],
+23 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+23 silly audit   string_decoder: [ '1.1.1', '1.3.0', '0.10.31' ],
+23 silly audit   through2: [ '2.0.5', '3.0.2', '4.0.2' ],
+23 silly audit   '@gulp-sourcemaps/map-sources': [ '1.0.0' ],
+23 silly audit   '@gulpjs/messages': [ '1.1.0' ],
+23 silly audit   '@gulpjs/to-absolute-glob': [ '4.0.0' ],
+23 silly audit   '@parcel/watcher': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-android-arm64': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-darwin-arm64': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-darwin-x64': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-freebsd-x64': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-win32-arm64': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-win32-ia32': [ '2.4.1' ],
+23 silly audit   '@parcel/watcher-win32-x64': [ '2.4.1' ],
+23 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+23 silly audit   '@types/cookie': [ '0.4.1' ],
+23 silly audit   '@types/cors': [ '2.8.17' ],
+23 silly audit   '@types/node': [ '22.7.8' ],
+23 silly audit   accepts: [ '1.3.8' ],
+23 silly audit   acorn: [ '5.7.4', '2.7.0', '1.2.2' ],
+23 silly audit   'ansi-colors': [ '4.1.1', '1.1.0' ],
+23 silly audit   'ansi-gray': [ '0.1.1' ],
+23 silly audit   'ansi-regex': [ '5.0.1', '0.2.1', '2.1.1' ],
+23 silly audit   'ansi-styles': [ '4.3.0', '1.0.0', '2.2.1' ],
+23 silly audit   'ansi-wrap': [ '0.1.0' ],
+23 silly audit   anymatch: [ '3.1.3' ],
+23 silly audit   'arr-diff': [ '4.0.0' ],
+23 silly audit   'arr-union': [ '3.1.0' ],
+23 silly audit   'array-each': [ '1.0.1' ],
+23 silly audit   'array-slice': [ '1.1.0' ],
+23 silly audit   'assign-symbols': [ '1.0.0' ],
+23 silly audit   async: [ '2.6.4', '0.9.2', '0.1.22', '0.2.10' ],
+23 silly audit   'async-done': [ '2.0.0' ],
+23 silly audit   'async-each-series': [ '0.1.1' ],
+23 silly audit   'async-settle': [ '2.0.0' ],
+23 silly audit   atob: [ '2.1.2' ],
+23 silly audit   autoprefixer: [ '10.4.20', '6.1.0' ],
+23 silly audit   bach: [ '2.0.1' ],
+23 silly audit   'balanced-match': [ '1.0.2', '1.0.0' ],
+23 silly audit   'bare-events': [ '2.5.0' ],
+23 silly audit   'base64-js': [ '1.5.1' ],
+23 silly audit   base64id: [ '2.0.0' ],
+23 silly audit   batch: [ '0.6.1' ],
+23 silly audit   'binary-extensions': [ '2.3.0' ],
+23 silly audit   bl: [ '5.1.0', '0.9.5' ],
+23 silly audit   'brace-expansion': [ '1.1.11' ],
+23 silly audit   braces: [ '3.0.3' ],
+23 silly audit   'browser-sync': [ '3.0.3' ],
+23 silly audit   'browser-sync-client': [ '3.0.3' ],
+23 silly audit   'browser-sync-ui': [ '3.0.3' ],
+23 silly audit   browserslist: [ '4.24.2', '1.0.1' ],
+23 silly audit   'bs-recipes': [ '1.3.4' ],
+23 silly audit   buffer: [ '6.0.3' ],
+23 silly audit   'buffer-from': [ '1.1.2', '1.1.1' ],
+23 silly audit   bytes: [ '3.1.2' ],
+23 silly audit   'caniuse-lite': [ '1.0.30001669' ],
+23 silly audit   chalk: [ '4.1.2', '0.4.0', '1.1.3' ],
+23 silly audit   chokidar: [ '3.6.0', '4.0.1' ],
+23 silly audit   cliui: [ '8.0.1', '7.0.4', '2.1.0', '3.2.0' ],
+23 silly audit   clone: [ '2.1.2' ],
+23 silly audit   'clone-buffer': [ '1.0.0' ],
+23 silly audit   'clone-stats': [ '1.0.0' ],
+23 silly audit   'cloneable-readable': [ '1.1.3' ],
+23 silly audit   'color-convert': [ '2.0.1' ],
+23 silly audit   'color-name': [ '1.1.4' ],
+23 silly audit   'color-support': [ '1.1.3' ],
+23 silly audit   commander: [ '2.20.3', '2.2.0', '2.8.1', '2.6.0' ],
+23 silly audit   commenting: [ '1.1.0' ],
+23 silly audit   'concat-map': [ '0.0.1' ],
+23 silly audit   'concat-stream': [ '2.0.0', '1.6.2', '1.4.11' ],
+23 silly audit   connect: [ '3.6.6' ],
+23 silly audit   'connect-history-api-fallback': [ '1.6.0' ],
+23 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+23 silly audit   cookie: [ '0.7.2' ],
+23 silly audit   'copy-props': [ '4.0.0' ],
+23 silly audit   'core-util-is': [ '1.0.3', '1.0.2' ],
+23 silly audit   cors: [ '2.8.5' ],
+23 silly audit   css: [ '2.2.4', '1.0.8' ],
+23 silly audit   d: [ '1.0.2' ],
+23 silly audit   debug: [ '2.6.9', '3.2.7', '4.3.7', '0.7.4' ],
+23 silly audit   'debug-fabulous': [ '1.1.0' ],
+23 silly audit   ms: [ '2.1.3', '2.0.0', '0.7.1' ],
+23 silly audit   'decode-uri-component': [ '0.2.2' ],
+23 silly audit   depd: [ '2.0.0', '1.1.2' ],
+23 silly audit   destroy: [ '1.2.0' ],
+23 silly audit   'detect-file': [ '1.0.0' ],
+23 silly audit   'detect-libc': [ '1.0.3' ],
+23 silly audit   'detect-newline': [ '2.1.0' ],
+23 silly audit   'dev-ip': [ '1.0.1' ],
+23 silly audit   'each-props': [ '3.0.0' ],
+23 silly audit   'easy-extender': [ '2.3.4' ],
+23 silly audit   'eazy-logger': [ '4.0.1' ],
+23 silly audit   'ee-first': [ '1.1.1' ],
+23 silly audit   'electron-to-chromium': [ '1.5.42' ],
+23 silly audit   'emoji-regex': [ '8.0.0' ],
+23 silly audit   encodeurl: [ '1.0.2', '2.0.0' ],
+23 silly audit   'end-of-stream': [ '1.4.4', '1.4.1' ],
+23 silly audit   'engine.io': [ '6.6.2' ],
+23 silly audit   'engine.io-client': [ '6.6.1' ],
+23 silly audit   'engine.io-parser': [ '5.2.3' ],
+23 silly audit   'es5-ext': [ '0.10.64' ],
+23 silly audit   'es6-iterator': [ '2.0.3' ],
+23 silly audit   'es6-symbol': [ '3.1.4' ],
+23 silly audit   'es6-weak-map': [ '2.0.3' ],
+23 silly audit   escalade: [ '3.2.0' ],
+23 silly audit   'escape-html': [ '1.0.3' ],
+23 silly audit   esniff: [ '2.0.1' ],
+23 silly audit   etag: [ '1.8.1' ],
+23 silly audit   'event-emitter': [ '0.3.5' ],
+23 silly audit   eventemitter3: [ '4.0.7' ],
+23 silly audit   'expand-tilde': [ '2.0.2' ],
+23 silly audit   ext: [ '1.7.0' ],
+23 silly audit   extend: [ '3.0.2' ],
+23 silly audit   'extend-shallow': [ '3.0.2' ],
+23 silly audit   'fancy-log': [ '1.3.3' ],
+23 silly audit   'fast-fifo': [ '1.3.2' ],
+23 silly audit   'fast-levenshtein': [ '3.0.0' ],
+23 silly audit   'fastest-levenshtein': [ '1.0.16' ],
+23 silly audit   fastq: [ '1.17.1' ],
+23 silly audit   'fill-range': [ '7.1.1' ],
+23 silly audit   finalhandler: [ '1.1.0' ],
+23 silly audit   'findup-sync': [ '5.0.0', '0.1.3' ],
+23 silly audit   fined: [ '2.0.0' ],
+23 silly audit   'flagged-respawn': [ '2.0.0' ],
+23 silly audit   flatnest: [ '1.0.1' ],
+23 silly audit   'follow-redirects': [ '1.15.9' ],
+23 silly audit   'for-in': [ '1.0.2' ],
+23 silly audit   'for-own': [ '1.0.0' ],
+23 silly audit   'fraction.js': [ '4.3.7' ],
+23 silly audit   fresh: [ '0.5.2' ],
+23 silly audit   'fs-extra': [ '3.0.1' ],
+23 silly audit   'fs-mkdirp-stream': [ '2.0.1' ],
+23 silly audit   'fs.realpath': [ '1.0.0' ],
+23 silly audit   fsevents: [ '2.3.3' ],
+23 silly audit   'function-bind': [ '1.1.2' ],
+23 silly audit   'get-caller-file': [ '2.0.5', '1.0.3' ],
+23 silly audit   glob: [ '7.2.3', '3.2.11', '3.1.21', '7.1.4', '5.0.15' ],
+23 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+23 silly audit   'glob-stream': [ '8.0.2' ],
+23 silly audit   'glob-watcher': [ '6.0.0' ],
+23 silly audit   'global-modules': [ '1.0.0' ],
+23 silly audit   'global-prefix': [ '1.0.2' ],
+23 silly audit   glogg: [ '2.2.0' ],
+23 silly audit   'graceful-fs': [ '4.2.11', '4.2.2', '1.2.3', '3.0.12' ],
+23 silly audit   gulp: [ '5.0.0' ],
+23 silly audit   'gulp-autoprefixer': [ '8.0.0' ],
+23 silly audit   'gulp-cli': [ '3.0.0' ],
+23 silly audit   yargs: [ '16.2.0', '17.7.2', '3.10.0', '3.5.4', '7.1.0', '1.3.3' ],
+23 silly audit   'yargs-parser': [ '20.2.9', '21.1.1', '5.0.0' ],
+23 silly audit   'gulp-file-include': [ '2.3.0' ],
+23 silly audit   'gulp-header-comment': [ '0.10.0' ],
+23 silly audit   'gulp-rimraf': [ '1.0.0' ],
+23 silly audit   'gulp-sass': [ '5.1.0' ],
+23 silly audit   'gulp-sourcemaps': [ '2.6.5' ],
+23 silly audit   gulplog: [ '2.2.0' ],
+23 silly audit   'has-flag': [ '4.0.0', '1.0.0' ],
+23 silly audit   hasown: [ '2.0.2' ],
+23 silly audit   'homedir-polyfill': [ '1.0.3' ],
+23 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+23 silly audit   statuses: [ '2.0.1', '1.5.0', '1.3.1' ],
+23 silly audit   'http-proxy': [ '1.18.1' ],
+23 silly audit   'iconv-lite': [ '0.4.24', '0.6.3', '0.2.11' ],
+23 silly audit   ieee754: [ '1.2.1' ],
+23 silly audit   immutable: [ '3.8.2', '4.3.7' ],
+23 silly audit   inflight: [ '1.0.6' ],
+23 silly audit   inherits: [ '2.0.4', '2.0.3', '1.0.2' ],
+23 silly audit   ini: [ '1.3.8', '1.3.5', '1.1.0' ],
+23 silly audit   interpret: [ '3.1.1' ],
+23 silly audit   'is-absolute': [ '1.0.0' ],
+23 silly audit   'is-binary-path': [ '2.1.0' ],
+23 silly audit   'is-core-module': [ '2.15.1' ],
+23 silly audit   'is-extendable': [ '1.0.1' ],
+23 silly audit   'is-plain-object': [ '2.0.4', '5.0.0' ],
+23 silly audit   'is-extglob': [ '2.1.1' ],
+23 silly audit   'is-fullwidth-code-point': [ '3.0.0', '1.0.0' ],
+23 silly audit   'is-glob': [ '4.0.3' ],
+23 silly audit   'is-negated-glob': [ '1.0.0' ],
+23 silly audit   'is-number': [ '7.0.0' ],
+23 silly audit   'is-number-like': [ '1.0.8' ],
+23 silly audit   'is-promise': [ '2.2.2', '2.1.0', '1.0.1' ],
+23 silly audit   'is-relative': [ '1.0.0' ],
+23 silly audit   'is-unc-path': [ '1.0.0' ],
+23 silly audit   'is-valid-glob': [ '1.0.0' ],
+23 silly audit   'is-windows': [ '1.0.2' ],
+23 silly audit   'is-wsl': [ '1.1.0' ],
+23 silly audit   isarray: [ '1.0.0', '0.0.1' ],
+23 silly audit   isexe: [ '2.0.0' ],
+23 silly audit   isobject: [ '3.0.1' ],
+23 silly audit   json5: [ '2.2.3' ],
+23 silly audit   jsonfile: [ '3.0.1' ],
+23 silly audit   'last-run': [ '2.0.0' ],
+23 silly audit   lead: [ '4.0.0' ],
+23 silly audit   liftoff: [ '5.0.0' ],
+23 silly audit   limiter: [ '1.1.5' ],
+23 silly audit   lodash: [ '4.17.21', '2.4.2', '1.0.2', '0.9.2', '4.17.15', '3.10.1' ],
+23 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+23 silly audit   'lodash.isfinite': [ '3.3.2' ],
+23 silly audit   'lru-queue': [ '0.1.0' ],
+23 silly audit   'magic-string': [ '0.25.7' ],
+23 silly audit   'map-cache': [ '0.2.2' ],
+23 silly audit   memoizee: [ '0.4.17' ],
+23 silly audit   micromatch: [ '4.0.8' ],
+23 silly audit   mime: [ '1.6.0', '1.2.11' ],
+23 silly audit   'mime-db': [ '1.52.0', '1.40.0' ],
+23 silly audit   'mime-types': [ '2.1.35', '1.0.2', '2.1.24' ],
+23 silly audit   minimatch: [ '3.1.2', '0.3.0', '0.2.14', '3.0.4' ],
+23 silly audit   mitt: [ '1.2.0' ],
+23 silly audit   moment: [ '2.29.1' ],
+23 silly audit   'mute-stdout': [ '2.0.0' ],
+23 silly audit   nanoid: [ '3.3.7' ],
+23 silly audit   negotiator: [ '0.6.3' ],
+23 silly audit   'next-tick': [ '1.1.0' ],
+23 silly audit   'node-addon-api': [ '7.1.1' ],
+23 silly audit   'node-releases': [ '2.0.18' ],
+23 silly audit   'normalize-range': [ '0.1.2' ],
+23 silly audit   'now-and-later': [ '3.0.0' ],
+23 silly audit   'object-assign': [ '4.1.1' ],
+23 silly audit   'object.defaults': [ '1.1.0' ],
+23 silly audit   'object.pick': [ '1.3.0' ],
+23 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+23 silly audit   once: [ '1.4.0', '1.3.3', '1.1.1' ],
+23 silly audit   opn: [ '5.3.0' ],
+23 silly audit   'parse-filepath': [ '1.0.2' ],
+23 silly audit   'parse-node-version': [ '1.0.1' ],
+23 silly audit   'parse-passwd': [ '1.0.0' ],
+23 silly audit   parseurl: [ '1.3.3' ],
+23 silly audit   'path-is-absolute': [ '1.0.1' ],
+23 silly audit   'path-parse': [ '1.0.7', '1.0.6' ],
+23 silly audit   'path-root': [ '0.1.1' ],
+23 silly audit   'path-root-regex': [ '0.1.2' ],
+23 silly audit   picocolors: [ '1.1.1' ],
+23 silly audit   picomatch: [ '2.3.1' ],
+23 silly audit   'plugin-error': [ '1.0.1' ],
+23 silly audit   portscanner: [ '2.2.0' ],
+23 silly audit   postcss: [ '8.4.47', '5.0.12' ],
+23 silly audit   'postcss-value-parser': [ '4.2.0', '3.3.1' ],
+23 silly audit   'process-nextick-args': [ '2.0.1' ],
+23 silly audit   q: [ '1.5.1' ],
+23 silly audit   'queue-tick': [ '1.0.1' ],
+23 silly audit   'range-parser': [ '1.2.1' ],
+23 silly audit   'raw-body': [ '2.5.2' ],
+23 silly audit   readdirp: [ '3.6.0', '4.0.2' ],
+23 silly audit   rechoir: [ '0.8.0' ],
+23 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+23 silly audit   'replace-ext': [ '2.0.0', '1.0.1' ],
+23 silly audit   'replace-homedir': [ '2.0.0' ],
+23 silly audit   'require-directory': [ '2.1.1' ],
+23 silly audit   'requires-port': [ '1.0.0' ],
+23 silly audit   resolve: [ '1.22.8', '1.12.0', '0.3.1' ],
+23 silly audit   'resolve-dir': [ '1.0.1' ],
+23 silly audit   'resolve-options': [ '2.0.0' ],
+23 silly audit   'resolve-url': [ '0.2.1' ],
+23 silly audit   'resp-modifier': [ '6.0.2' ],
+23 silly audit   reusify: [ '1.0.4' ],
+23 silly audit   rimraf: [ '2.7.1', '2.2.8' ],
+23 silly audit   rx: [ '4.1.0' ],
+23 silly audit   'safer-buffer': [ '2.1.2' ],
+23 silly audit   sass: [ '1.80.3' ],
+23 silly audit   semver: [ '6.3.1', '5.3.0', '4.3.6', '1.1.4', '5.7.1' ],
+23 silly audit   'semver-greatest-satisfied-range': [ '2.0.0' ],
+23 silly audit   send: [ '0.19.1', '0.19.0' ],
+23 silly audit   'serve-index': [ '1.9.1' ],
+23 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+23 silly audit   'serve-static': [ '1.16.2' ],
+23 silly audit   'server-destroy': [ '1.0.1' ],
+23 silly audit   'socket.io': [ '4.8.0' ],
+23 silly audit   'socket.io-adapter': [ '2.5.5' ],
+23 silly audit   'socket.io-client': [ '4.8.0' ],
+23 silly audit   'socket.io-parser': [ '4.2.4' ],
+23 silly audit   'source-map': [ '0.6.1', '0.5.7', '0.4.4', '0.1.34', '0.1.43' ],
+23 silly audit   'source-map-js': [ '1.2.1' ],
+23 silly audit   'source-map-resolve': [ '0.5.3' ],
+23 silly audit   'source-map-url': [ '0.4.1' ],
+23 silly audit   'sourcemap-codec': [ '1.4.8' ],
+23 silly audit   sparkles: [ '2.1.0' ],
+23 silly audit   'stream-composer': [ '1.0.2' ],
+23 silly audit   'stream-exhaust': [ '1.0.2' ],
+23 silly audit   'stream-throttle': [ '0.1.3' ],
+23 silly audit   streamx: [ '2.20.1' ],
+23 silly audit   'string-width': [ '4.2.3', '1.0.2' ],
+23 silly audit   'strip-ansi': [ '6.0.1', '3.0.1', '0.1.1' ],
+23 silly audit   'strip-bom-string': [ '1.0.0' ],
+23 silly audit   'supports-color': [ '7.2.0', '2.0.0', '3.2.3', '0.2.0' ],
+23 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+23 silly audit   sver: [ '1.8.4' ],
+23 silly audit   teex: [ '1.0.1' ],
+23 silly audit   'text-decoder': [ '1.2.1' ],
+23 silly audit   'time-stamp': [ '1.1.0' ],
+23 silly audit   'timers-ext': [ '0.1.8' ],
+23 silly audit   'to-regex-range': [ '5.0.1' ],
+23 silly audit   'to-through': [ '3.0.0' ],
+23 silly audit   toidentifier: [ '1.0.1' ],
+23 silly audit   type: [ '2.7.3' ],
+23 silly audit   typedarray: [ '0.0.6' ],
+23 silly audit   'ua-parser-js': [ '1.0.39' ],
+23 silly audit   'unc-path-regex': [ '0.1.2' ],
+23 silly audit   undertaker: [ '2.0.0' ],
+23 silly audit   'undertaker-registry': [ '2.0.0' ],
+23 silly audit   'undici-types': [ '6.19.8' ],
+23 silly audit   universalify: [ '0.1.2' ],
+23 silly audit   unpipe: [ '1.0.0' ],
+23 silly audit   'update-browserslist-db': [ '1.1.1' ],
+23 silly audit   urix: [ '0.1.0' ],
+23 silly audit   'util-deprecate': [ '1.0.2' ],
+23 silly audit   'utils-merge': [ '1.0.1' ],
+23 silly audit   v8flags: [ '4.0.1' ],
+23 silly audit   'value-or-function': [ '4.0.0' ],
+23 silly audit   vary: [ '1.1.2' ],
+23 silly audit   vinyl: [ '2.2.1', '3.0.0' ],
+23 silly audit   'vinyl-contents': [ '2.0.0' ],
+23 silly audit   'vinyl-fs': [ '4.0.0' ],
+23 silly audit   'vinyl-sourcemap': [ '2.0.0' ],
+23 silly audit   'vinyl-sourcemaps-apply': [ '0.2.1' ],
+23 silly audit   which: [ '1.3.1', '1.0.9' ],
+23 silly audit   'wrap-ansi': [ '7.0.0', '2.1.0' ],
+23 silly audit   wrappy: [ '1.0.2' ],
+23 silly audit   ws: [ '8.17.1' ],
+23 silly audit   'xmlhttprequest-ssl': [ '2.1.1' ],
+23 silly audit   xtend: [ '4.0.2' ],
+23 silly audit   y18n: [ '5.0.8', '3.2.1' ],
+23 silly audit   'shopify-cartjs': [ '1.1.0' ],
+23 silly audit   abbrev: [ '1.1.1' ],
+23 silly audit   'acorn-globals': [ '1.0.9' ],
+23 silly audit   'adm-zip': [ '0.2.1' ],
+23 silly audit   ajv: [ '6.10.2' ],
+23 silly audit   'align-text': [ '0.1.4' ],
+23 silly audit   amdefine: [ '1.0.1' ],
+23 silly audit   aproba: [ '1.2.0' ],
+23 silly audit   archiver: [ '0.11.0' ],
+23 silly audit   'are-we-there-yet': [ '1.1.5' ],
+23 silly audit   argparse: [ '0.1.16' ],
+23 silly audit   'underscore.string': [ '2.4.0', '2.3.3', '2.2.1' ],
+23 silly audit   'array-find-index': [ '1.0.2' ],
+23 silly audit   asap: [ '1.0.0' ],
+23 silly audit   asn1: [ '0.1.11', '0.2.4' ],
+23 silly audit   'assert-plus': [ '0.1.5', '1.0.0' ],
+23 silly audit   'async-foreach': [ '0.1.3' ],
+23 silly audit   asynckit: [ '0.4.0' ],
+23 silly audit   'aws-sign2': [ '0.5.0', '0.7.0' ],
+23 silly audit   aws4: [ '1.8.0' ],
+23 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+23 silly audit   'block-stream': [ '0.0.9' ],
+23 silly audit   boom: [ '0.4.2' ],
+23 silly audit   'browserify-zlib': [ '0.1.4' ],
+23 silly audit   'buffer-crc32': [ '0.2.13' ],
+23 silly audit   'camel-case': [ '1.2.2' ],
+23 silly audit   camelcase: [ '2.1.1', '1.2.1', '3.0.0' ],
+23 silly audit   'camelcase-keys': [ '2.1.0' ],
+23 silly audit   'caniuse-db': [ '1.0.30000996' ],
+23 silly audit   caseless: [ '0.12.0' ],
+23 silly audit   'center-align': [ '0.1.3' ],
+23 silly audit   'change-case': [ '2.3.1' ],
+23 silly audit   'character-parser': [ '1.2.1' ],
+23 silly audit   classifier: [ '0.1.0' ],
+23 silly audit   'clean-css': [ '2.2.23', '3.4.28', '3.1.9' ],
+23 silly audit   cli: [ '0.6.6' ],
+23 silly audit   wordwrap: [ '0.0.2', '0.0.3' ],
+23 silly audit   'code-point-at': [ '1.1.0' ],
+23 silly audit   'coffee-script': [ '1.3.3', '1.10.0' ],
+23 silly audit   colors: [ '0.6.2' ],
+23 silly audit   'combined-stream': [ '0.0.7', '1.0.8' ],
+23 silly audit   'compress-commons': [ '0.1.6' ],
+23 silly audit   'config-chain': [ '1.1.12' ],
+23 silly audit   'console-control-strings': [ '1.1.0' ],
+23 silly audit   'constant-case': [ '1.1.2' ],
+23 silly audit   constantinople: [ '3.0.2' ],
+23 silly audit   'crc32-stream': [ '0.3.4' ],
+23 silly audit   'cross-spawn': [ '2.2.3' ],
+23 silly audit   'cross-spawn-async': [ '2.2.5' ],
+23 silly audit   'lru-cache': [ '4.1.5', '2.7.3', '2.7.0' ],
+23 silly audit   cryptiles: [ '0.2.2' ],
+23 silly audit   'css-parse': [ '1.0.4', '1.7.0' ],
+23 silly audit   'css-stringify': [ '1.0.5' ],
+23 silly audit   ctype: [ '0.5.3' ],
+23 silly audit   'currently-unhandled': [ '0.4.1' ],
+23 silly audit   dashdash: [ '1.14.1' ],
+23 silly audit   dateformat: [ '1.0.2-1.2.3' ],
+23 silly audit   decamelize: [ '1.2.0' ],
+23 silly audit   'deep-equal': [ '0.0.0' ],
+23 silly audit   defined: [ '0.0.0' ],
+23 silly audit   'delayed-stream': [ '0.0.5', '1.0.0' ],
+23 silly audit   delegates: [ '1.0.0' ],
+23 silly audit   diff: [ '1.4.0' ],
+23 silly audit   'dot-case': [ '1.1.2' ],
+23 silly audit   'double-ended-queue': [ '2.1.0-0' ],
+23 silly audit   'ecc-jsbn': [ '0.1.2' ],
+23 silly audit   ejs: [ '2.3.4' ],
+23 silly audit   errno: [ '0.1.7' ],
+23 silly audit   'error-ex': [ '1.3.2' ],
+23 silly audit   'escape-string-regexp': [ '1.0.5' ],
+23 silly audit   esprima: [ '1.0.4' ],
+23 silly audit   eventemitter2: [ '0.4.14' ],
+23 silly audit   exit: [ '0.1.2' ],
+23 silly audit   extsprintf: [ '1.3.0' ],
+23 silly audit   'fast-deep-equal': [ '2.0.1' ],
+23 silly audit   'fast-json-stable-stringify': [ '2.0.0' ],
+23 silly audit   'faye-websocket': [ '0.4.4' ],
+23 silly audit   figures: [ '1.7.0' ],
+23 silly audit   'find-up': [ '1.1.2' ],
+23 silly audit   'forever-agent': [ '0.5.2', '0.6.1' ],
+23 silly audit   'form-data': [ '0.1.4', '2.3.3' ],
+23 silly audit   fstream: [ '1.0.12' ],
+23 silly audit   mkdirp: [ '0.5.1', '0.3.5' ],
+23 silly audit   'gather-stream': [ '1.0.0' ],
+23 silly audit   gauge: [ '2.7.4' ],
+23 silly audit   gaze: [ '0.5.2' ],
+23 silly audit   'get-stdin': [ '4.0.1' ],
+23 silly audit   getobject: [ '0.1.0' ],
+23 silly audit   getpass: [ '0.1.7' ],
+23 silly audit   globule: [ '0.1.0' ],
+23 silly audit   'graceful-readlink': [ '1.0.1' ],
+23 silly audit   growl: [ '1.9.2' ],
+23 silly audit   'grunt-legacy-log': [ '0.1.3' ],
+23 silly audit   'grunt-legacy-log-utils': [ '0.1.1' ],
+23 silly audit   'grunt-legacy-util': [ '0.2.0' ],
+23 silly audit   'gzip-size': [ '0.1.1' ],
+23 silly audit   'har-schema': [ '2.0.0' ],
+23 silly audit   'har-validator': [ '5.1.3' ],
+23 silly audit   'harp-jade': [ '1.9.3-bc.4' ],
+23 silly audit   'uglify-js': [ '2.8.29', '2.4.24', '2.2.5', '2.4.17' ],
+23 silly audit   'harp-minify': [ '0.3.3' ],
+23 silly audit   'has-ansi': [ '0.1.0', '2.0.0' ],
+23 silly audit   'has-color': [ '0.1.7' ],
+23 silly audit   'has-unicode': [ '2.0.1' ],
+23 silly audit   hawk: [ '1.1.1', '1.0.0' ],
+23 silly audit   hoek: [ '0.9.1' ],
+23 silly audit   hooker: [ '0.2.3' ],
+23 silly audit   'hosted-git-info': [ '2.8.4' ],
+23 silly audit   'html-minifier': [ '0.7.2' ],
+23 silly audit   'http-signature': [ '0.10.1', '1.2.0' ],
+23 silly audit   'image-size': [ '0.3.5' ],
+23 silly audit   'indent-string': [ '2.1.0' ],
+23 silly audit   'invert-kv': [ '1.0.0' ],
+23 silly audit   'ip-regex': [ '2.1.0' ],
+23 silly audit   'is-arrayish': [ '0.2.1' ],
+23 silly audit   'is-buffer': [ '1.1.6' ],
+23 silly audit   'is-finite': [ '1.0.2' ],
+23 silly audit   'is-lower-case': [ '1.1.3' ],
+23 silly audit   'is-typedarray': [ '1.0.0' ],
+23 silly audit   'is-upper-case': [ '1.1.2' ],
+23 silly audit   'is-utf8': [ '0.2.1' ],
+23 silly audit   isstream: [ '0.1.2' ],
+23 silly audit   'js-base64': [ '2.5.1' ],
+23 silly audit   'js-yaml': [ '2.0.5' ],
+23 silly audit   jsbn: [ '0.1.1' ],
+23 silly audit   'json-schema': [ '0.2.3' ],
+23 silly audit   'json-schema-traverse': [ '0.4.1' ],
+23 silly audit   'json-stringify-safe': [ '5.0.1' ],
+23 silly audit   jsonify: [ '0.0.0' ],
+23 silly audit   jsprim: [ '1.4.1' ],
+23 silly audit   jstransformer: [ '0.0.2' ],
+23 silly audit   kew: [ '0.1.7' ],
+23 silly audit   'kind-of': [ '3.2.2' ],
+23 silly audit   'language-classifier': [ '0.0.1' ],
+23 silly audit   'lazy-cache': [ '1.0.4' ],
+23 silly audit   lazystream: [ '0.1.0' ],
+23 silly audit   lcid: [ '1.0.0' ],
+23 silly audit   less: [ '1.7.5', '2.5.3' ],
+23 silly audit   'load-json-file': [ '1.1.0' ],
+23 silly audit   longest: [ '1.0.1' ],
+23 silly audit   'loud-rejection': [ '1.6.0' ],
+23 silly audit   'lower-case': [ '1.1.4' ],
+23 silly audit   'lower-case-first': [ '1.0.2' ],
+23 silly audit   'map-obj': [ '1.0.1' ],
+23 silly audit   marked: [ '0.3.5' ],
+23 silly audit   maxmin: [ '0.1.0' ],
+23 silly audit   meow: [ '3.7.0' ],
+23 silly audit   minimist: [ '1.2.0', '0.0.8' ],
+23 silly audit   'mocha-phantomjs-core': [ '1.3.1' ],
+23 silly audit   nan: [ '2.14.0' ],
+23 silly audit   natives: [ '1.1.6' ],
+23 silly audit   ncp: [ '0.4.2' ],
+23 silly audit   'node-gyp': [ '3.8.0' ],
+23 silly audit   nopt: [ '3.0.6', '1.0.10', '2.0.0', '2.2.1' ],
+23 silly audit   'oauth-sign': [ '0.9.0', '0.3.0' ],
+23 silly audit   punycode: [ '1.4.1', '2.1.1' ],
+23 silly audit   qs: [ '6.5.2', '0.6.6', '1.0.2', '0.5.6' ],
+23 silly audit   request: [ '2.88.0', '2.36.0', '2.40.0' ],
+23 silly audit   'tough-cookie': [ '2.4.3', '3.0.1' ],
+23 silly audit   'tunnel-agent': [ '0.6.0', '0.4.3' ],
+23 silly audit   uuid: [ '3.3.3' ],
+23 silly audit   'node-sass': [ '3.4.2' ],
+23 silly audit   npmconf: [ '2.1.3', '0.0.24' ],
+23 silly audit   osenv: [ '0.1.5', '0.0.3' ],
+23 silly audit   'node-uuid': [ '1.4.8' ],
+23 silly audit   noptify: [ '0.0.3' ],
+23 silly audit   'normalize-package-data': [ '2.5.0' ],
+23 silly audit   npmlog: [ '4.1.2' ],
+23 silly audit   num2fraction: [ '1.2.2' ],
+23 silly audit   'number-is-nan': [ '1.0.1' ],
+23 silly audit   optimist: [ '0.3.7' ],
+23 silly audit   'os-homedir': [ '1.0.2' ],
+23 silly audit   'os-locale': [ '1.4.0' ],
+23 silly audit   'os-shim': [ '0.1.3' ],
+23 silly audit   'os-tmpdir': [ '1.0.2' ],
+23 silly audit   pako: [ '0.2.9' ],
+23 silly audit   'param-case': [ '1.1.2' ],
+23 silly audit   'parse-json': [ '2.2.0' ],
+23 silly audit   'pascal-case': [ '1.1.2' ],
+23 silly audit   'path-case': [ '1.1.2' ],
+23 silly audit   'path-exists': [ '2.1.0' ],
+23 silly audit   'path-type': [ '1.1.0' ],
+23 silly audit   'performance-now': [ '2.1.0' ],
+23 silly audit   phantomjs: [ '1.9.7-15' ],
+23 silly audit   pify: [ '2.3.0' ],
+23 silly audit   pinkie: [ '2.0.4' ],
+23 silly audit   'pinkie-promise': [ '2.0.1' ],
+23 silly audit   'pretty-bytes': [ '0.1.2' ],
+23 silly audit   prettysize: [ '0.0.3' ],
+23 silly audit   progress: [ '1.1.8' ],
+23 silly audit   promise: [ '6.1.0', '2.0.0' ],
+23 silly audit   'proto-list': [ '1.2.4' ],
+23 silly audit   prr: [ '1.0.1' ],
+23 silly audit   pseudomap: [ '1.0.2' ],
+23 silly audit   psl: [ '1.4.0' ],
+23 silly audit   'read-file-stdin': [ '0.2.0' ],
+23 silly audit   'read-pkg': [ '1.1.0' ],
+23 silly audit   'read-pkg-up': [ '1.0.1' ],
+23 silly audit   redent: [ '1.0.0' ],
+23 silly audit   redis: [ '2.8.0' ],
+23 silly audit   'redis-commands': [ '1.5.0' ],
+23 silly audit   'redis-parser': [ '2.6.0' ],
+23 silly audit   relateurl: [ '0.2.7' ],
+23 silly audit   'repeat-string': [ '1.6.1' ],
+23 silly audit   repeating: [ '2.0.1' ],
+23 silly audit   'request-progress': [ '0.3.1' ],
+23 silly audit   'require-main-filename': [ '1.0.1' ],
+23 silly audit   'right-align': [ '0.1.3' ],
+23 silly audit   'sass-graph': [ '2.2.4' ],
+23 silly audit   sax: [ '0.5.8' ],
+23 silly audit   'scss-tokenizer': [ '0.2.3' ],
+23 silly audit   'sentence-case': [ '1.1.3' ],
+23 silly audit   'set-blocking': [ '2.0.0' ],
+23 silly audit   'should-equal': [ '0.8.0' ],
+23 silly audit   'should-format': [ '0.3.2' ],
+23 silly audit   'should-type': [ '0.2.0' ],
+23 silly audit   sightglass: [ '0.2.6' ],
+23 silly audit   sigmund: [ '1.0.1' ],
+23 silly audit   'signal-exit': [ '3.0.2' ],
+23 silly audit   'snake-case': [ '1.1.2' ],
+23 silly audit   sntp: [ '0.2.4' ],
+23 silly audit   'spawn-sync': [ '1.0.15' ],
+23 silly audit   'spdx-correct': [ '3.1.0' ],
+23 silly audit   'spdx-exceptions': [ '2.2.0' ],
+23 silly audit   'spdx-expression-parse': [ '3.0.0' ],
+23 silly audit   'spdx-license-ids': [ '3.0.5' ],
+23 silly audit   sqwish: [ '0.2.2' ],
+23 silly audit   sshpk: [ '1.16.1' ],
+23 silly audit   stringstream: [ '0.0.6' ],
+23 silly audit   'strip-bom': [ '2.0.0' ],
+23 silly audit   'strip-indent': [ '1.0.1' ],
+23 silly audit   stylus: [ '0.47.3' ],
+23 silly audit   'swap-case': [ '1.1.2' ],
+23 silly audit   tape: [ '0.2.2' ],
+23 silly audit   tar: [ '2.2.2' ],
+23 silly audit   'tar-stream': [ '0.4.7' ],
+23 silly audit   terraform: [ '0.13.2' ],
+23 silly audit   throttleit: [ '0.0.2' ],
+23 silly audit   'tiny-lr-fork': [ '0.0.5' ],
+23 silly audit   'title-case': [ '1.1.2' ],
+23 silly audit   'to-iso-string': [ '0.0.2' ],
+23 silly audit   transformers: [ '2.1.0' ],
+23 silly audit   'trim-newlines': [ '1.0.0' ],
+23 silly audit   tweetnacl: [ '0.14.5' ],
+23 silly audit   'uglify-to-browserify': [ '1.0.2' ],
+23 silly audit   'uid-number': [ '0.0.5' ],
+23 silly audit   underscore: [ '1.7.0' ],
+23 silly audit   'upper-case': [ '1.1.3' ],
+23 silly audit   'upper-case-first': [ '1.1.2' ],
+23 silly audit   'uri-js': [ '4.2.2' ],
+23 silly audit   'uri-path': [ '0.0.2' ],
+23 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+23 silly audit   verror: [ '1.10.0' ],
+23 silly audit   'void-elements': [ '2.0.1' ],
+23 silly audit   'which-module': [ '1.0.0' ],
+23 silly audit   'wide-align': [ '1.1.3' ],
+23 silly audit   'window-size': [ '0.1.0' ],
+23 silly audit   with: [ '4.0.3' ],
+23 silly audit   'write-file-stdout': [ '0.0.2' ],
+23 silly audit   yallist: [ '2.1.2' ],
+23 silly audit   'zip-stream': [ '0.4.1' ],
+23 silly audit   'zlib-browserify': [ '0.0.3' ]
+23 silly audit }
+24 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/fsevents
+25 silly reify mark deleted [ '/home/pmickler09/aviato-bootstrap-main/node_modules/fsevents' ]
+26 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-x64
+27 silly reify mark deleted [
+27 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-x64'
+27 silly reify ]
+28 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-ia32
+29 silly reify mark deleted [
+29 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-ia32'
+29 silly reify ]
+30 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-arm64
+31 silly reify mark deleted [
+31 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-arm64'
+31 silly reify ]
+32 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-musl
+33 silly reify mark deleted [
+33 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-musl'
+33 silly reify ]
+34 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-glibc
+35 silly reify mark deleted [
+35 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-glibc'
+35 silly reify ]
+36 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm-glibc
+37 silly reify mark deleted [
+37 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm-glibc'
+37 silly reify ]
+38 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-freebsd-x64
+39 silly reify mark deleted [
+39 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-freebsd-x64'
+39 silly reify ]
+40 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-x64
+41 silly reify mark deleted [
+41 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-x64'
+41 silly reify ]
+42 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-arm64
+43 silly reify mark deleted [
+43 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-arm64'
+43 silly reify ]
+44 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-android-arm64
+45 silly reify mark deleted [
+45 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-android-arm64'
+45 silly reify ]
+46 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+47 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+48 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 723ms
+49 silly audit report {
+49 silly audit report   bl: [
+49 silly audit report     {
+49 silly audit report       id: 1090072,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-pp7h-53gx-mx7r',
+49 silly audit report       title: 'Remote Memory Exposure in bl',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<1.2.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   debug: [
+49 silly audit report     {
+49 silly audit report       id: 1094457,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-9vvw-cc9w-f27h',
+49 silly audit report       title: 'debug Inefficient Regular Expression Complexity vulnerability',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<2.6.9',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096795,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-gxpj-cx7g-858c',
+49 silly audit report       title: 'Regular Expression Denial of Service in debug',
+49 silly audit report       severity: 'low',
+49 silly audit report       vulnerable_versions: '<2.6.9',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   ms: [
+49 silly audit report     {
+49 silly audit report       id: 1094419,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-w9mr-4mfr-499f',
+49 silly audit report       title: 'Vercel ms Inefficient Regular Expression Complexity vulnerability',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<2.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'yargs-parser': [
+49 silly audit report     {
+49 silly audit report       id: 1088783,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-p9pc-299p-vxgp',
+49 silly audit report       title: 'yargs-parser Vulnerable to Prototype Pollution',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<=5.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   ini: [
+49 silly audit report     {
+49 silly audit report       id: 1093224,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-qqgx-2p2h-9c37',
+49 silly audit report       title: 'ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<1.3.6',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   lodash: [
+49 silly audit report     {
+49 silly audit report       id: 1097130,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-fvqr-27wr-82fm',
+49 silly audit report       title: 'Prototype Pollution in lodash',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<4.17.5',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096996,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-35jh-r3h4-6jhm',
+49 silly audit report       title: 'Command Injection in lodash',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.17.21',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1097140,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-jf85-cpcp-j695',
+49 silly audit report       title: 'Prototype Pollution in lodash',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<4.17.12',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1094499,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-4xc9-xhrj-v574',
+49 silly audit report       title: 'Prototype Pollution in lodash',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.17.11',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1094500,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-29mw-wpgm-hmr9',
+49 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in lodash',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<4.17.21',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096305,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-p6mc-m468-83gw',
+49 silly audit report       title: 'Prototype Pollution in lodash',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '>=3.7.0 <4.17.19',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1085674,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-x5rq-j2xg-h7qm',
+49 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in lodash',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<4.17.11',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   mime: [
+49 silly audit report     {
+49 silly audit report       id: 1093780,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-wrvr-8mpx-r7pp',
+49 silly audit report       title: 'mime Regular Expression Denial of Service when MIME lookup performed on untrusted user input',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<1.4.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   minimatch: [
+49 silly audit report     {
+49 silly audit report       id: 1093710,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-hxm2-r34f-qmc5',
+49 silly audit report       title: 'Regular Expression Denial of Service in minimatch',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.0.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096485,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-f8q6-p94x-37v3',
+49 silly audit report       title: 'minimatch ReDoS vulnerability',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.0.5',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   moment: [
+49 silly audit report     {
+49 silly audit report       id: 1095083,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-8hfj-j24r-96c4',
+49 silly audit report       title: "Path Traversal: 'dir/../../filename' in moment.locale",
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<2.29.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1095072,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-wc69-rhjr-hc9g',
+49 silly audit report       title: 'Moment.js vulnerable to Inefficient Regular Expression Complexity',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '>=2.18.0 <2.29.4',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'path-parse': [
+49 silly audit report     {
+49 silly audit report       id: 1089681,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-hj48-42vr-x3v9',
+49 silly audit report       title: 'Regular Expression Denial of Service in path-parse',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<1.0.7',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   postcss: [
+49 silly audit report     {
+49 silly audit report       id: 1093539,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-566m-qj78-rww5',
+49 silly audit report       title: 'Regular Expression Denial of Service in postcss',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<7.0.36',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1094544,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-7fh5-64p2-3v2j',
+49 silly audit report       title: 'PostCSS line return parsing error',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<8.4.31',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   semver: [
+49 silly audit report     {
+49 silly audit report       id: 1098563,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+49 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<5.7.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1091685,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-x6fg-f45m-jf5q',
+49 silly audit report       title: 'Regular Expression Denial of Service in semver',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.3.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   y18n: [
+49 silly audit report     {
+49 silly audit report       id: 1095087,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-c4w7-xm78-47vh',
+49 silly audit report       title: 'Prototype Pollution in y18n',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.2.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'adm-zip': [
+49 silly audit report     {
+49 silly audit report       id: 1093814,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-3v6h-hqm4-2rg6',
+49 silly audit report       title: 'Arbitrary File Write in adm-zip',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<0.4.11',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   ajv: [
+49 silly audit report     {
+49 silly audit report       id: 1097685,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-v88g-cgmw-v5xw',
+49 silly audit report       title: 'Prototype Pollution in Ajv',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<6.12.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'underscore.string': [
+49 silly audit report     {
+49 silly audit report       id: 1085693,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-v2p6-4mp7-3r9v',
+49 silly audit report       title: 'Regular Expression Denial of Service in underscore.string',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<3.3.5',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'clean-css': [
+49 silly audit report     {
+49 silly audit report       id: 1091669,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-wxhq-pm8v-cw75',
+49 silly audit report       title: 'Regular Expression Denial of Service in clean-css',
+49 silly audit report       severity: 'low',
+49 silly audit report       vulnerable_versions: '<4.1.11',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   cli: [
+49 silly audit report     {
+49 silly audit report       id: 1090893,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-6cpc-mj5c-m9rq',
+49 silly audit report       title: 'Arbitrary File Write in cli',
+49 silly audit report       severity: 'low',
+49 silly audit report       vulnerable_versions: '<1.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   constantinople: [
+49 silly audit report     {
+49 silly audit report       id: 1090850,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-4vmm-mhcq-4x9j',
+49 silly audit report       title: 'Sandbox Bypass Leading to Arbitrary Code Execution in constantinople',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<3.1.1',
+49 silly audit report       cwe: [],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   diff: [
+49 silly audit report     {
+49 silly audit report       id: 1095029,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-h6ch-v84p-w6p9',
+49 silly audit report       title: 'Regular Expression Denial of Service (ReDoS)',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.5.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   ejs: [
+49 silly audit report     {
+49 silly audit report       id: 1089270,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-phwq-j96m-2c2q',
+49 silly audit report       title: 'ejs template injection vulnerability',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<3.1.7',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1093552,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-3w5v-p54c-f74x',
+49 silly audit report       title: 'ejs is vulnerable to remote code execution due to weak input validation',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<2.5.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1093565,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-6x77-rpqf-j6mw',
+49 silly audit report       title: 'ejs vulnerable to DoS due to weak input validation',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<2.5.5',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1093567,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-hwcf-pp87-7x6p',
+49 silly audit report       title: 'mde ejs vulnerable to XSS',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<2.5.5',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1098366,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-ghr5-ch3p-vcr6',
+49 silly audit report       title: 'ejs lacks certain pollution protection',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<3.1.10',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   getobject: [
+49 silly audit report     {
+49 silly audit report       id: 1093420,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-957j-59c2-j692',
+49 silly audit report       title: 'Prototype pollution in getobject',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<1.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   growl: [
+49 silly audit report     {
+49 silly audit report       id: 1088328,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-qh2h-chj9-jffq',
+49 silly audit report       title: 'Growl before 1.10.0 vulnerable to Command Injection',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<1.10.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'uglify-js': [
+49 silly audit report     {
+49 silly audit report       id: 1091686,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-c9f4-xj24-8jqx',
+49 silly audit report       title: 'Regular Expression Denial of Service in uglify-js',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<2.6.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1091710,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-34r7-q49f-h37c',
+49 silly audit report       title: 'Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<2.4.24',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   hawk: [
+49 silly audit report     {
+49 silly audit report       id: 1095062,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-44pw-h2cw-w3vq',
+49 silly audit report       title: 'Uncontrolled Resource Consumption in Hawk',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<9.0.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1091678,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-jcpv-g9rr-qxrc',
+49 silly audit report       title: 'Regular Expression Denial of Service in hawk',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.1.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   hoek: [
+49 silly audit report     {
+49 silly audit report       id: 1093855,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-jp4x-w63m-7wgm',
+49 silly audit report       title: 'Prototype Pollution in hoek',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.2.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096410,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-c429-5p7v-vgjp',
+49 silly audit report       title: 'hoek subject to prototype pollution via the clone function.',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<=6.1.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'hosted-git-info': [
+49 silly audit report     {
+49 silly audit report       id: 1089809,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-43f8-2h32-f4cj',
+49 silly audit report       title: 'Regular Expression Denial of Service in hosted-git-info',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<2.8.9',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'html-minifier': [
+49 silly audit report     {
+49 silly audit report       id: 1097148,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-pfq8-rq6v-vf5m',
+49 silly audit report       title: 'kangax html-minifier REDoS vulnerability',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<=4.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'js-yaml': [
+49 silly audit report     {
+49 silly audit report       id: 1095058,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-8j8c-7jfh-h6hx',
+49 silly audit report       title: 'Code Injection in js-yaml',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.13.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1085724,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-2pr6-76vf-7546',
+49 silly audit report       title: 'Denial of Service in js-yaml',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<3.13.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'json-schema': [
+49 silly audit report     {
+49 silly audit report       id: 1095057,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-896r-f27r-55mw',
+49 silly audit report       title: 'json-schema is vulnerable to Prototype Pollution',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<0.4.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   marked: [
+49 silly audit report     {
+49 silly audit report       id: 1093507,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-7px7-7xjx-hxm8',
+49 silly audit report       title: 'Marked vulnerable to XSS from data URIs',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<0.3.7',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1093520,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-vfvf-mqq8-rwqc',
+49 silly audit report       title: 'Sanitization bypass using HTML Entities in marked',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<0.3.6',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1093522,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-x5pg-88wf-qq4p',
+49 silly audit report       title: 'Regular Expression Denial of Service in marked',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<0.3.9',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1095051,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-rrrm-qjm4-v8hf',
+49 silly audit report       title: 'Inefficient Regular Expression Complexity in marked',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.0.10',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1095052,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-5v2h-r2cx-5xgj',
+49 silly audit report       title: 'Inefficient Regular Expression Complexity in marked',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.0.10',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   minimist: [
+49 silly audit report     {
+49 silly audit report       id: 1097677,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+49 silly audit report       title: 'Prototype Pollution in minimist',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '<0.2.4',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1097678,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+49 silly audit report       title: 'Prototype Pollution in minimist',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '>=1.0.0 <1.2.6',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096465,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+49 silly audit report       title: 'Prototype Pollution in minimist',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '>=1.0.0 <1.2.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096466,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+49 silly audit report       title: 'Prototype Pollution in minimist',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<0.2.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   qs: [
+49 silly audit report     {
+49 silly audit report       id: 1087527,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-gqgv-6jq5-jjj9',
+49 silly audit report       title: 'Prototype Pollution Protection Bypass in qs',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<6.0.4',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1090967,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-f9cm-p3w6-xvr3',
+49 silly audit report       title: 'Denial-of-Service Extended Event Loop Blocking in qs',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<1.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1091683,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-jjv7-qpx3-h62q',
+49 silly audit report       title: 'Denial-of-Service Memory Exhaustion in qs',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<1.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096467,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-hrpp-h998-j3pp',
+49 silly audit report       title: 'qs vulnerable to Prototype Pollution',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<6.2.4',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1096470,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-hrpp-h998-j3pp',
+49 silly audit report       title: 'qs vulnerable to Prototype Pollution',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '>=6.5.0 <6.5.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   request: [
+49 silly audit report     {
+49 silly audit report       id: 1096727,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-p8p7-x288-28g6',
+49 silly audit report       title: 'Server-Side Request Forgery in Request',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<=2.88.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1093762,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-7xfp-9c55-5vqj',
+49 silly audit report       title: 'Remote Memory Exposure in request',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '>=2.2.6 <2.47.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'tough-cookie': [
+49 silly audit report     {
+49 silly audit report       id: 1097682,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-72xf-g2v4-qvf3',
+49 silly audit report       title: 'tough-cookie Prototype Pollution vulnerability',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<4.1.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'tunnel-agent': [
+49 silly audit report     {
+49 silly audit report       id: 1085744,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-xc7v-wxcw-j472',
+49 silly audit report       title: 'Memory Exposure in tunnel-agent',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<0.6.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'node-sass': [
+49 silly audit report     {
+49 silly audit report       id: 1086914,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-9v62-24cr-58cx',
+49 silly audit report       title: 'Denial of Service in node-sass',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '>=3.3.0 <4.13.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1091843,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-r8f7-9pfq-mjmv',
+49 silly audit report       title: 'Improper Certificate Validation in node-sass',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '>=2.0.0 <7.0.0',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   npmconf: [
+49 silly audit report     {
+49 silly audit report       id: 1090852,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-57cf-349j-352g',
+49 silly audit report       title: 'Out-of-bounds Read in npmconf',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<2.1.3',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   redis: [
+49 silly audit report     {
+49 silly audit report       id: 1089196,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-35q2-47q7-3pc3',
+49 silly audit report       title: 'Node-Redis potential exponential regex in monitor mode',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '>=2.6.0 <3.1.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'scss-tokenizer': [
+49 silly audit report     {
+49 silly audit report       id: 1095132,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-7mwh-4pqv-wmr8',
+49 silly audit report       title: 'Regular expression denial of service in scss-tokenizer',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<=0.4.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   tar: [
+49 silly audit report     {
+49 silly audit report       id: 1089685,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-3jfq-g458-7qm9',
+49 silly audit report       title: 'Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.2.2',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1095117,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-5955-9wpr-37jh',
+49 silly audit report       title: 'Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<4.4.18',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     },
+49 silly audit report     {
+49 silly audit report       id: 1097493,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-f5x3-32g6-xq36',
+49 silly audit report       title: 'Denial of service while parsing a tar file due to lack of folders count validation',
+49 silly audit report       severity: 'moderate',
+49 silly audit report       vulnerable_versions: '<6.2.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   'trim-newlines': [
+49 silly audit report     {
+49 silly audit report       id: 1095100,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-7p7h-4mm5-852v',
+49 silly audit report       title: 'Uncontrolled Resource Consumption in trim-newlines',
+49 silly audit report       severity: 'high',
+49 silly audit report       vulnerable_versions: '<3.0.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ],
+49 silly audit report   underscore: [
+49 silly audit report     {
+49 silly audit report       id: 1095097,
+49 silly audit report       url: 'https://github.com/advisories/GHSA-cf4h-3jhx-xvhq',
+49 silly audit report       title: 'Arbitrary Code Execution in underscore',
+49 silly audit report       severity: 'critical',
+49 silly audit report       vulnerable_versions: '>=1.3.2 <1.12.1',
+49 silly audit report       cwe: [Array],
+49 silly audit report       cvss: [Object]
+49 silly audit report     }
+49 silly audit report   ]
+49 silly audit report }
+50 silly packumentCache corgi:https://registry.npmjs.org/bl cache-miss
+51 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+52 silly packumentCache corgi:https://registry.npmjs.org/ms cache-miss
+53 silly packumentCache corgi:https://registry.npmjs.org/yargs-parser cache-miss
+54 silly packumentCache corgi:https://registry.npmjs.org/ini cache-miss
+55 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+56 silly packumentCache corgi:https://registry.npmjs.org/mime cache-miss
+57 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+58 silly packumentCache corgi:https://registry.npmjs.org/moment cache-miss
+59 silly packumentCache corgi:https://registry.npmjs.org/path-parse cache-miss
+60 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+61 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+62 silly packumentCache corgi:https://registry.npmjs.org/y18n cache-miss
+63 silly packumentCache corgi:https://registry.npmjs.org/adm-zip cache-miss
+64 silly packumentCache corgi:https://registry.npmjs.org/ajv cache-miss
+65 silly packumentCache corgi:https://registry.npmjs.org/underscore.string cache-miss
+66 silly packumentCache corgi:https://registry.npmjs.org/clean-css cache-miss
+67 silly packumentCache corgi:https://registry.npmjs.org/cli cache-miss
+68 silly packumentCache corgi:https://registry.npmjs.org/constantinople cache-miss
+69 silly packumentCache corgi:https://registry.npmjs.org/diff cache-miss
+70 silly packumentCache corgi:https://registry.npmjs.org/ejs cache-miss
+71 silly packumentCache corgi:https://registry.npmjs.org/getobject cache-miss
+72 silly packumentCache corgi:https://registry.npmjs.org/growl cache-miss
+73 silly packumentCache corgi:https://registry.npmjs.org/uglify-js cache-miss
+74 silly packumentCache corgi:https://registry.npmjs.org/hawk cache-miss
+75 silly packumentCache corgi:https://registry.npmjs.org/hoek cache-miss
+76 silly packumentCache corgi:https://registry.npmjs.org/hosted-git-info cache-miss
+77 silly packumentCache corgi:https://registry.npmjs.org/html-minifier cache-miss
+78 silly packumentCache corgi:https://registry.npmjs.org/js-yaml cache-miss
+79 silly packumentCache corgi:https://registry.npmjs.org/json-schema cache-miss
+80 silly packumentCache corgi:https://registry.npmjs.org/marked cache-miss
+81 silly packumentCache corgi:https://registry.npmjs.org/minimist cache-miss
+82 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+83 silly packumentCache corgi:https://registry.npmjs.org/request cache-miss
+84 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie cache-miss
+85 silly packumentCache corgi:https://registry.npmjs.org/tunnel-agent cache-miss
+86 silly packumentCache corgi:https://registry.npmjs.org/node-sass cache-miss
+87 silly packumentCache corgi:https://registry.npmjs.org/npmconf cache-miss
+88 silly packumentCache corgi:https://registry.npmjs.org/redis cache-miss
+89 silly packumentCache corgi:https://registry.npmjs.org/scss-tokenizer cache-miss
+90 silly packumentCache corgi:https://registry.npmjs.org/tar cache-miss
+91 silly packumentCache corgi:https://registry.npmjs.org/trim-newlines cache-miss
+92 silly packumentCache corgi:https://registry.npmjs.org/underscore cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 799ms (cache hit)
+94 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz 801ms (cache hit)
+95 http fetch GET 200 https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz 746ms (cache hit)
+96 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 802ms (cache hit)
+97 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 746ms (cache hit)
+98 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 745ms (cache hit)
+99 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz 800ms (cache hit)
+100 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 728ms (cache hit)
+101 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz 726ms (cache hit)
+102 http fetch GET 200 https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz 796ms (cache hit)
+103 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz 753ms (cache hit)
+104 http fetch GET 200 https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz 742ms (cache hit)
+105 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz 731ms (cache hit)
+106 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 736ms (cache hit)
+107 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 814ms (cache hit)
+108 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 737ms (cache hit)
+109 http fetch GET 200 https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz 734ms (cache hit)
+110 http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 714ms (cache hit)
+111 http fetch GET 200 https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz 730ms (cache hit)
+112 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 739ms (cache hit)
+113 http fetch GET 200 https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz 711ms (cache hit)
+114 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz 826ms (cache hit)
+115 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 825ms (cache hit)
+116 http fetch GET 200 https://registry.npmjs.org/read-pkg/-/read-pkg-1.1.0.tgz 721ms (cache hit)
+117 http fetch GET 200 https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz 723ms (cache hit)
+118 http fetch GET 200 https://registry.npmjs.org/path-type/-/path-type-1.1.0.tgz 710ms (cache hit)
+119 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 699ms (cache hit)
+120 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 830ms (cache hit)
+121 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz 703ms (cache hit)
+122 http fetch GET 200 https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz 716ms (cache hit)
+123 http fetch GET 200 https://registry.npmjs.org/pify/-/pify-2.3.0.tgz 716ms (cache hit)
+124 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 673ms (cache hit)
+125 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 687ms (cache hit)
+126 http fetch GET 200 https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz 685ms (cache hit)
+127 http fetch GET 200 https://registry.npmjs.org/os-locale/-/os-locale-1.4.0.tgz 689ms (cache hit)
+128 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 742ms (cache hit)
+129 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 662ms (cache hit)
+130 http fetch GET 200 https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz 684ms (cache hit)
+131 http fetch GET 200 https://registry.npmjs.org/parse-json/-/parse-json-2.2.0.tgz 700ms (cache hit)
+132 http fetch GET 200 https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz 614ms (cache hit)
+133 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 689ms (cache hit)
+134 http fetch GET 200 https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz 628ms (cache hit)
+135 http fetch GET 200 https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz 610ms (cache hit)
+136 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz 570ms (cache hit)
+137 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 569ms (cache hit)
+138 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 618ms (cache hit)
+139 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 610ms (cache hit)
+140 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 569ms (cache hit)
+141 http fetch GET 200 https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz 614ms (cache hit)
+142 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz 614ms (cache hit)
+143 http fetch GET 200 https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz 614ms (cache hit)
+144 http fetch GET 200 https://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz 635ms (cache hit)
+145 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 562ms (cache hit)
+146 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz 560ms (cache hit)
+147 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 528ms (cache hit)
+148 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 529ms (cache hit)
+149 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz 732ms (cache hit)
+150 http fetch GET 200 https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz 520ms (cache hit)
+151 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.3.1.tgz 539ms (cache hit)
+152 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 495ms (cache hit)
+153 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 494ms (cache hit)
+154 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz 604ms (cache hit)
+155 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 624ms (cache hit)
+156 http fetch GET 200 https://registry.npmjs.org/concat-stream/-/concat-stream-1.6.2.tgz 540ms (cache hit)
+157 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 517ms (cache hit)
+158 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 539ms (cache hit)
+159 http fetch GET 200 https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz 851ms (cache hit)
+160 http fetch GET 200 https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 571ms (cache hit)
+161 http fetch GET 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz 863ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 575ms (cache hit)
+163 http fetch GET 200 https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz 583ms (cache hit)
+164 http fetch GET 200 https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz 668ms (cache hit)
+165 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 928ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/verror/-/verror-1.10.0.tgz 930ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/upper-case-first/-/upper-case-first-1.1.2.tgz 933ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/uri-path/-/uri-path-0.0.2.tgz 977ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/zip-stream/-/zip-stream-0.4.1.tgz 1048ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/zlib-browserify/-/zlib-browserify-0.0.3.tgz 1069ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/with/-/with-4.0.3.tgz 1082ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz 1084ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-5.0.0.tgz 1100ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz 1130ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-3.2.1.tgz 1137ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz 1205ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz 1204ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/wide-align/-/wide-align-1.1.3.tgz 1219ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.0.9.tgz 1229ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz 1243ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz 1247ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/write-file-stdout/-/write-file-stdout-0.0.2.tgz 1266ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz 1272ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/trim-newlines/-/trim-newlines-1.0.0.tgz 1310ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/promise/-/promise-2.0.0.tgz 1321ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/is-promise/-/is-promise-1.0.1.tgz 1341ms (cache miss)
+187 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.3.tgz 1368ms (cache miss)
+188 http fetch GET 200 https://registry.npmjs.org/to-iso-string/-/to-iso-string-0.0.2.tgz 1366ms (cache miss)
+189 http fetch GET 200 https://registry.npmjs.org/throttleit/-/throttleit-0.0.2.tgz 1379ms (cache miss)
+190 http fetch GET 200 https://registry.npmjs.org/title-case/-/title-case-1.1.2.tgz 1407ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/transformers/-/transformers-2.1.0.tgz 1465ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz 1509ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 1532ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/tiny-lr-fork/-/tiny-lr-fork-0.0.5.tgz 1558ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz 1539ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.0.tgz 1566ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/async/-/async-0.2.10.tgz 1611ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.24.tgz 1591ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz 1589ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 1586ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz 1584ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/swap-case/-/swap-case-1.1.2.tgz 1576ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 1613ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz 1597ms (cache miss)
+205 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 1629ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 1613ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz 1620ms (cache miss)
+208 http fetch GET 200 https://registry.npmjs.org/css-parse/-/css-parse-1.7.0.tgz 1620ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 1635ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/strip-indent/-/strip-indent-1.0.1.tgz 1651ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz 1649ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz 1647ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz 1683ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.5.tgz 1661ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.0.tgz 1661ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/stringstream/-/stringstream-0.0.6.tgz 1686ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz 1683ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/sqwish/-/sqwish-0.2.2.tgz 1682ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.2.0.tgz 1680ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.0.tgz 1681ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/sntp/-/sntp-0.2.4.tgz 1680ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/should-type/-/should-type-0.2.0.tgz 1707ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-1.3.3.tgz 1805ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz 1742ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/sightglass/-/sightglass-0.2.6.tgz 1740ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/snake-case/-/snake-case-1.1.2.tgz 1742ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.2.tgz 1773ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz 1762ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz 1776ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/sass-graph/-/sass-graph-2.2.4.tgz 1784ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-3.0.1.tgz 1861ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/sentence-case/-/sentence-case-1.1.3.tgz 1806ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/repeating/-/repeating-2.0.1.tgz 1791ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.3.3.tgz 1878ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/should-equal/-/should-equal-0.8.0.tgz 1839ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.1.tgz 1832ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz 1818ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/redis-commands/-/redis-commands-1.5.0.tgz 1816ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/redis-parser/-/redis-parser-2.6.0.tgz 1817ms (cache miss)
+240 http fetch GET 200 https://registry.npmjs.org/redent/-/redent-1.0.0.tgz 1809ms (cache miss)
+241 http fetch GET 200 https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz 1841ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-1.0.2.tgz 1828ms (cache miss)
+243 http fetch GET 200 https://registry.npmjs.org/read-file-stdin/-/read-file-stdin-0.2.0.tgz 1829ms (cache miss)
+244 http fetch GET 200 https://registry.npmjs.org/request/-/request-2.88.0.tgz 1925ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz 1879ms (cache miss)
+246 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.1.4.tgz 1881ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz 1856ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/proto-list/-/proto-list-1.2.4.tgz 1858ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/prr/-/prr-1.0.1.tgz 1857ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.5.2.tgz 1962ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz 1893ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-0.1.2.tgz 1889ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz 1888ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/terraform/-/terraform-0.13.2.tgz 1993ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz 1988ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/progress/-/progress-1.1.8.tgz 1912ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-3.2.3.tgz 1911ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 2009ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/spawn-sync/-/spawn-sync-1.0.15.tgz 1983ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/promise/-/promise-6.1.0.tgz 1942ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz 1934ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz 1978ms (cache miss)
+263 http fetch GET 200 https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.7-15.tgz 1968ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/pascal-case/-/pascal-case-1.1.2.tgz 1952ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/param-case/-/param-case-1.1.2.tgz 1951ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/prettysize/-/prettysize-0.0.3.tgz 1973ms (cache miss)
+267 http fetch GET 200 https://registry.npmjs.org/os-shim/-/os-shim-0.1.3.tgz 1947ms (cache miss)
+268 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-0.6.6.tgz 1990ms (cache miss)
+269 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.2.tgz 1989ms (cache miss)
+270 http fetch GET 200 https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz 1966ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz 1964ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/path-case/-/path-case-1.1.2.tgz 1978ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/osenv/-/osenv-0.0.3.tgz 1973ms (cache miss)
+274 http fetch GET 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.3.0.tgz 1979ms (cache miss)
+275 http fetch GET 200 https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz 1979ms (cache miss)
+276 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-3.2.11.tgz 2092ms (cache miss)
+277 http fetch GET 200 https://registry.npmjs.org/npmlog/-/npmlog-4.1.2.tgz 2004ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.1.1.tgz 2002ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-2.2.1.tgz 2007ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-1.1.4.tgz 2025ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-1.0.2.tgz 2023ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz 2022ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/tar-stream/-/tar-stream-0.4.7.tgz 2157ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz 2053ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/noptify/-/noptify-0.0.3.tgz 2052ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.8.tgz 2051ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz 2051ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 2081ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/osenv/-/osenv-0.1.5.tgz 2077ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/npmconf/-/npmconf-2.1.3.tgz 2078ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 2081ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 2238ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz 2119ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.3.3.tgz 2120ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/request/-/request-2.36.0.tgz 2192ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz 2190ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.24.tgz 2149ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz 2151ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz 2149ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz 2151ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.3.5.tgz 2161ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/uri-js/-/uri-js-4.2.2.tgz 2318ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 2166ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/npmconf/-/npmconf-0.0.24.tgz 2210ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/uuid 2205ms (cache miss)
+306 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+307 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz 2206ms (cache miss)
+308 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz 2195ms (cache miss)
+309 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 2197ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz 2197ms (cache miss)
+311 http fetch GET 200 https://registry.npmjs.org/relateurl/-/relateurl-0.2.7.tgz 2290ms (cache miss)
+312 http fetch GET 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz 2217ms (cache miss)
+313 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 2216ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz 2216ms (cache miss)
+315 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 2209ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.1.34.tgz 2390ms (cache miss)
+317 http fetch GET 200 https://registry.npmjs.org/request/-/request-2.40.0.tgz 2315ms (cache miss)
+318 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz 2228ms (cache miss)
+319 http fetch GET 200 https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz 2225ms (cache miss)
+320 http fetch GET 200 https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz 2244ms (cache miss)
+321 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 2228ms (cache miss)
+322 http fetch GET 200 https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz 2413ms (cache miss)
+323 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-5.0.15.tgz 2265ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz 2249ms (cache miss)
+325 http fetch GET 200 https://registry.npmjs.org/uuid 2288ms (cache miss)
+326 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+327 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 2295ms (cache miss)
+328 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 2282ms (cache miss)
+329 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.24.tgz 2278ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.2.tgz 2277ms (cache miss)
+331 http fetch GET 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz 2277ms (cache miss)
+332 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 2272ms (cache miss)
+333 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.3.0.tgz 2311ms (cache miss)
+334 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz 2308ms (cache miss)
+335 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 2299ms (cache miss)
+336 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 2299ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.1.4.tgz 2306ms (cache miss)
+338 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-0.7.1.tgz 2297ms (cache miss)
+339 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz 2296ms (cache miss)
+340 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz 2337ms (cache miss)
+341 http fetch GET 200 https://registry.npmjs.org/natives/-/natives-1.1.6.tgz 2322ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz 2323ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz 2324ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/tape/-/tape-0.2.2.tgz 2498ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/meow/-/meow-3.7.0.tgz 2351ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-0.5.6.tgz 2559ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/mocha-phantomjs-core/-/mocha-phantomjs-core-1.3.1.tgz 2391ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.2.11.tgz 2388ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz 2388ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 2420ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz 2412ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz 2414ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/loud-rejection/-/loud-rejection-1.6.0.tgz 2412ms (cache miss)
+354 http fetch GET 200 https://registry.npmjs.org/maxmin/-/maxmin-0.1.0.tgz 2416ms (cache miss)
+355 http fetch GET 200 https://registry.npmjs.org/longest/-/longest-1.0.1.tgz 2412ms (cache miss)
+356 http fetch GET 200 https://registry.npmjs.org/lower-case/-/lower-case-1.1.4.tgz 2415ms (cache miss)
+357 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz 2452ms (cache miss)
+358 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-1.0.2.tgz 2452ms (cache miss)
+359 http fetch GET 200 https://registry.npmjs.org/lower-case-first/-/lower-case-first-1.0.2.tgz 2447ms (cache miss)
+360 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz 2445ms (cache miss)
+361 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.2.tgz 2445ms (cache miss)
+362 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 2492ms (cache miss)
+363 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz 2502ms (cache miss)
+364 http fetch GET 200 https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz 2493ms (cache miss)
+365 http fetch GET 200 https://registry.npmjs.org/should-format/-/should-format-0.3.2.tgz 2665ms (cache miss)
+366 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 2572ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/jstransformer/-/jstransformer-0.0.2.tgz 2525ms (cache miss)
+368 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 2526ms (cache miss)
+369 http fetch GET 200 https://registry.npmjs.org/jsprim/-/jsprim-1.4.1.tgz 2527ms (cache miss)
+370 http fetch GET 200 https://registry.npmjs.org/kew/-/kew-0.1.7.tgz 2527ms (cache miss)
+371 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz 2682ms (cache miss)
+372 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 2546ms (cache miss)
+373 http fetch GET 200 https://registry.npmjs.org/jsonify/-/jsonify-0.0.0.tgz 2547ms (cache miss)
+374 http fetch GET 200 https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz 2546ms (cache miss)
+375 http fetch GET 200 https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz 2634ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz 2569ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz 2560ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/is-upper-case/-/is-upper-case-1.1.2.tgz 2561ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz 2560ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz 2563ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.17.tgz 2795ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/lazystream/-/lazystream-0.1.0.tgz 2601ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/language-classifier/-/language-classifier-0.0.1.tgz 2602ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/indent-string/-/indent-string-2.1.0.tgz 2579ms (cache miss)
+385 http fetch GET 200 https://registry.npmjs.org/is-promise/-/is-promise-2.1.0.tgz 2590ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/image-size/-/image-size-0.3.5.tgz 2580ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/is-lower-case/-/is-lower-case-1.1.3.tgz 2589ms (cache miss)
+388 http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.1.0.tgz 2613ms (cache miss)
+389 http fetch GET 200 https://registry.npmjs.org/ip-regex/-/ip-regex-2.1.0.tgz 2613ms (cache miss)
+390 http fetch GET 200 https://registry.npmjs.org/is-finite/-/is-finite-1.0.2.tgz 2617ms (cache miss)
+391 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz 2829ms (cache miss)
+392 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.5.2.tgz 2701ms (cache miss)
+393 http fetch GET 200 https://registry.npmjs.org/request/-/request-2.88.0.tgz 2681ms (cache miss)
+394 http fetch GET 200 https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.4.tgz 2624ms (cache miss)
+395 http fetch GET 200 https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.11.tgz 2626ms (cache miss)
+396 http fetch GET 200 https://registry.npmjs.org/redis/-/redis-2.8.0.tgz 2789ms (cache miss)
+397 http fetch GET 200 https://registry.npmjs.org/request/-/request-2.88.0.tgz 2733ms (cache miss)
+398 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.40.0.tgz 2697ms (cache miss)
+399 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.6.0.tgz 2662ms (cache miss)
+400 http fetch GET 200 https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz 2658ms (cache miss)
+401 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz 2659ms (cache miss)
+402 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz 2919ms (cache miss)
+403 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz 2830ms (cache miss)
+404 http fetch GET 200 https://registry.npmjs.org/marked/-/marked-0.3.5.tgz 2718ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz 2682ms (cache miss)
+406 http fetch GET 200 https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz 2680ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz 2681ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz 2701ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.3.3.tgz 589ms (cache hit)
+410 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.5.2.tgz 2772ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/async/-/async-0.2.10.tgz 2708ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz 2710ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/harp-minify/-/harp-minify-0.3.3.tgz 2713ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.6.0.tgz 2721ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.8.1.tgz 2727ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 2722ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/har-validator/-/har-validator-5.1.3.tgz 2720ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-0.9.2.tgz 2786ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/html-minifier/-/html-minifier-0.7.2.tgz 2758ms (cache miss)
+420 http fetch GET 200 https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz 2759ms (cache miss)
+421 http fetch GET 200 https://registry.npmjs.org/grunt-legacy-util/-/grunt-legacy-util-0.2.0.tgz 2737ms (cache miss)
+422 http fetch GET 200 https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz 2743ms (cache miss)
+423 http fetch GET 200 https://registry.npmjs.org/gzip-size/-/gzip-size-0.1.1.tgz 2738ms (cache miss)
+424 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz 2763ms (cache miss)
+425 http fetch GET 200 https://registry.npmjs.org/grunt-legacy-log-utils/-/grunt-legacy-log-utils-0.1.1.tgz 2749ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/grunt-legacy-log/-/grunt-legacy-log-0.1.3.tgz 2748ms (cache miss)
+427 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.3.3.tgz 571ms (cache hit)
+428 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz 2784ms (cache miss)
+429 http fetch GET 200 https://registry.npmjs.org/growl/-/growl-1.9.2.tgz 2781ms (cache miss)
+430 http fetch GET 200 https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz 2783ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.3.tgz 2783ms (cache miss)
+432 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-3.1.21.tgz 2784ms (cache miss)
+433 http fetch GET 200 https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz 2783ms (cache miss)
+434 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.8.1.tgz 2826ms (cache miss)
+435 http fetch GET 200 https://registry.npmjs.org/getobject/-/getobject-0.1.0.tgz 2814ms (cache miss)
+436 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 2814ms (cache miss)
+437 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-1.0.2.tgz 2816ms (cache miss)
+438 http fetch GET 200 https://registry.npmjs.org/gaze/-/gaze-0.5.2.tgz 2813ms (cache miss)
+439 http fetch GET 200 https://registry.npmjs.org/get-stdin/-/get-stdin-4.0.1.tgz 2815ms (cache miss)
+440 http fetch GET 200 https://registry.npmjs.org/globule/-/globule-0.1.0.tgz 2819ms (cache miss)
+441 http fetch GET 200 https://registry.npmjs.org/psl/-/psl-1.4.0.tgz 3001ms (cache miss)
+442 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz 2873ms (cache miss)
+443 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 2840ms (cache miss)
+444 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.2.tgz 2832ms (cache miss)
+445 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz 2831ms (cache miss)
+446 http fetch GET 200 https://registry.npmjs.org/gather-stream/-/gather-stream-1.0.0.tgz 2833ms (cache miss)
+447 http fetch GET 200 https://registry.npmjs.org/findup-sync/-/findup-sync-0.1.3.tgz 2843ms (cache miss)
+448 http fetch GET 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.5.2.tgz 2862ms (cache miss)
+449 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz 3081ms (cache miss)
+450 http fetch GET 200 https://registry.npmjs.org/hoek/-/hoek-0.9.1.tgz 2908ms (cache miss)
+451 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz 2869ms (cache miss)
+452 http fetch GET 200 https://registry.npmjs.org/figures/-/figures-1.7.0.tgz 2867ms (cache miss)
+453 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz 2883ms (cache miss)
+454 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-4.3.6.tgz 3013ms (cache miss)
+455 http fetch GET 200 https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz 2891ms (cache miss)
+456 http fetch GET 200 https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz 2892ms (cache miss)
+457 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 2889ms (cache miss)
+458 http fetch GET 200 https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.1.tgz 2888ms (cache miss)
+459 http fetch GET 200 https://registry.npmjs.org/exit/-/exit-0.1.2.tgz 2907ms (cache miss)
+460 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz 2910ms (cache miss)
+461 http fetch GET 200 https://registry.npmjs.org/hawk/-/hawk-1.0.0.tgz 3082ms (cache miss)
+462 http fetch GET 200 https://registry.npmjs.org/async/-/async-0.9.2.tgz 2920ms (cache miss)
+463 http fetch GET 200 https://registry.npmjs.org/errno/-/errno-0.1.7.tgz 2912ms (cache miss)
+464 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz 2911ms (cache miss)
+465 http fetch GET 200 https://registry.npmjs.org/dot-case/-/dot-case-1.1.2.tgz 2926ms (cache miss)
+466 http fetch GET 200 https://registry.npmjs.org/defined/-/defined-0.0.0.tgz 2924ms (cache miss)
+467 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz 2926ms (cache miss)
+468 http fetch GET 200 https://registry.npmjs.org/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz 2928ms (cache miss)
+469 http fetch GET 200 https://registry.npmjs.org/delegates/-/delegates-1.0.0.tgz 2926ms (cache miss)
+470 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-1.4.0.tgz 2926ms (cache miss)
+471 http fetch GET 200 https://registry.npmjs.org/underscore.string/-/underscore.string-2.2.1.tgz 3227ms (cache miss)
+472 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz 2994ms (cache miss)
+473 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 2943ms (cache miss)
+474 http fetch GET 200 https://registry.npmjs.org/deep-equal/-/deep-equal-0.0.0.tgz 2953ms (cache miss)
+475 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-0.7.4.tgz 2966ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz 2959ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/css-parse/-/css-parse-1.0.4.tgz 2980ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/currently-unhandled/-/currently-unhandled-0.4.1.tgz 2983ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/css-stringify/-/css-stringify-1.0.5.tgz 2982ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/css/-/css-1.0.8.tgz 2982ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/js-base64/-/js-base64-2.5.1.tgz 3099ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz 3029ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/cross-spawn-async/-/cross-spawn-async-2.2.5.tgz 3045ms (cache miss)
+484 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz 3044ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/cryptiles/-/cryptiles-0.2.2.tgz 3046ms (cache miss)
+486 http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 3044ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-2.2.3.tgz 3044ms (cache miss)
+488 http fetch GET 200 https://registry.npmjs.org/gauge/-/gauge-2.7.4.tgz 3113ms (cache miss)
+489 http fetch GET 200 https://registry.npmjs.org/config-chain/-/config-chain-1.1.12.tgz 3070ms (cache miss)
+490 http fetch GET 200 https://registry.npmjs.org/crc32-stream/-/crc32-stream-0.3.4.tgz 3073ms (cache miss)
+491 http fetch GET 200 https://registry.npmjs.org/constantinople/-/constantinople-3.0.2.tgz 3074ms (cache miss)
+492 http fetch GET 200 https://registry.npmjs.org/compress-commons/-/compress-commons-0.1.6.tgz 3068ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/console-control-strings/-/console-control-strings-1.1.0.tgz 3073ms (cache miss)
+494 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz 3069ms (cache miss)
+495 http fetch GET 200 https://registry.npmjs.org/constant-case/-/constant-case-1.1.2.tgz 3095ms (cache miss)
+496 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.2.0.tgz 3090ms (cache miss)
+497 http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.3.5.tgz 3095ms (cache miss)
+498 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-2.1.0.tgz 3108ms (cache miss)
+499 http fetch GET 200 https://registry.npmjs.org/colors/-/colors-0.6.2.tgz 3116ms (cache miss)
+500 http fetch GET 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz 3106ms (cache miss)
+501 http fetch GET 200 https://registry.npmjs.org/cli/-/cli-0.6.6.tgz 3107ms (cache miss)
+502 http fetch GET 200 https://registry.npmjs.org/change-case/-/change-case-2.3.1.tgz 3104ms (cache miss)
+503 http fetch GET 200 https://registry.npmjs.org/character-parser/-/character-parser-1.2.1.tgz 3103ms (cache miss)
+504 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz 3105ms (cache miss)
+505 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz 3116ms (cache miss)
+506 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz 3213ms (cache miss)
+507 http fetch GET 200 https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz 3136ms (cache miss)
+508 http fetch GET 200 https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz 3135ms (cache miss)
+509 http fetch GET 200 https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-2.1.0.tgz 3134ms (cache miss)
+510 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-7.1.0.tgz 3403ms (cache miss)
+511 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-2.1.1.tgz 3153ms (cache miss)
+512 http fetch GET 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz 3152ms (cache miss)
+513 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz 3149ms (cache miss)
+514 http fetch GET 200 https://registry.npmjs.org/camel-case/-/camel-case-1.2.2.tgz 3152ms (cache miss)
+515 http fetch GET 200 https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.1.tgz 3153ms (cache miss)
+516 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-1.0.1.tgz 3152ms (cache miss)
+517 http fetch GET 200 https://registry.npmjs.org/block-stream/-/block-stream-0.0.9.tgz 3171ms (cache miss)
+518 http fetch GET 200 https://registry.npmjs.org/aws4/-/aws4-1.8.0.tgz 3169ms (cache miss)
+519 http fetch GET 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz 3168ms (cache miss)
+520 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz 3171ms (cache miss)
+521 http fetch GET 200 https://registry.npmjs.org/bl/-/bl-0.9.5.tgz 3181ms (cache miss)
+522 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.5.tgz 3516ms (cache miss)
+523 http fetch GET 200 https://registry.npmjs.org/sshpk/-/sshpk-1.16.1.tgz 3475ms (cache miss)
+524 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-3.2.11.tgz 3254ms (cache miss)
+525 http fetch GET 200 https://registry.npmjs.org/async/-/async-0.1.22.tgz 3188ms (cache miss)
+526 http fetch GET 200 https://registry.npmjs.org/asap/-/asap-1.0.0.tgz 3189ms (cache miss)
+527 http fetch GET 200 https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz 3191ms (cache miss)
+528 http fetch GET 200 https://registry.npmjs.org/async-foreach/-/async-foreach-0.1.3.tgz 3192ms (cache miss)
+529 http fetch GET 200 https://registry.npmjs.org/array-find-index/-/array-find-index-1.0.2.tgz 3191ms (cache miss)
+530 http fetch GET 200 https://registry.npmjs.org/fstream/-/fstream-1.0.12.tgz 3291ms (cache miss)
+531 http fetch GET 200 https://registry.npmjs.org/boom/-/boom-0.4.2.tgz 3224ms (cache miss)
+532 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 3220ms (cache miss)
+533 http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz 3212ms (cache miss)
+534 http fetch GET 200 https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-1.1.5.tgz 3210ms (cache miss)
+535 http fetch GET 200 https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz 3271ms (cache miss)
+536 http fetch GET 200 https://registry.npmjs.org/underscore.string/-/underscore.string-2.4.0.tgz 3226ms (cache miss)
+537 http fetch GET 200 https://registry.npmjs.org/archiver/-/archiver-0.11.0.tgz 3224ms (cache miss)
+538 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz 3232ms (cache miss)
+539 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz 3230ms (cache miss)
+540 http fetch GET 200 https://registry.npmjs.org/aproba/-/aproba-1.2.0.tgz 3230ms (cache miss)
+541 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz 3229ms (cache miss)
+542 http fetch GET 200 https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz 3230ms (cache miss)
+543 http fetch GET 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.10.0.tgz 3549ms (cache miss)
+544 http fetch GET 200 https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz 3239ms (cache miss)
+545 http fetch GET 200 https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz 3243ms (cache miss)
+546 http fetch GET 200 https://registry.npmjs.org/underscore.string 2977ms (cache miss)
+547 silly packumentCache corgi:https://registry.npmjs.org/underscore.string set size:undefined disposed:false
+548 http fetch GET 200 https://registry.npmjs.org/async/-/async-0.9.2.tgz 3269ms (cache miss)
+549 http fetch GET 200 https://registry.npmjs.org/adm-zip 2989ms (cache miss)
+550 silly packumentCache corgi:https://registry.npmjs.org/adm-zip set size:undefined disposed:false
+551 http fetch GET 200 https://registry.npmjs.org/constantinople 2992ms (cache miss)
+552 silly packumentCache corgi:https://registry.npmjs.org/constantinople set size:undefined disposed:false
+553 http fetch GET 200 https://registry.npmjs.org/acorn-globals/-/acorn-globals-1.0.9.tgz 3273ms (cache miss)
+554 http fetch GET 200 https://registry.npmjs.org/json-schema/-/json-schema-0.2.3.tgz 3419ms (cache miss)
+555 http fetch GET 200 https://registry.npmjs.org/getobject 3000ms (cache miss)
+556 silly packumentCache corgi:https://registry.npmjs.org/getobject set size:undefined disposed:false
+557 http fetch GET 200 https://registry.npmjs.org/growl 3001ms (cache miss)
+558 silly packumentCache corgi:https://registry.npmjs.org/growl set size:undefined disposed:false
+559 http fetch GET 200 https://registry.npmjs.org/moment 3015ms (cache revalidated)
+560 silly packumentCache corgi:https://registry.npmjs.org/moment set size:95498 disposed:false
+561 http fetch GET 200 https://registry.npmjs.org/postcss 3022ms (cache revalidated)
+562 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:329561 disposed:false
+563 http fetch GET 200 https://registry.npmjs.org/json-schema 3019ms (cache miss)
+564 silly packumentCache corgi:https://registry.npmjs.org/json-schema set size:undefined disposed:false
+565 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-2.0.5.tgz 3450ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/diff 3033ms (cache miss)
+567 silly packumentCache corgi:https://registry.npmjs.org/diff set size:undefined disposed:false
+568 http fetch GET 200 https://registry.npmjs.org/cli 3037ms (cache miss)
+569 silly packumentCache corgi:https://registry.npmjs.org/cli set size:undefined disposed:false
+570 http fetch GET 200 https://registry.npmjs.org/ejs 3042ms (cache miss)
+571 silly packumentCache corgi:https://registry.npmjs.org/ejs set size:undefined disposed:false
+572 http fetch GET 200 https://registry.npmjs.org/scss-tokenizer 3039ms (cache miss)
+573 silly packumentCache corgi:https://registry.npmjs.org/scss-tokenizer set size:undefined disposed:false
+574 http fetch GET 200 https://registry.npmjs.org/tunnel-agent 3041ms (cache miss)
+575 silly packumentCache corgi:https://registry.npmjs.org/tunnel-agent set size:undefined disposed:false
+576 http fetch GET 200 https://registry.npmjs.org/js-yaml 3047ms (cache miss)
+577 silly packumentCache corgi:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+578 http fetch GET 200 https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz 3462ms (cache miss)
+579 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-3.2.11.tgz 3374ms (cache miss)
+580 http fetch GET 200 https://registry.npmjs.org/tough-cookie 3057ms (cache miss)
+581 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie set size:undefined disposed:false
+582 http fetch GET 200 https://registry.npmjs.org/minimist 3061ms (cache miss)
+583 silly packumentCache corgi:https://registry.npmjs.org/minimist set size:undefined disposed:false
+584 http fetch GET 200 https://registry.npmjs.org/html-minifier 3078ms (cache miss)
+585 silly packumentCache corgi:https://registry.npmjs.org/html-minifier set size:undefined disposed:false
+586 http fetch GET 200 https://registry.npmjs.org/trim-newlines 3071ms (cache miss)
+587 silly packumentCache corgi:https://registry.npmjs.org/trim-newlines set size:undefined disposed:false
+588 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-1.0.2.tgz 3466ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/hawk 3088ms (cache miss)
+590 silly packumentCache corgi:https://registry.npmjs.org/hawk set size:undefined disposed:false
+591 http fetch GET 200 https://registry.npmjs.org/hoek 3092ms (cache miss)
+592 silly packumentCache corgi:https://registry.npmjs.org/hoek set size:undefined disposed:false
+593 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.6.tgz 3430ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/classifier/-/classifier-0.1.0.tgz 3417ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/underscore 3094ms (cache miss)
+596 silly packumentCache corgi:https://registry.npmjs.org/underscore set size:undefined disposed:false
+597 http fetch GET 200 https://registry.npmjs.org/ms 3130ms (cache miss)
+598 silly packumentCache corgi:https://registry.npmjs.org/ms set size:undefined disposed:false
+599 http fetch GET 200 https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.4.4.tgz 3472ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/ini 3136ms (cache miss)
+601 silly packumentCache corgi:https://registry.npmjs.org/ini set size:undefined disposed:false
+602 http fetch GET 200 https://registry.npmjs.org/npmconf 3109ms (cache miss)
+603 silly packumentCache corgi:https://registry.npmjs.org/npmconf set size:undefined disposed:false
+604 http fetch GET 200 https://registry.npmjs.org/path-parse 3130ms (cache miss)
+605 silly packumentCache corgi:https://registry.npmjs.org/path-parse set size:undefined disposed:false
+606 http fetch GET 200 https://registry.npmjs.org/clean-css 3132ms (cache miss)
+607 silly packumentCache corgi:https://registry.npmjs.org/clean-css set size:undefined disposed:false
+608 http fetch GET 200 https://registry.npmjs.org/bl 3155ms (cache miss)
+609 silly packumentCache corgi:https://registry.npmjs.org/bl set size:undefined disposed:false
+610 http fetch GET 200 https://registry.npmjs.org/lodash 3153ms (cache miss)
+611 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+612 http fetch GET 200 https://registry.npmjs.org/debug 3171ms (cache miss)
+613 silly packumentCache corgi:https://registry.npmjs.org/debug set size:undefined disposed:false
+614 http fetch GET 200 https://registry.npmjs.org/y18n 3160ms (cache miss)
+615 silly packumentCache corgi:https://registry.npmjs.org/y18n set size:undefined disposed:false
+616 http fetch GET 200 https://registry.npmjs.org/request 3152ms (cache miss)
+617 silly packumentCache corgi:https://registry.npmjs.org/request set size:undefined disposed:false
+618 http fetch GET 200 https://registry.npmjs.org/pako/-/pako-0.2.9.tgz 3673ms (cache miss)
+619 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-5.0.12.tgz 3698ms (cache miss)
+620 http fetch GET 200 https://registry.npmjs.org/mime 3189ms (cache miss)
+621 silly packumentCache corgi:https://registry.npmjs.org/mime set size:undefined disposed:false
+622 http fetch GET 200 https://registry.npmjs.org/redis 3170ms (cache miss)
+623 silly packumentCache corgi:https://registry.npmjs.org/redis set size:undefined disposed:false
+624 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-3.2.11.tgz 3476ms (cache miss)
+625 http fetch GET 200 https://registry.npmjs.org/node-sass 3183ms (cache miss)
+626 silly packumentCache corgi:https://registry.npmjs.org/node-sass set size:undefined disposed:false
+627 http fetch GET 200 https://registry.npmjs.org/tar 3186ms (cache miss)
+628 silly packumentCache corgi:https://registry.npmjs.org/tar set size:undefined disposed:false
+629 http fetch GET 200 https://registry.npmjs.org/semver 3212ms (cache miss)
+630 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+631 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 3204ms (cache miss)
+632 silly packumentCache corgi:https://registry.npmjs.org/hosted-git-info set size:undefined disposed:false
+633 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-1.2.2.tgz 3848ms (cache miss)
+634 http fetch GET 200 https://registry.npmjs.org/sax/-/sax-0.5.8.tgz 3774ms (cache miss)
+635 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.1.34.tgz 3608ms (cache miss)
+636 http fetch GET 200 https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.1.4.tgz 3517ms (cache miss)
+637 http fetch GET 200 https://registry.npmjs.org/adm-zip/-/adm-zip-0.2.1.tgz 3494ms (cache miss)
+638 http fetch GET 200 https://registry.npmjs.org/qs 3214ms (cache miss)
+639 silly packumentCache corgi:https://registry.npmjs.org/qs set size:undefined disposed:false
+640 http fetch GET 200 https://registry.npmjs.org/yargs-parser 3247ms (cache miss)
+641 silly packumentCache corgi:https://registry.npmjs.org/yargs-parser set size:undefined disposed:false
+642 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.6.tgz 3525ms (cache miss)
+643 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.24.tgz 3642ms (cache miss)
+644 http fetch GET 200 https://registry.npmjs.org/minimatch 3262ms (cache miss)
+645 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+646 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz 3647ms (cache miss)
+647 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.2.11.tgz 3664ms (cache miss)
+648 http fetch GET 200 https://registry.npmjs.org/uglify-js 3258ms (cache miss)
+649 silly packumentCache corgi:https://registry.npmjs.org/uglify-js set size:undefined disposed:false
+650 http fetch GET 200 https://registry.npmjs.org/marked 3263ms (cache miss)
+651 silly packumentCache corgi:https://registry.npmjs.org/marked set size:undefined disposed:false
+652 http fetch GET 200 https://registry.npmjs.org/harp-jade/-/harp-jade-1.9.3-bc.4.tgz 3713ms (cache miss)
+653 http fetch GET 200 https://registry.npmjs.org/ajv 3324ms (cache miss)
+654 silly packumentCache corgi:https://registry.npmjs.org/ajv set size:undefined disposed:false
+655 http fetch GET 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz 3649ms (cache miss)
+656 http fetch GET 200 https://registry.npmjs.org/nan/-/nan-2.14.0.tgz 3784ms (cache miss)
+657 http fetch GET 200 https://registry.npmjs.org/clean-css/-/clean-css-2.2.23.tgz 3664ms (cache miss)
+658 http fetch GET 200 https://registry.npmjs.org/clean-css/-/clean-css-3.1.9.tgz 3761ms (cache miss)
+659 http fetch GET 200 https://registry.npmjs.org/esprima/-/esprima-1.0.4.tgz 3714ms (cache miss)
+660 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-0.1.16.tgz 3651ms (cache miss)
+661 http fetch GET 200 https://registry.npmjs.org/stylus/-/stylus-0.47.3.tgz 3960ms (cache miss)
+662 http fetch GET 200 https://registry.npmjs.org/underscore.string/-/underscore.string-2.3.3.tgz 3758ms (cache miss)
+663 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz 3767ms (cache miss)
+664 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz 3769ms (cache miss)
+665 silly packumentCache corgi:https://registry.npmjs.org/gulp-header-comment cache-miss
+666 http fetch GET 200 https://registry.npmjs.org/underscore.string/-/underscore.string-2.3.3.tgz 3774ms (cache miss)
+667 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz 3760ms (cache miss)
+668 http fetch GET 200 https://registry.npmjs.org/ejs/-/ejs-2.3.4.tgz 3760ms (cache miss)
+669 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.1.0.tgz 3713ms (cache miss)
+670 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-2.7.0.tgz 3704ms (cache miss)
+671 http fetch GET 200 https://registry.npmjs.org/clean-css/-/clean-css-3.4.28.tgz 3820ms (cache miss)
+672 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz 3722ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.12.0.tgz 3968ms (cache miss)
+674 http fetch GET 200 https://registry.npmjs.org/tar/-/tar-2.2.2.tgz 4098ms (cache miss)
+675 http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-6.10.2.tgz 3803ms (cache miss)
+676 http fetch GET 200 https://registry.npmjs.org/node-gyp/-/node-gyp-3.8.0.tgz 4030ms (cache miss)
+677 http fetch GET 200 https://registry.npmjs.org/node-sass/-/node-sass-3.4.2.tgz 4121ms (cache miss)
+678 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz 4295ms (cache miss)
+679 http fetch GET 200 https://registry.npmjs.org/gulp-header-comment 415ms (cache revalidated)
+680 silly packumentCache corgi:https://registry.npmjs.org/gulp-header-comment set size:17095 disposed:false
+681 http fetch GET 200 https://registry.npmjs.org/less/-/less-2.5.3.tgz 4553ms (cache miss)
+682 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz 4522ms (cache miss)
+683 http fetch GET 200 https://registry.npmjs.org/less/-/less-1.7.5.tgz 4496ms (cache miss)
+684 http fetch GET 200 https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000996.tgz 4385ms (cache miss)
+685 info run node-sass@3.4.2 install node_modules/shopify-cartjs/node_modules/node-sass node-gyp rebuild
+686 info run node-sass@3.4.2 install { code: 1, signal: null }
+687 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/shopify-cartjs/node_modules/node-sass
+688 silly reify mark deleted [
+688 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/shopify-cartjs/node_modules/node-sass'
+688 silly reify ]
+689 silly ADD node_modules/shopify-cartjs
+690 silly ADD node_modules/shopify-cartjs/node_modules/zlib-browserify
+691 silly ADD node_modules/shopify-cartjs/node_modules/zip-stream
+692 silly ADD node_modules/shopify-cartjs/node_modules/zip-stream/node_modules/lodash
+693 silly ADD node_modules/shopify-cartjs/node_modules/yargs-parser
+694 silly ADD node_modules/shopify-cartjs/node_modules/yargs-parser/node_modules/camelcase
+695 silly ADD node_modules/shopify-cartjs/node_modules/yargs
+696 silly ADD node_modules/shopify-cartjs/node_modules/yallist
+697 silly ADD node_modules/shopify-cartjs/node_modules/y18n
+698 silly ADD node_modules/shopify-cartjs/node_modules/xtend
+699 silly ADD node_modules/shopify-cartjs/node_modules/write-file-stdout
+700 silly ADD node_modules/shopify-cartjs/node_modules/wrappy
+701 silly ADD node_modules/shopify-cartjs/node_modules/wrap-ansi
+702 silly ADD node_modules/shopify-cartjs/node_modules/wrap-ansi/node_modules/strip-ansi
+703 silly ADD node_modules/shopify-cartjs/node_modules/wrap-ansi/node_modules/ansi-regex
+704 silly ADD node_modules/shopify-cartjs/node_modules/wordwrap
+705 silly ADD node_modules/shopify-cartjs/node_modules/with
+706 silly ADD node_modules/shopify-cartjs/node_modules/with/node_modules/acorn
+707 silly ADD node_modules/shopify-cartjs/node_modules/window-size
+708 silly ADD node_modules/shopify-cartjs/node_modules/wide-align
+709 silly ADD node_modules/shopify-cartjs/node_modules/which-module
+710 silly ADD node_modules/shopify-cartjs/node_modules/which
+711 silly ADD node_modules/shopify-cartjs/node_modules/void-elements
+712 silly ADD node_modules/shopify-cartjs/node_modules/verror
+713 silly ADD node_modules/shopify-cartjs/node_modules/verror/node_modules/assert-plus
+714 silly ADD node_modules/shopify-cartjs/node_modules/validate-npm-package-license
+715 silly ADD node_modules/shopify-cartjs/node_modules/util-deprecate
+716 silly ADD node_modules/shopify-cartjs/node_modules/uri-path
+717 silly ADD node_modules/shopify-cartjs/node_modules/uri-js
+718 silly ADD node_modules/shopify-cartjs/node_modules/upper-case-first
+719 silly ADD node_modules/shopify-cartjs/node_modules/upper-case
+720 silly ADD node_modules/shopify-cartjs/node_modules/underscore.string
+721 silly ADD node_modules/shopify-cartjs/node_modules/underscore
+722 silly ADD node_modules/shopify-cartjs/node_modules/uid-number
+723 silly ADD node_modules/shopify-cartjs/node_modules/uglify-to-browserify
+724 silly ADD node_modules/shopify-cartjs/node_modules/uglify-js
+725 silly ADD node_modules/shopify-cartjs/node_modules/uglify-js/node_modules/source-map
+726 silly ADD node_modules/shopify-cartjs/node_modules/uglify-js/node_modules/async
+727 silly ADD node_modules/shopify-cartjs/node_modules/typedarray
+728 silly ADD node_modules/shopify-cartjs/node_modules/tweetnacl
+729 silly ADD node_modules/shopify-cartjs/node_modules/tunnel-agent
+730 silly ADD node_modules/shopify-cartjs/node_modules/trim-newlines
+731 silly ADD node_modules/shopify-cartjs/node_modules/transformers
+732 silly ADD node_modules/shopify-cartjs/node_modules/transformers/node_modules/uglify-js
+733 silly ADD node_modules/shopify-cartjs/node_modules/transformers/node_modules/promise
+734 silly ADD node_modules/shopify-cartjs/node_modules/transformers/node_modules/is-promise
+735 silly ADD node_modules/shopify-cartjs/node_modules/tough-cookie
+736 silly ADD node_modules/shopify-cartjs/node_modules/to-iso-string
+737 silly ADD node_modules/shopify-cartjs/node_modules/title-case
+738 silly ADD node_modules/shopify-cartjs/node_modules/tiny-lr-fork
+739 silly ADD node_modules/shopify-cartjs/node_modules/tiny-lr-fork/node_modules/qs
+740 silly ADD node_modules/shopify-cartjs/node_modules/throttleit
+741 silly ADD node_modules/shopify-cartjs/node_modules/terraform
+742 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/uuid
+743 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/tunnel-agent
+744 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/tough-cookie
+745 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/source-map
+746 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/request
+747 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/qs
+748 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/punycode
+749 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/oauth-sign
+750 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/mkdirp
+751 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/mime-types
+752 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/lru-cache
+753 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/lodash
+754 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/less
+755 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/http-signature
+756 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/graceful-fs
+757 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/form-data
+758 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/forever-agent
+759 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/delayed-stream
+760 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/combined-stream
+761 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/coffee-script
+762 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/aws-sign2
+763 silly ADD node_modules/shopify-cartjs/node_modules/terraform/node_modules/assert-plus
+764 silly ADD node_modules/shopify-cartjs/node_modules/tar-stream
+765 silly ADD node_modules/shopify-cartjs/node_modules/tar
+766 silly ADD node_modules/shopify-cartjs/node_modules/tape
+767 silly ADD node_modules/shopify-cartjs/node_modules/swap-case
+768 silly ADD node_modules/shopify-cartjs/node_modules/supports-color
+769 silly ADD node_modules/shopify-cartjs/node_modules/stylus
+770 silly ADD node_modules/shopify-cartjs/node_modules/stylus/node_modules/minimatch
+771 silly ADD node_modules/shopify-cartjs/node_modules/stylus/node_modules/glob
+772 silly ADD node_modules/shopify-cartjs/node_modules/stylus/node_modules/css-parse
+773 silly ADD node_modules/shopify-cartjs/node_modules/strip-indent
+774 silly ADD node_modules/shopify-cartjs/node_modules/strip-bom
+775 silly ADD node_modules/shopify-cartjs/node_modules/strip-ansi
+776 silly ADD node_modules/shopify-cartjs/node_modules/stringstream
+777 silly ADD node_modules/shopify-cartjs/node_modules/string-width
+778 silly ADD node_modules/shopify-cartjs/node_modules/string-width/node_modules/strip-ansi
+779 silly ADD node_modules/shopify-cartjs/node_modules/string-width/node_modules/ansi-regex
+780 silly ADD node_modules/shopify-cartjs/node_modules/string_decoder
+781 silly ADD node_modules/shopify-cartjs/node_modules/sshpk
+782 silly ADD node_modules/shopify-cartjs/node_modules/sshpk/node_modules/assert-plus
+783 silly ADD node_modules/shopify-cartjs/node_modules/sshpk/node_modules/asn1
+784 silly ADD node_modules/shopify-cartjs/node_modules/sqwish
+785 silly ADD node_modules/shopify-cartjs/node_modules/spdx-license-ids
+786 silly ADD node_modules/shopify-cartjs/node_modules/spdx-expression-parse
+787 silly ADD node_modules/shopify-cartjs/node_modules/spdx-exceptions
+788 silly ADD node_modules/shopify-cartjs/node_modules/spdx-correct
+789 silly ADD node_modules/shopify-cartjs/node_modules/spawn-sync
+790 silly ADD node_modules/shopify-cartjs/node_modules/source-map
+791 silly ADD node_modules/shopify-cartjs/node_modules/sntp
+792 silly ADD node_modules/shopify-cartjs/node_modules/snake-case
+793 silly ADD node_modules/shopify-cartjs/node_modules/signal-exit
+794 silly ADD node_modules/shopify-cartjs/node_modules/sigmund
+795 silly ADD node_modules/shopify-cartjs/node_modules/sightglass
+796 silly ADD node_modules/shopify-cartjs/node_modules/should-type
+797 silly ADD node_modules/shopify-cartjs/node_modules/should-format
+798 silly ADD node_modules/shopify-cartjs/node_modules/should-equal
+799 silly ADD node_modules/shopify-cartjs/node_modules/set-blocking
+800 silly ADD node_modules/shopify-cartjs/node_modules/sentence-case
+801 silly ADD node_modules/shopify-cartjs/node_modules/semver
+802 silly ADD node_modules/shopify-cartjs/node_modules/scss-tokenizer
+803 silly ADD node_modules/shopify-cartjs/node_modules/scss-tokenizer/node_modules/source-map
+804 silly ADD node_modules/shopify-cartjs/node_modules/sax
+805 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph
+806 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/yargs
+807 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/strip-ansi
+808 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/minimatch
+809 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/lodash
+810 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/glob
+811 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/cliui
+812 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/camelcase
+813 silly ADD node_modules/shopify-cartjs/node_modules/sass-graph/node_modules/ansi-regex
+814 silly ADD node_modules/shopify-cartjs/node_modules/safer-buffer
+815 silly ADD node_modules/shopify-cartjs/node_modules/safe-buffer
+816 silly ADD node_modules/shopify-cartjs/node_modules/rimraf
+817 silly ADD node_modules/shopify-cartjs/node_modules/right-align
+818 silly ADD node_modules/shopify-cartjs/node_modules/resolve
+819 silly ADD node_modules/shopify-cartjs/node_modules/require-main-filename
+820 silly ADD node_modules/shopify-cartjs/node_modules/require-directory
+821 silly ADD node_modules/shopify-cartjs/node_modules/request-progress
+822 silly ADD node_modules/shopify-cartjs/node_modules/request
+823 silly ADD node_modules/shopify-cartjs/node_modules/repeating
+824 silly ADD node_modules/shopify-cartjs/node_modules/repeat-string
+825 silly ADD node_modules/shopify-cartjs/node_modules/relateurl
+826 silly ADD node_modules/shopify-cartjs/node_modules/redis-parser
+827 silly ADD node_modules/shopify-cartjs/node_modules/redis-commands
+828 silly ADD node_modules/shopify-cartjs/node_modules/redis
+829 silly ADD node_modules/shopify-cartjs/node_modules/redent
+830 silly ADD node_modules/shopify-cartjs/node_modules/readable-stream
+831 silly ADD node_modules/shopify-cartjs/node_modules/read-pkg-up
+832 silly ADD node_modules/shopify-cartjs/node_modules/read-pkg
+833 silly ADD node_modules/shopify-cartjs/node_modules/read-file-stdin
+834 silly ADD node_modules/shopify-cartjs/node_modules/qs
+835 silly ADD node_modules/shopify-cartjs/node_modules/punycode
+836 silly ADD node_modules/shopify-cartjs/node_modules/psl
+837 silly ADD node_modules/shopify-cartjs/node_modules/pseudomap
+838 silly ADD node_modules/shopify-cartjs/node_modules/prr
+839 silly ADD node_modules/shopify-cartjs/node_modules/proto-list
+840 silly ADD node_modules/shopify-cartjs/node_modules/promise
+841 silly ADD node_modules/shopify-cartjs/node_modules/progress
+842 silly ADD node_modules/shopify-cartjs/node_modules/process-nextick-args
+843 silly ADD node_modules/shopify-cartjs/node_modules/prettysize
+844 silly ADD node_modules/shopify-cartjs/node_modules/pretty-bytes
+845 silly ADD node_modules/shopify-cartjs/node_modules/postcss-value-parser
+846 silly ADD node_modules/shopify-cartjs/node_modules/postcss
+847 silly ADD node_modules/shopify-cartjs/node_modules/postcss/node_modules/supports-color
+848 silly ADD node_modules/shopify-cartjs/node_modules/postcss/node_modules/source-map
+849 silly ADD node_modules/shopify-cartjs/node_modules/pinkie-promise
+850 silly ADD node_modules/shopify-cartjs/node_modules/pinkie
+851 silly ADD node_modules/shopify-cartjs/node_modules/pify
+852 silly ADD node_modules/shopify-cartjs/node_modules/phantomjs
+853 silly ADD node_modules/shopify-cartjs/node_modules/phantomjs/node_modules/request
+854 silly ADD node_modules/shopify-cartjs/node_modules/phantomjs/node_modules/qs
+855 silly ADD node_modules/shopify-cartjs/node_modules/phantomjs/node_modules/hawk
+856 silly ADD node_modules/shopify-cartjs/node_modules/performance-now
+857 silly ADD node_modules/shopify-cartjs/node_modules/path-type
+858 silly ADD node_modules/shopify-cartjs/node_modules/path-type/node_modules/graceful-fs
+859 silly ADD node_modules/shopify-cartjs/node_modules/path-parse
+860 silly ADD node_modules/shopify-cartjs/node_modules/path-is-absolute
+861 silly ADD node_modules/shopify-cartjs/node_modules/path-exists
+862 silly ADD node_modules/shopify-cartjs/node_modules/path-case
+863 silly ADD node_modules/shopify-cartjs/node_modules/pascal-case
+864 silly ADD node_modules/shopify-cartjs/node_modules/parse-json
+865 silly ADD node_modules/shopify-cartjs/node_modules/param-case
+866 silly ADD node_modules/shopify-cartjs/node_modules/pako
+867 silly ADD node_modules/shopify-cartjs/node_modules/osenv
+868 silly ADD node_modules/shopify-cartjs/node_modules/os-tmpdir
+869 silly ADD node_modules/shopify-cartjs/node_modules/os-shim
+870 silly ADD node_modules/shopify-cartjs/node_modules/os-locale
+871 silly ADD node_modules/shopify-cartjs/node_modules/os-homedir
+872 silly ADD node_modules/shopify-cartjs/node_modules/optimist
+873 silly ADD node_modules/shopify-cartjs/node_modules/once
+874 silly ADD node_modules/shopify-cartjs/node_modules/object-assign
+875 silly ADD node_modules/shopify-cartjs/node_modules/oauth-sign
+876 silly ADD node_modules/shopify-cartjs/node_modules/number-is-nan
+877 silly ADD node_modules/shopify-cartjs/node_modules/num2fraction
+878 silly ADD node_modules/shopify-cartjs/node_modules/npmlog
+879 silly ADD node_modules/shopify-cartjs/node_modules/npmconf
+880 silly ADD node_modules/shopify-cartjs/node_modules/npmconf/node_modules/semver
+881 silly ADD node_modules/shopify-cartjs/node_modules/npmconf/node_modules/once
+882 silly ADD node_modules/shopify-cartjs/node_modules/npmconf/node_modules/nopt
+883 silly ADD node_modules/shopify-cartjs/node_modules/npmconf/node_modules/inherits
+884 silly ADD node_modules/shopify-cartjs/node_modules/normalize-package-data
+885 silly ADD node_modules/shopify-cartjs/node_modules/normalize-package-data/node_modules/resolve
+886 silly ADD node_modules/shopify-cartjs/node_modules/noptify
+887 silly ADD node_modules/shopify-cartjs/node_modules/noptify/node_modules/nopt
+888 silly ADD node_modules/shopify-cartjs/node_modules/nopt
+889 silly ADD node_modules/shopify-cartjs/node_modules/node-uuid
+890 silly ADD
+891 silly ADD node_modules/uuid
+892 silly ADD node_modules/tunnel-agent
+893 silly ADD node_modules/tough-cookie
+894 silly ADD node_modules/supports-color
+895 silly ADD node_modules/strip-ansi
+896 silly ADD node_modules/semver
+897 silly ADD node_modules/request
+898 silly ADD node_modules/qs
+899 silly ADD node_modules/punycode
+900 silly ADD node_modules/osenv
+901 silly ADD node_modules/oauth-sign
+902 silly ADD node_modules/npmconf
+903 silly ADD node_modules/npmconf/node_modules/once
+904 silly ADD node_modules/nopt
+905 silly ADD node_modules/mkdirp
+906 silly ADD node_modules/minimatch
+907 silly ADD node_modules/mime-types
+908 silly ADD node_modules/ini
+909 silly ADD node_modules/http-signature
+910 silly ADD node_modules/has-ansi
+911 silly ADD node_modules/glob
+912 silly ADD node_modules/form-data
+913 silly ADD node_modules/forever-agent
+914 silly ADD node_modules/delayed-stream
+915 silly ADD node_modules/combined-stream
+916 silly ADD node_modules/chalk
+917 silly ADD node_modules/aws-sign2
+918 silly ADD node_modules/assert-plus
+919 silly ADD node_modules/ansi-styles
+920 silly ADD node_modules/ansi-regex
+921 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp
+922 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/uuid
+923 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/tunnel-agent
+924 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/tough-cookie
+925 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/semver
+926 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/request
+927 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/qs
+928 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/punycode
+929 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/oauth-sign
+930 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/nopt
+931 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/mkdirp
+932 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/minimatch
+933 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/mime-types
+934 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/http-signature
+935 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/graceful-fs
+936 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/glob
+937 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/form-data
+938 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/forever-agent
+939 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/delayed-stream
+940 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/combined-stream
+941 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/aws-sign2
+942 silly ADD node_modules/shopify-cartjs/node_modules/node-gyp/node_modules/assert-plus
+943 silly ADD node_modules/shopify-cartjs/node_modules/ncp
+944 silly ADD node_modules/shopify-cartjs/node_modules/natives
+945 silly ADD node_modules/shopify-cartjs/node_modules/nan
+946 silly ADD node_modules/shopify-cartjs/node_modules/ms
+947 silly ADD node_modules/shopify-cartjs/node_modules/mocha-phantomjs-core
+948 silly ADD node_modules/shopify-cartjs/node_modules/mkdirp
+949 silly ADD node_modules/shopify-cartjs/node_modules/minimist
+950 silly ADD node_modules/shopify-cartjs/node_modules/minimatch
+951 silly ADD node_modules/shopify-cartjs/node_modules/mime-types
+952 silly ADD node_modules/shopify-cartjs/node_modules/mime-db
+953 silly ADD node_modules/shopify-cartjs/node_modules/mime
+954 silly ADD node_modules/shopify-cartjs/node_modules/meow
+955 silly ADD node_modules/shopify-cartjs/node_modules/meow/node_modules/minimist
+956 silly ADD node_modules/shopify-cartjs/node_modules/maxmin
+957 silly ADD node_modules/shopify-cartjs/node_modules/marked
+958 silly ADD node_modules/shopify-cartjs/node_modules/map-obj
+959 silly ADD node_modules/shopify-cartjs/node_modules/lru-cache
+960 silly ADD node_modules/shopify-cartjs/node_modules/lower-case-first
+961 silly ADD node_modules/shopify-cartjs/node_modules/lower-case
+962 silly ADD node_modules/shopify-cartjs/node_modules/loud-rejection
+963 silly ADD node_modules/shopify-cartjs/node_modules/longest
+964 silly ADD node_modules/shopify-cartjs/node_modules/lodash
+965 silly ADD node_modules/shopify-cartjs/node_modules/load-json-file
+966 silly ADD node_modules/shopify-cartjs/node_modules/load-json-file/node_modules/graceful-fs
+967 silly ADD node_modules/shopify-cartjs/node_modules/less
+968 silly ADD node_modules/shopify-cartjs/node_modules/less/node_modules/mkdirp
+969 silly ADD node_modules/shopify-cartjs/node_modules/less/node_modules/graceful-fs
+970 silly ADD node_modules/shopify-cartjs/node_modules/lcid
+971 silly ADD node_modules/shopify-cartjs/node_modules/lazystream
+972 silly ADD node_modules/shopify-cartjs/node_modules/lazy-cache
+973 silly ADD node_modules/shopify-cartjs/node_modules/language-classifier
+974 silly ADD node_modules/shopify-cartjs/node_modules/kind-of
+975 silly ADD node_modules/shopify-cartjs/node_modules/kew
+976 silly ADD node_modules/shopify-cartjs/node_modules/jstransformer
+977 silly ADD node_modules/shopify-cartjs/node_modules/jsprim
+978 silly ADD node_modules/shopify-cartjs/node_modules/jsprim/node_modules/assert-plus
+979 silly ADD node_modules/shopify-cartjs/node_modules/jsonify
+980 silly ADD node_modules/shopify-cartjs/node_modules/json-stringify-safe
+981 silly ADD node_modules/shopify-cartjs/node_modules/json-schema-traverse
+982 silly ADD node_modules/shopify-cartjs/node_modules/json-schema
+983 silly ADD node_modules/shopify-cartjs/node_modules/jsbn
+984 silly ADD node_modules/shopify-cartjs/node_modules/js-yaml
+985 silly ADD node_modules/shopify-cartjs/node_modules/js-base64
+986 silly ADD node_modules/shopify-cartjs/node_modules/isstream
+987 silly ADD node_modules/shopify-cartjs/node_modules/isexe
+988 silly ADD node_modules/shopify-cartjs/node_modules/isarray
+989 silly ADD node_modules/shopify-cartjs/node_modules/is-utf8
+990 silly ADD node_modules/shopify-cartjs/node_modules/is-upper-case
+991 silly ADD node_modules/shopify-cartjs/node_modules/is-typedarray
+992 silly ADD node_modules/shopify-cartjs/node_modules/is-promise
+993 silly ADD node_modules/shopify-cartjs/node_modules/is-lower-case
+994 silly ADD node_modules/shopify-cartjs/node_modules/is-fullwidth-code-point
+995 silly ADD node_modules/shopify-cartjs/node_modules/is-finite
+996 silly ADD node_modules/shopify-cartjs/node_modules/is-buffer
+997 silly ADD node_modules/shopify-cartjs/node_modules/is-arrayish
+998 silly ADD node_modules/shopify-cartjs/node_modules/ip-regex
+999 silly ADD node_modules/shopify-cartjs/node_modules/invert-kv
+1000 silly ADD node_modules/shopify-cartjs/node_modules/ini
+1001 silly ADD node_modules/shopify-cartjs/node_modules/inherits
+1002 silly ADD node_modules/shopify-cartjs/node_modules/inflight
+1003 silly ADD node_modules/shopify-cartjs/node_modules/indent-string
+1004 silly ADD node_modules/shopify-cartjs/node_modules/image-size
+1005 silly ADD node_modules/shopify-cartjs/node_modules/iconv-lite
+1006 silly ADD node_modules/shopify-cartjs/node_modules/http-signature
+1007 silly ADD node_modules/shopify-cartjs/node_modules/html-minifier
+1008 silly ADD node_modules/shopify-cartjs/node_modules/html-minifier/node_modules/readable-stream
+1009 silly ADD node_modules/shopify-cartjs/node_modules/html-minifier/node_modules/concat-stream
+1010 silly ADD node_modules/shopify-cartjs/node_modules/html-minifier/node_modules/commander
+1011 silly ADD node_modules/shopify-cartjs/node_modules/html-minifier/node_modules/clean-css
+1012 silly ADD node_modules/shopify-cartjs/node_modules/hosted-git-info
+1013 silly ADD node_modules/shopify-cartjs/node_modules/hooker
+1014 silly ADD node_modules/shopify-cartjs/node_modules/hoek
+1015 silly ADD node_modules/shopify-cartjs/node_modules/hawk
+1016 silly ADD node_modules/shopify-cartjs/node_modules/has-unicode
+1017 silly ADD node_modules/shopify-cartjs/node_modules/has-flag
+1018 silly ADD node_modules/shopify-cartjs/node_modules/has-color
+1019 silly ADD node_modules/shopify-cartjs/node_modules/has-ansi
+1020 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify
+1021 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/yargs
+1022 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/wordwrap
+1023 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/uglify-js
+1024 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/source-map
+1025 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/commander
+1026 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/camelcase
+1027 silly ADD node_modules/shopify-cartjs/node_modules/harp-minify/node_modules/async
+1028 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade
+1029 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/yargs
+1030 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/uglify-js
+1031 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/uglify-js/node_modules/source-map
+1032 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/source-map
+1033 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/mkdirp
+1034 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/commander
+1035 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/clean-css
+1036 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/clean-css/node_modules/commander
+1037 silly ADD node_modules/shopify-cartjs/node_modules/harp-jade/node_modules/camelcase
+1038 silly ADD node_modules/shopify-cartjs/node_modules/har-validator
+1039 silly ADD node_modules/shopify-cartjs/node_modules/har-schema
+1040 silly ADD node_modules/shopify-cartjs/node_modules/gzip-size
+1041 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-util
+1042 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-log-utils
+1043 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-log-utils/node_modules/underscore.string
+1044 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-log-utils/node_modules/lodash
+1045 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-log
+1046 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-log/node_modules/underscore.string
+1047 silly ADD node_modules/shopify-cartjs/node_modules/grunt-legacy-log/node_modules/lodash
+1048 silly ADD node_modules/shopify-cartjs/node_modules/growl
+1049 silly ADD node_modules/shopify-cartjs/node_modules/graceful-readlink
+1050 silly ADD node_modules/shopify-cartjs/node_modules/graceful-fs
+1051 silly ADD node_modules/shopify-cartjs/node_modules/globule
+1052 silly ADD node_modules/shopify-cartjs/node_modules/globule/node_modules/lodash
+1053 silly ADD node_modules/shopify-cartjs/node_modules/glob
+1054 silly ADD node_modules/shopify-cartjs/node_modules/glob/node_modules/inherits
+1055 silly ADD node_modules/shopify-cartjs/node_modules/getpass
+1056 silly ADD node_modules/shopify-cartjs/node_modules/getpass/node_modules/assert-plus
+1057 silly ADD node_modules/shopify-cartjs/node_modules/getobject
+1058 silly ADD node_modules/shopify-cartjs/node_modules/get-stdin
+1059 silly ADD node_modules/shopify-cartjs/node_modules/get-caller-file
+1060 silly ADD node_modules/shopify-cartjs/node_modules/gaze
+1061 silly ADD node_modules/shopify-cartjs/node_modules/gauge
+1062 silly ADD node_modules/shopify-cartjs/node_modules/gauge/node_modules/strip-ansi
+1063 silly ADD node_modules/shopify-cartjs/node_modules/gauge/node_modules/ansi-regex
+1064 silly ADD node_modules/shopify-cartjs/node_modules/gather-stream
+1065 silly ADD node_modules/shopify-cartjs/node_modules/fstream
+1066 silly ADD node_modules/shopify-cartjs/node_modules/fstream/node_modules/mkdirp
+1067 silly ADD node_modules/shopify-cartjs/node_modules/fstream/node_modules/graceful-fs
+1068 silly ADD node_modules/shopify-cartjs/node_modules/fs.realpath
+1069 silly ADD node_modules/shopify-cartjs/node_modules/form-data
+1070 silly ADD node_modules/shopify-cartjs/node_modules/form-data/node_modules/async
+1071 silly ADD node_modules/shopify-cartjs/node_modules/forever-agent
+1072 silly ADD node_modules/shopify-cartjs/node_modules/findup-sync
+1073 silly ADD node_modules/shopify-cartjs/node_modules/findup-sync/node_modules/minimatch
+1074 silly ADD node_modules/shopify-cartjs/node_modules/findup-sync/node_modules/lodash
+1075 silly ADD node_modules/shopify-cartjs/node_modules/findup-sync/node_modules/glob
+1076 silly ADD node_modules/shopify-cartjs/node_modules/find-up
+1077 silly ADD node_modules/shopify-cartjs/node_modules/figures
+1078 silly ADD node_modules/shopify-cartjs/node_modules/faye-websocket
+1079 silly ADD node_modules/shopify-cartjs/node_modules/fast-json-stable-stringify
+1080 silly ADD node_modules/shopify-cartjs/node_modules/fast-deep-equal
+1081 silly ADD node_modules/shopify-cartjs/node_modules/extsprintf
+1082 silly ADD node_modules/shopify-cartjs/node_modules/extend
+1083 silly ADD node_modules/shopify-cartjs/node_modules/exit
+1084 silly ADD node_modules/shopify-cartjs/node_modules/eventemitter2
+1085 silly ADD node_modules/shopify-cartjs/node_modules/esprima
+1086 silly ADD node_modules/shopify-cartjs/node_modules/escape-string-regexp
+1087 silly ADD node_modules/shopify-cartjs/node_modules/error-ex
+1088 silly ADD node_modules/shopify-cartjs/node_modules/errno
+1089 silly ADD node_modules/shopify-cartjs/node_modules/end-of-stream
+1090 silly ADD node_modules/shopify-cartjs/node_modules/ejs
+1091 silly ADD node_modules/shopify-cartjs/node_modules/ecc-jsbn
+1092 silly ADD node_modules/shopify-cartjs/node_modules/double-ended-queue
+1093 silly ADD node_modules/shopify-cartjs/node_modules/dot-case
+1094 silly ADD node_modules/shopify-cartjs/node_modules/diff
+1095 silly ADD node_modules/shopify-cartjs/node_modules/delegates
+1096 silly ADD node_modules/shopify-cartjs/node_modules/delayed-stream
+1097 silly ADD node_modules/shopify-cartjs/node_modules/defined
+1098 silly ADD node_modules/shopify-cartjs/node_modules/deep-equal
+1099 silly ADD node_modules/shopify-cartjs/node_modules/decamelize
+1100 silly ADD node_modules/shopify-cartjs/node_modules/debug
+1101 silly ADD node_modules/shopify-cartjs/node_modules/dateformat
+1102 silly ADD node_modules/shopify-cartjs/node_modules/dashdash
+1103 silly ADD node_modules/shopify-cartjs/node_modules/dashdash/node_modules/assert-plus
+1104 silly ADD node_modules/shopify-cartjs/node_modules/currently-unhandled
+1105 silly ADD node_modules/shopify-cartjs/node_modules/ctype
+1106 silly ADD node_modules/shopify-cartjs/node_modules/css-stringify
+1107 silly ADD node_modules/shopify-cartjs/node_modules/css-parse
+1108 silly ADD node_modules/shopify-cartjs/node_modules/css
+1109 silly ADD node_modules/shopify-cartjs/node_modules/cryptiles
+1110 silly ADD node_modules/shopify-cartjs/node_modules/cross-spawn-async
+1111 silly ADD node_modules/shopify-cartjs/node_modules/cross-spawn-async/node_modules/which
+1112 silly ADD node_modules/shopify-cartjs/node_modules/cross-spawn-async/node_modules/lru-cache
+1113 silly ADD node_modules/shopify-cartjs/node_modules/cross-spawn
+1114 silly ADD node_modules/shopify-cartjs/node_modules/crc32-stream
+1115 silly ADD node_modules/shopify-cartjs/node_modules/core-util-is
+1116 silly ADD node_modules/shopify-cartjs/node_modules/constantinople
+1117 silly ADD node_modules/shopify-cartjs/node_modules/constant-case
+1118 silly ADD node_modules/shopify-cartjs/node_modules/console-control-strings
+1119 silly ADD node_modules/shopify-cartjs/node_modules/config-chain
+1120 silly ADD node_modules/shopify-cartjs/node_modules/config-chain/node_modules/ini
+1121 silly ADD node_modules/shopify-cartjs/node_modules/concat-stream
+1122 silly ADD node_modules/shopify-cartjs/node_modules/concat-stream/node_modules/string_decoder
+1123 silly ADD node_modules/shopify-cartjs/node_modules/concat-stream/node_modules/readable-stream
+1124 silly ADD node_modules/shopify-cartjs/node_modules/concat-stream/node_modules/isarray
+1125 silly ADD node_modules/shopify-cartjs/node_modules/concat-map
+1126 silly ADD node_modules/shopify-cartjs/node_modules/compress-commons
+1127 silly ADD node_modules/shopify-cartjs/node_modules/commander
+1128 silly ADD node_modules/shopify-cartjs/node_modules/combined-stream
+1129 silly ADD node_modules/shopify-cartjs/node_modules/colors
+1130 silly ADD node_modules/shopify-cartjs/node_modules/coffee-script
+1131 silly ADD node_modules/shopify-cartjs/node_modules/code-point-at
+1132 silly ADD node_modules/shopify-cartjs/node_modules/cliui
+1133 silly ADD node_modules/shopify-cartjs/node_modules/cliui/node_modules/wordwrap
+1134 silly ADD node_modules/shopify-cartjs/node_modules/cli
+1135 silly ADD node_modules/shopify-cartjs/node_modules/cli/node_modules/minimatch
+1136 silly ADD node_modules/shopify-cartjs/node_modules/cli/node_modules/glob
+1137 silly ADD node_modules/shopify-cartjs/node_modules/clean-css
+1138 silly ADD node_modules/shopify-cartjs/node_modules/classifier
+1139 silly ADD node_modules/shopify-cartjs/node_modules/character-parser
+1140 silly ADD node_modules/shopify-cartjs/node_modules/change-case
+1141 silly ADD node_modules/shopify-cartjs/node_modules/chalk
+1142 silly ADD node_modules/shopify-cartjs/node_modules/center-align
+1143 silly ADD node_modules/shopify-cartjs/node_modules/caseless
+1144 silly ADD node_modules/shopify-cartjs/node_modules/caniuse-db
+1145 silly ADD node_modules/shopify-cartjs/node_modules/camelcase-keys
+1146 silly ADD node_modules/shopify-cartjs/node_modules/camelcase
+1147 silly ADD node_modules/shopify-cartjs/node_modules/camel-case
+1148 silly ADD node_modules/shopify-cartjs/node_modules/buffer-from
+1149 silly ADD node_modules/shopify-cartjs/node_modules/buffer-crc32
+1150 silly ADD node_modules/shopify-cartjs/node_modules/browserslist
+1151 silly ADD node_modules/shopify-cartjs/node_modules/browserify-zlib
+1152 silly ADD node_modules/shopify-cartjs/node_modules/brace-expansion
+1153 silly ADD node_modules/shopify-cartjs/node_modules/boom
+1154 silly ADD node_modules/shopify-cartjs/node_modules/block-stream
+1155 silly ADD node_modules/shopify-cartjs/node_modules/bl
+1156 silly ADD node_modules/shopify-cartjs/node_modules/bcrypt-pbkdf
+1157 silly ADD node_modules/shopify-cartjs/node_modules/balanced-match
+1158 silly ADD node_modules/shopify-cartjs/node_modules/aws4
+1159 silly ADD node_modules/shopify-cartjs/node_modules/aws-sign2
+1160 silly ADD node_modules/shopify-cartjs/node_modules/autoprefixer
+1161 silly ADD node_modules/shopify-cartjs/node_modules/asynckit
+1162 silly ADD node_modules/shopify-cartjs/node_modules/async-foreach
+1163 silly ADD node_modules/shopify-cartjs/node_modules/async
+1164 silly ADD node_modules/shopify-cartjs/node_modules/assert-plus
+1165 silly ADD node_modules/shopify-cartjs/node_modules/asn1
+1166 silly ADD node_modules/shopify-cartjs/node_modules/asap
+1167 silly ADD node_modules/shopify-cartjs/node_modules/array-find-index
+1168 silly ADD node_modules/shopify-cartjs/node_modules/argparse
+1169 silly ADD node_modules/shopify-cartjs/node_modules/argparse/node_modules/underscore.string
+1170 silly ADD node_modules/shopify-cartjs/node_modules/are-we-there-yet
+1171 silly ADD node_modules/shopify-cartjs/node_modules/are-we-there-yet/node_modules/string_decoder
+1172 silly ADD node_modules/shopify-cartjs/node_modules/are-we-there-yet/node_modules/readable-stream
+1173 silly ADD node_modules/shopify-cartjs/node_modules/are-we-there-yet/node_modules/isarray
+1174 silly ADD node_modules/shopify-cartjs/node_modules/archiver
+1175 silly ADD node_modules/shopify-cartjs/node_modules/archiver/node_modules/minimatch
+1176 silly ADD node_modules/shopify-cartjs/node_modules/archiver/node_modules/lodash
+1177 silly ADD node_modules/shopify-cartjs/node_modules/archiver/node_modules/glob
+1178 silly ADD node_modules/shopify-cartjs/node_modules/archiver/node_modules/async
+1179 silly ADD node_modules/shopify-cartjs/node_modules/aproba
+1180 silly ADD node_modules/shopify-cartjs/node_modules/ansi-styles
+1181 silly ADD node_modules/shopify-cartjs/node_modules/ansi-regex
+1182 silly ADD node_modules/shopify-cartjs/node_modules/amdefine
+1183 silly ADD node_modules/shopify-cartjs/node_modules/align-text
+1184 silly ADD node_modules/shopify-cartjs/node_modules/ajv
+1185 silly ADD node_modules/shopify-cartjs/node_modules/adm-zip
+1186 silly ADD node_modules/shopify-cartjs/node_modules/acorn-globals
+1187 silly ADD node_modules/shopify-cartjs/node_modules/acorn
+1188 silly ADD node_modules/shopify-cartjs/node_modules/abbrev
+1189 silly ADD
+1190 silly ADD
+1191 silly ADD
+1192 silly ADD
+1193 silly ADD
+1194 silly ADD
+1195 silly ADD
+1196 silly ADD
+1197 silly ADD
+1198 silly ADD
+1199 silly ADD
+1200 verbose cwd /home/pmickler09/aviato-bootstrap-main
+1201 verbose os Linux 6.6.46-04024-g9e7e147b4900
+1202 verbose node v20.17.0
+1203 verbose npm  v10.8.2
+1204 verbose exit 0
+1205 info ok

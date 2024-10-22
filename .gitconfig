@@ -1,0 +1,9 @@
+[user]
+	name = Patrick-Mickler
+	email = pmickler09@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false

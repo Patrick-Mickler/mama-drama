@@ -1,0 +1,192 @@
+0 verbose cli /home/pmickler09/.config/nvm/versions/node/v20.17.0/bin/node /home/pmickler09/.config/nvm/versions/node/v20.17.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:/home/pmickler09/.config/nvm/versions/node/v20.17.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/pmickler09/.cache/typescript/5.6/.npmrc
+5 silly config load:file:/home/pmickler09/.npmrc
+6 silly config load:file:/home/pmickler09/.config/nvm/versions/node/v20.17.0/etc/npmrc
+7 verbose title npm install @types/browser-sync@ts5.6 @types/gulp@ts5.6 @types/gulp-autoprefixer@ts5.6 @types/gulp-file-include@ts5.6 @types/gulp-sass@ts5.6 @types/gulp-sourcemaps@ts5.6
+8 verbose argv "install" "--ignore-scripts" "@types/browser-sync@ts5.6" "@types/gulp@ts5.6" "@types/gulp-autoprefixer@ts5.6" "@types/gulp-file-include@ts5.6" "@types/gulp-sass@ts5.6" "@types/gulp-sourcemaps@ts5.6" "--save-dev" "--user-agent" "typesInstaller/5.6.3"
+9 verbose logfile logs-max:10 dir:/home/pmickler09/.npm/_logs/2024-10-22T16_01_28_206Z-
+10 verbose logfile /home/pmickler09/.npm/_logs/2024-10-22T16_01_28_206Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbrowser-sync cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp cache-miss
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-autoprefixer cache-miss
+17 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-file-include cache-miss
+18 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-sass cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-sourcemaps cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fbrowser-sync 435ms (cache revalidated)
+21 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbrowser-sync set size:30517 disposed:false
+22 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-autoprefixer 437ms (cache revalidated)
+23 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-autoprefixer set size:13376 disposed:false
+24 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp 439ms (cache revalidated)
+25 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp set size:29720 disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-sass 439ms (cache revalidated)
+27 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-sass set size:13008 disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-sourcemaps 440ms (cache revalidated)
+29 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-sourcemaps set size:14838 disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-file-include 442ms (cache revalidated)
+31 silly packumentCache corgi:https://registry.npmjs.org/@types%2fgulp-file-include set size:7143 disposed:false
+32 silly idealTree buildDeps
+33 silly fetch manifest @types/browser-sync@2.29.0
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fbrowser-sync cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fbrowser-sync 67ms (cache revalidated)
+36 silly packumentCache full:https://registry.npmjs.org/@types%2fbrowser-sync set size:66321 disposed:false
+37 silly fetch manifest @types/gulp@4.0.17
+38 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp 82ms (cache revalidated)
+40 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp set size:65560 disposed:false
+41 silly fetch manifest @types/gulp-autoprefixer@0.0.37
+42 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-autoprefixer cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-autoprefixer 122ms (cache revalidated)
+44 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-autoprefixer set size:30604 disposed:false
+45 silly fetch manifest @types/gulp-file-include@0.14.8
+46 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-file-include cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-file-include 697ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-file-include set size:15026 disposed:false
+49 silly fetch manifest @types/gulp-sass@5.0.4
+50 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-sass cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-sass 95ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-sass set size:29323 disposed:false
+53 silly fetch manifest @types/gulp-sourcemaps@0.0.38
+54 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-sourcemaps cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/@types%2fgulp-sourcemaps 100ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/@types%2fgulp-sourcemaps set size:32698 disposed:false
+57 silly placeDep ROOT @types/browser-sync@2.29.0 REPLACE for:  want: 2.29.0
+58 silly placeDep ROOT @types/gulp@4.0.17 REPLACE for:  want: 4.0.17
+59 silly placeDep ROOT @types/gulp-autoprefixer@0.0.37 REPLACE for:  want: 0.0.37
+60 silly placeDep ROOT @types/gulp-file-include@0.14.8 REPLACE for:  want: 0.14.8
+61 silly placeDep ROOT @types/gulp-sass@5.0.4 REPLACE for:  want: 5.0.4
+62 silly placeDep ROOT @types/gulp-sourcemaps@0.0.38 REPLACE for:  want: 0.0.38
+63 silly reify moves {}
+64 silly audit bulk request {
+64 silly audit   '@types/accepts': [ '1.3.7' ],
+64 silly audit   '@types/bluebird': [ '3.5.42' ],
+64 silly audit   '@types/body-parser': [ '1.19.5' ],
+64 silly audit   '@types/bytes': [ '3.1.4' ],
+64 silly audit   '@types/call-bind': [ '1.0.5' ],
+64 silly audit   '@types/co': [ '4.6.6' ],
+64 silly audit   '@types/color-support': [ '1.1.4' ],
+64 silly audit   '@types/connect': [ '3.4.38' ],
+64 silly audit   '@types/content-disposition': [ '0.5.8' ],
+64 silly audit   '@types/content-type': [ '1.1.8' ],
+64 silly audit   '@types/cookie': [ '0.6.0' ],
+64 silly audit   '@types/cookie-signature': [ '1.1.2' ],
+64 silly audit   '@types/cors': [ '2.8.17' ],
+64 silly audit   '@types/debug': [ '4.1.12' ],
+64 silly audit   '@types/depd': [ '1.1.36' ],
+64 silly audit   '@types/destroy': [ '1.0.3' ],
+64 silly audit   '@types/ee-first': [ '1.1.3' ],
+64 silly audit   '@types/encodeurl': [ '1.0.2' ],
+64 silly audit   '@types/escape-html': [ '1.0.4' ],
+64 silly audit   '@types/eslint': [ '9.6.1' ],
+64 silly audit   '@types/eslint-plugin-markdown': [ '2.0.2' ],
+64 silly audit   '@types/estree': [ '1.0.6' ],
+64 silly audit   '@types/etag': [ '1.8.3' ],
+64 silly audit   '@types/expect': [ '1.20.4' ],
+64 silly audit   '@types/express': [ '5.0.0' ],
+64 silly audit   '@types/express-serve-static-core': [ '5.0.0' ],
+64 silly audit   '@types/fancy-log': [ '2.0.2' ],
+64 silly audit   '@types/figlet': [ '1.7.0' ],
+64 silly audit   '@types/finalhandler': [ '1.2.3' ],
+64 silly audit   '@types/forwarded': [ '0.1.3' ],
+64 silly audit   '@types/fresh': [ '0.5.2' ],
+64 silly audit   '@types/function-bind': [ '1.1.10' ],
+64 silly audit   '@types/get-intrinsic': [ '1.2.2' ],
+64 silly audit   '@types/glob-stream': [ '8.0.2' ],
+64 silly audit   '@types/gopd': [ '1.0.3' ],
+64 silly audit   '@types/has-property-descriptors': [ '1.0.3' ],
+64 silly audit   '@types/has-symbols': [ '1.0.2' ],
+64 silly audit   '@types/http-errors': [ '2.0.4' ],
+64 silly audit   '@types/inflight': [ '1.0.1' ],
+64 silly audit   '@types/inherits': [ '0.0.33' ],
+64 silly audit   '@types/json-schema': [ '7.0.15' ],
+64 silly audit   '@types/lodash': [ '4.17.10' ],
+64 silly audit   '@types/media-typer': [ '1.1.3' ],
+64 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+64 silly audit   '@types/methods': [ '1.1.4' ],
+64 silly audit   '@types/micromatch': [ '2.3.35' ],
+64 silly audit   '@types/mime': [ '1.3.5' ],
+64 silly audit   '@types/mime-db': [ '1.43.5' ],
+64 silly audit   '@types/mime-types': [ '2.1.4' ],
+64 silly audit   '@types/mocha': [ '10.0.9' ],
+64 silly audit   '@types/ms': [ '0.7.34' ],
+64 silly audit   '@types/negotiator': [ '0.6.3' ],
+64 silly audit   '@types/node': [ '22.7.5' ],
+64 silly audit   '@types/node-sass': [ '4.11.7' ],
+64 silly audit   '@types/nodemon': [ '1.19.6' ],
+64 silly audit   '@types/object-assign': [ '4.0.33' ],
+64 silly audit   '@types/object-inspect': [ '1.13.0' ],
+64 silly audit   '@types/on-finished': [ '2.3.4' ],
+64 silly audit   '@types/once': [ '1.4.4' ],
+64 silly audit   '@types/parse-glob': [ '3.0.32' ],
+64 silly audit   '@types/parse-node-version': [ '1.0.2' ],
+64 silly audit   '@types/parseurl': [ '1.3.3' ],
+64 silly audit   '@types/path-is-absolute': [ '1.0.2' ],
+64 silly audit   '@types/picomatch': [ '3.0.1' ],
+64 silly audit   '@types/proxy-addr': [ '2.0.3' ],
+64 silly audit   '@types/q': [ '1.5.8' ],
+64 silly audit   '@types/qs': [ '6.9.16' ],
+64 silly audit   '@types/range-parser': [ '1.2.7' ],
+64 silly audit   '@types/readable-stream': [ '4.0.15' ],
+64 silly audit   '@types/safer-buffer': [ '2.1.3' ],
+64 silly audit   '@types/send': [ '0.17.4' ],
+64 silly audit   '@types/serve-static': [ '1.15.7' ],
+64 silly audit   '@types/statuses': [ '2.0.5' ],
+64 silly audit   '@types/stream-to-array': [ '2.3.3' ],
+64 silly audit   '@types/streamx': [ '2.9.5' ],
+64 silly audit   '@types/through2': [ '2.0.41' ],
+64 silly audit   '@types/toidentifier': [ '1.0.2' ],
+64 silly audit   '@types/type-is': [ '1.6.6' ],
+64 silly audit   '@types/undertaker': [ '1.2.11' ],
+64 silly audit   '@types/undertaker-registry': [ '1.0.4' ],
+64 silly audit   '@types/unist': [ '3.0.3' ],
+64 silly audit   '@types/utils-merge': [ '1.0.0' ],
+64 silly audit   '@types/vary': [ '1.1.3' ],
+64 silly audit   '@types/vinyl': [ '2.0.12' ],
+64 silly audit   '@types/vinyl-fs': [ '3.0.5' ],
+64 silly audit   anymatch: [ '3.1.3' ],
+64 silly audit   'async-done': [ '1.3.2' ],
+64 silly audit   'binary-extensions': [ '2.3.0' ],
+64 silly audit   braces: [ '3.0.3' ],
+64 silly audit   chokidar: [ '3.6.0' ],
+64 silly audit   'end-of-stream': [ '1.4.4' ],
+64 silly audit   'fill-range': [ '7.1.1' ],
+64 silly audit   fsevents: [ '2.3.3' ],
+64 silly audit   'glob-parent': [ '5.1.2' ],
+64 silly audit   'is-binary-path': [ '2.1.0' ],
+64 silly audit   'is-extglob': [ '2.1.1' ],
+64 silly audit   'is-glob': [ '4.0.3' ],
+64 silly audit   'is-number': [ '7.0.0' ],
+64 silly audit   'normalize-path': [ '3.0.0' ],
+64 silly audit   once: [ '1.4.0' ],
+64 silly audit   picomatch: [ '2.3.1' ],
+64 silly audit   'process-nextick-args': [ '2.0.1' ],
+64 silly audit   readdirp: [ '3.6.0' ],
+64 silly audit   'safe-buffer': [ '5.1.2' ],
+64 silly audit   'stream-exhaust': [ '1.0.2' ],
+64 silly audit   'to-regex-range': [ '5.0.1' ],
+64 silly audit   'types-registry': [ '0.1.691' ],
+64 silly audit   'undici-types': [ '6.19.8' ],
+64 silly audit   wrappy: [ '1.0.2' ],
+64 silly audit   '@types/browser-sync': [ '2.29.0' ],
+64 silly audit   '@types/gulp': [ '4.0.17' ],
+64 silly audit   '@types/gulp-autoprefixer': [ '0.0.37' ],
+64 silly audit   '@types/gulp-file-include': [ '0.14.8' ],
+64 silly audit   '@types/gulp-sass': [ '5.0.4' ],
+64 silly audit   '@types/gulp-sourcemaps': [ '0.0.38' ]
+64 silly audit }
+65 verbose reify failed optional dependency /home/pmickler09/.cache/typescript/5.6/node_modules/fsevents
+66 silly reify mark deleted [ '/home/pmickler09/.cache/typescript/5.6/node_modules/fsevents' ]
+67 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 136ms
+68 silly audit report {}
+69 silly ADD
+70 verbose cwd /home/pmickler09/.cache/typescript/5.6
+71 verbose os Linux 6.6.46-04024-g9e7e147b4900
+72 verbose node v20.17.0
+73 verbose npm  v10.8.2
+74 verbose exit 0
+75 info ok

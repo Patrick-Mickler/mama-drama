@@ -1,0 +1,48 @@
+2024-10-22 11:31:21.826 [info] [main] Log level: Info
+2024-10-22 11:31:21.826 [info] [main] Validating found git in: "git"
+2024-10-22 11:31:21.826 [info] [main] Using git "2.39.5" from "git"
+2024-10-22 11:31:21.826 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-22 11:31:21.826 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-22 11:31:21.826 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:21.827 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-22 11:31:21.827 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:21.836 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:31:21.836 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:21.844 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:31:21.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:21.848 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-22 11:31:21.930 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:31:21.930 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:22.156 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:31:22.157 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:22.224 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:31:22.224 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:22.253 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:31:22.253 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:22.491 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:31:22.491 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:31:59.408 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-22 11:31:59.408 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:00.410 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:32:00.410 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:00.421 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:00.421 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.722 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:32:02.722 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.728 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:02.728 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.733 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:02.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.738 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:02.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.745 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-22 11:32:02.745 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.750 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:02.750 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.755 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:02.755 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:02.760 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 11:32:02.760 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-22 11:32:28.946 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/pmickler09/aviato-bootstrap-main/node_modules/shopify-cartjs/node_modules/node-sass/src/libsass/". Error:Error: ENOENT: no such file or directory, realpath '/home/pmickler09/aviato-bootstrap-main/node_modules/shopify-cartjs/node_modules/node-sass/src/libsass/'
+2024-10-22 11:38:01.853 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 11:38:01.853 [info] fatal: not a git repository (or any of the parent directories): .git

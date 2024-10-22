@@ -1,0 +1,5 @@
+2024-10-22 11:12:10.130 [info] Started local extension host with pid 636.
+2024-10-22 11:12:14.037 [info] [perf] Render performance baseline is 68ms
+2024-10-22 11:14:29.329 [warning] [backup tracker] suspended, ignoring unregister event file:///home/pmickler09/mamadrama/package.json 
+2024-10-22 11:14:29.899 [info] Started local extension host with pid 1469.
+2024-10-22 11:14:32.590 [info] [perf] Render performance baseline is 38ms

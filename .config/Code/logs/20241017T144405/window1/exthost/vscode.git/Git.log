@@ -1,0 +1,35 @@
+2024-10-17 14:44:07.783 [info] [main] Log level: Info
+2024-10-17 14:44:07.783 [info] [main] Validating found git in: "git"
+2024-10-17 14:44:07.783 [info] [main] Using git "2.39.5" from "git"
+2024-10-17 14:44:07.783 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-17 14:44:07.783 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-17 14:44:07.783 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-17 14:44:07.798 [info] [Model][openRepository] Opened repository: /home/pmickler09/mama-drama
+2024-10-17 14:44:07.859 [info] > git rev-parse --show-toplevel [49ms]
+2024-10-17 14:44:07.864 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-17 14:44:07.865 [info] > git config --get commit.template [58ms]
+2024-10-17 14:44:07.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-17 14:44:07.934 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-10-17 14:44:08.021 [info] > git status -z -uall [100ms]
+2024-10-17 14:44:08.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-10-17 14:44:08.075 [info] > git config --local branch.master.vscode-merge-base [15ms]
+2024-10-17 14:44:08.080 [info] > git config --get commit.template [24ms]
+2024-10-17 14:44:08.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-10-17 14:44:08.105 [info] > git merge-base refs/heads/master refs/remotes/origin/master [19ms]
+2024-10-17 14:44:08.152 [info] > git diff --name-status -z --diff-filter=ADMR dba9e4fff4aec7bbc316e522d03021e20f5bfa24...refs/remotes/origin/master [42ms]
+2024-10-17 14:44:08.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [49ms]
+2024-10-17 14:44:08.286 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 14:44:08.327 [info] > git status -z -uall [50ms]
+2024-10-17 14:44:08.370 [info] > git check-ignore -v -z --stdin [9ms]
+2024-10-17 14:44:08.991 [info] > git show --textconv :mamadrama/theme/js/script.js [24ms]
+2024-10-17 14:44:08.996 [info] > git ls-files --stage -- /home/pmickler09/mama-drama/mamadrama/theme/js/script.js [21ms]
+2024-10-17 14:44:09.003 [info] > git cat-file -s 2aeffd03fa0ff6d9efdf5e95b4425baa35f747f5 [2ms]
+2024-10-17 14:45:34.364 [info] > git config --get commit.template [16ms]
+2024-10-17 14:45:34.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-17 14:45:34.393 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2024-10-17 14:45:34.433 [info] > git status -z -uall [54ms]
+2024-10-17 14:46:16.532 [info] > git check-ignore -v -z --stdin [7ms]
+2024-10-17 14:46:41.421 [info] > git config --get commit.template [6ms]
+2024-10-17 14:46:41.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:46:41.439 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 14:46:41.483 [info] > git status -z -uall [55ms]

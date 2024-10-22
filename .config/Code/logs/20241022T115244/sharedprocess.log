@@ -1,0 +1,26 @@
+2024-10-22 12:20:31.535 [info] Getting Manifest... github.copilot
+2024-10-22 12:20:31.671 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pmickler09/.vscode/extensions/extensions.json","path":"/home/pmickler09/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-22 12:20:32.117 [info] Getting Manifest... github.copilot-chat
+2024-10-22 12:20:32.172 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pmickler09/.vscode/extensions/extensions.json","path":"/home/pmickler09/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-22 12:20:34.490 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 1682ms.
+2024-10-22 12:20:34.490 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 1572ms.
+2024-10-22 12:20:34.984 [info] Extracted extension to file:///home/pmickler09/.vscode/extensions/github.copilot-chat-0.21.2: github.copilot-chat
+2024-10-22 12:20:34.997 [info] Renamed to /home/pmickler09/.vscode/extensions/github.copilot-chat-0.21.2
+2024-10-22 12:20:35.088 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pmickler09/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pmickler09/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-22 12:20:35.281 [info] Extracted extension to file:///home/pmickler09/.vscode/extensions/github.copilot-1.241.0: github.copilot
+2024-10-22 12:20:35.288 [info] Renamed to /home/pmickler09/.vscode/extensions/github.copilot-1.241.0
+2024-10-22 12:20:35.311 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/pmickler09/.vscode/extensions/extensions.json
+2024-10-22 12:20:35.312 [info] Extension installed successfully: github.copilot vscode-userdata:/home/pmickler09/.vscode/extensions/extensions.json
+2024-10-22 12:20:35.370 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pmickler09/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pmickler09/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

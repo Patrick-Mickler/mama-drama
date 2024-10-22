@@ -1,0 +1,13 @@
+.cell{
+    
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    
+}
+#cellContainer{
+    width:300px;
+    display:flex;
+    flex-flow:row wrap;
+
+}

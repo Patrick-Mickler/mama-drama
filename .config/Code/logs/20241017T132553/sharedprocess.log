@@ -1,0 +1,2 @@
+2024-10-17 14:07:34.755 [error] [network] #36: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2024-10-17 14:34:52.028 [error] [network] #49: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_CONNECTION_TIMED_OUT

@@ -1,0 +1,7 @@
+2024-10-17 13:25:54.495 [info] Started local extension host with pid 14767.
+2024-10-17 13:25:57.240 [info] [perf] Render performance baseline is 56ms
+2024-10-17 13:26:05.487 [warning] [backup tracker] suspended, ignoring unregister event file:///home/pmickler09/simple-crud/package.json 
+2024-10-17 13:26:06.223 [info] Started local extension host with pid 15406.
+2024-10-17 13:26:10.017 [info] [perf] Render performance baseline is 78ms
+2024-10-17 14:07:36.052 [error] [network] #8: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Failed to fetch
+2024-10-17 14:07:36.052 [warning] Failed to fetch chat participant registry Failed to fetch

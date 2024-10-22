@@ -1,0 +1,2393 @@
+0 verbose cli /home/pmickler09/.config/nvm/versions/node/v20.17.0/bin/node /home/pmickler09/.config/nvm/versions/node/v20.17.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:/home/pmickler09/.config/nvm/versions/node/v20.17.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/pmickler09/aviato-bootstrap-main/.npmrc
+5 silly config load:file:/home/pmickler09/.npmrc
+6 silly config load:file:/home/pmickler09/.config/nvm/versions/node/v20.17.0/etc/npmrc
+7 verbose title npm audit fix
+8 verbose argv "audit" "fix" "--force"
+9 verbose logfile logs-max:10 dir:/home/pmickler09/.npm/_logs/2024-10-22T15_16_34_085Z-
+10 verbose logfile /home/pmickler09/.npm/_logs/2024-10-22T15_16_34_085Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile start cleaning logs, removing 1 files
+14 silly logfile done cleaning log files
+15 silly audit bulk request {
+15 silly audit   '@gulp-sourcemaps/identity-map': [ '2.0.1' ],
+15 silly audit   picocolors: [ '0.2.1', '1.1.1' ],
+15 silly audit   postcss: [ '7.0.39', '8.4.47' ],
+15 silly audit   through2: [ '3.0.2', '2.0.5', '4.0.2' ],
+15 silly audit   '@gulp-sourcemaps/map-sources': [ '1.0.0' ],
+15 silly audit   'normalize-path': [ '2.1.1', '3.0.0' ],
+15 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+15 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+15 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+15 silly audit   '@gulpjs/messages': [ '1.1.0' ],
+15 silly audit   '@parcel/watcher': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-android-arm64': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-darwin-arm64': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-darwin-x64': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-freebsd-x64': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-win32-arm64': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-win32-ia32': [ '2.4.1' ],
+15 silly audit   '@parcel/watcher-win32-x64': [ '2.4.1' ],
+15 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+15 silly audit   '@types/cookie': [ '0.4.1' ],
+15 silly audit   '@types/cors': [ '2.8.17' ],
+15 silly audit   '@types/node': [ '22.7.8' ],
+15 silly audit   accepts: [ '1.3.8' ],
+15 silly audit   acorn: [ '6.4.2' ],
+15 silly audit   'ansi-colors': [ '4.1.1', '1.1.0' ],
+15 silly audit   'ansi-gray': [ '0.1.1' ],
+15 silly audit   'ansi-regex': [ '5.0.1', '2.1.1' ],
+15 silly audit   'ansi-styles': [ '4.3.0' ],
+15 silly audit   'ansi-wrap': [ '0.1.0' ],
+15 silly audit   anymatch: [ '3.1.3', '2.0.0' ],
+15 silly audit   'append-buffer': [ '1.0.2' ],
+15 silly audit   archy: [ '1.0.0' ],
+15 silly audit   'arr-diff': [ '4.0.0' ],
+15 silly audit   'arr-filter': [ '1.1.2' ],
+15 silly audit   'arr-flatten': [ '1.1.0' ],
+15 silly audit   'arr-map': [ '2.0.2' ],
+15 silly audit   'arr-union': [ '3.1.0' ],
+15 silly audit   'array-each': [ '1.0.1' ],
+15 silly audit   'array-initial': [ '1.1.0' ],
+15 silly audit   'is-number': [ '4.0.0', '3.0.0', '7.0.0' ],
+15 silly audit   'array-last': [ '1.3.0' ],
+15 silly audit   'array-slice': [ '1.1.0' ],
+15 silly audit   'array-sort': [ '1.0.0' ],
+15 silly audit   'kind-of': [ '5.1.0', '3.2.2', '4.0.0', '6.0.3' ],
+15 silly audit   'array-unique': [ '0.3.2' ],
+15 silly audit   'assign-symbols': [ '1.0.0' ],
+15 silly audit   async: [ '2.6.4' ],
+15 silly audit   'async-done': [ '1.3.2' ],
+15 silly audit   'async-each': [ '1.0.6' ],
+15 silly audit   'async-each-series': [ '0.1.1' ],
+15 silly audit   'async-settle': [ '1.0.0' ],
+15 silly audit   atob: [ '2.1.2' ],
+15 silly audit   autoprefixer: [ '10.4.20' ],
+15 silly audit   axios: [ '0.21.4' ],
+15 silly audit   bach: [ '1.2.0' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   base: [ '0.11.2' ],
+15 silly audit   'define-property': [ '1.0.0', '0.2.5', '2.0.2' ],
+15 silly audit   'is-descriptor': [ '1.0.3', '0.1.7' ],
+15 silly audit   base64id: [ '2.0.0' ],
+15 silly audit   batch: [ '0.6.1' ],
+15 silly audit   'binary-extensions': [ '2.3.0', '1.13.1' ],
+15 silly audit   bindings: [ '1.5.0' ],
+15 silly audit   'brace-expansion': [ '1.1.11' ],
+15 silly audit   braces: [ '3.0.3', '2.3.2' ],
+15 silly audit   'browser-sync': [ '2.29.3' ],
+15 silly audit   'browser-sync-client': [ '2.29.3' ],
+15 silly audit   'browser-sync-ui': [ '2.29.3' ],
+15 silly audit   browserslist: [ '4.24.2' ],
+15 silly audit   'bs-recipes': [ '1.3.4' ],
+15 silly audit   'buffer-equal': [ '1.0.1' ],
+15 silly audit   'buffer-from': [ '1.1.2' ],
+15 silly audit   bytes: [ '3.1.2' ],
+15 silly audit   'cache-base': [ '1.0.1' ],
+15 silly audit   'call-bind': [ '1.0.7' ],
+15 silly audit   camelcase: [ '3.0.0' ],
+15 silly audit   'caniuse-lite': [ '1.0.30001669' ],
+15 silly audit   chalk: [ '4.1.2' ],
+15 silly audit   chokidar: [ '3.6.0', '2.1.8', '4.0.1' ],
+15 silly audit   'class-utils': [ '0.3.6' ],
+15 silly audit   cliui: [ '8.0.1', '7.0.4', '3.2.0' ],
+15 silly audit   clone: [ '2.1.2' ],
+15 silly audit   'clone-buffer': [ '1.0.0' ],
+15 silly audit   'clone-stats': [ '1.0.0' ],
+15 silly audit   'cloneable-readable': [ '1.1.3' ],
+15 silly audit   'code-point-at': [ '1.1.0' ],
+15 silly audit   'collection-map': [ '1.0.0' ],
+15 silly audit   'collection-visit': [ '1.0.0' ],
+15 silly audit   'color-convert': [ '2.0.1' ],
+15 silly audit   'color-name': [ '1.1.4' ],
+15 silly audit   'color-support': [ '1.1.3' ],
+15 silly audit   commander: [ '2.20.3' ],
+15 silly audit   commenting: [ '1.1.0' ],
+15 silly audit   'component-emitter': [ '1.3.1' ],
+15 silly audit   'concat-map': [ '0.0.1' ],
+15 silly audit   'concat-stream': [ '2.0.0', '1.6.2' ],
+15 silly audit   connect: [ '3.6.6' ],
+15 silly audit   'connect-history-api-fallback': [ '1.6.0' ],
+15 silly audit   'convert-source-map': [ '1.9.0' ],
+15 silly audit   cookie: [ '0.7.2' ],
+15 silly audit   'copy-descriptor': [ '0.1.1' ],
+15 silly audit   'copy-props': [ '4.0.0', '2.0.5' ],
+15 silly audit   'core-util-is': [ '1.0.3' ],
+15 silly audit   cors: [ '2.8.5' ],
+15 silly audit   css: [ '3.0.0' ],
+15 silly audit   d: [ '1.0.2' ],
+15 silly audit   debug: [ '2.6.9', '3.2.7', '4.3.7', '4.3.2' ],
+15 silly audit   'debug-fabulous': [ '1.1.0' ],
+15 silly audit   ms: [ '2.1.3', '2.1.2', '2.0.0' ],
+15 silly audit   decamelize: [ '1.2.0' ],
+15 silly audit   'decode-uri-component': [ '0.2.2' ],
+15 silly audit   'default-compare': [ '1.0.0' ],
+15 silly audit   'default-resolution': [ '2.0.0' ],
+15 silly audit   'define-data-property': [ '1.1.4' ],
+15 silly audit   'define-properties': [ '1.2.1' ],
+15 silly audit   depd: [ '2.0.0', '1.1.2' ],
+15 silly audit   destroy: [ '1.0.4' ],
+15 silly audit   'detect-file': [ '1.0.0' ],
+15 silly audit   'detect-libc': [ '1.0.3' ],
+15 silly audit   'detect-newline': [ '2.1.0' ],
+15 silly audit   'dev-ip': [ '1.0.1' ],
+15 silly audit   duplexify: [ '3.7.1' ],
+15 silly audit   'each-props': [ '3.0.0', '1.3.2' ],
+15 silly audit   'easy-extender': [ '2.3.4' ],
+15 silly audit   'eazy-logger': [ '4.0.1' ],
+15 silly audit   'ee-first': [ '1.1.1' ],
+15 silly audit   'electron-to-chromium': [ '1.5.42' ],
+15 silly audit   'emoji-regex': [ '8.0.0' ],
+15 silly audit   encodeurl: [ '1.0.2' ],
+15 silly audit   'end-of-stream': [ '1.4.4' ],
+15 silly audit   'engine.io': [ '6.6.2' ],
+15 silly audit   'engine.io-client': [ '6.6.1' ],
+15 silly audit   'engine.io-parser': [ '5.2.3' ],
+15 silly audit   'error-ex': [ '1.3.2' ],
+15 silly audit   'es-define-property': [ '1.0.0' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'es5-ext': [ '0.10.64' ],
+15 silly audit   'es6-iterator': [ '2.0.3' ],
+15 silly audit   'es6-symbol': [ '3.1.4' ],
+15 silly audit   'es6-weak-map': [ '2.0.3' ],
+15 silly audit   escalade: [ '3.2.0' ],
+15 silly audit   'escape-html': [ '1.0.3' ],
+15 silly audit   esniff: [ '2.0.1' ],
+15 silly audit   etag: [ '1.8.1' ],
+15 silly audit   'event-emitter': [ '0.3.5' ],
+15 silly audit   eventemitter3: [ '4.0.7' ],
+15 silly audit   'expand-brackets': [ '2.1.4' ],
+15 silly audit   'extend-shallow': [ '2.0.1', '3.0.2' ],
+15 silly audit   'is-extendable': [ '0.1.1', '1.0.1' ],
+15 silly audit   'expand-tilde': [ '2.0.2' ],
+15 silly audit   ext: [ '1.7.0' ],
+15 silly audit   extend: [ '3.0.2' ],
+15 silly audit   extglob: [ '2.0.4' ],
+15 silly audit   'fancy-log': [ '1.3.3' ],
+15 silly audit   'fast-levenshtein': [ '1.1.4' ],
+15 silly audit   'file-uri-to-path': [ '1.0.0' ],
+15 silly audit   'fill-range': [ '7.1.1', '4.0.0' ],
+15 silly audit   finalhandler: [ '1.1.0' ],
+15 silly audit   'find-up': [ '1.1.2' ],
+15 silly audit   'findup-sync': [ '5.0.0', '3.0.0', '2.0.0' ],
+15 silly audit   fined: [ '2.0.0', '1.2.0' ],
+15 silly audit   'flagged-respawn': [ '2.0.0', '1.0.1' ],
+15 silly audit   flatnest: [ '1.0.1' ],
+15 silly audit   'flush-write-stream': [ '1.1.1' ],
+15 silly audit   'follow-redirects': [ '1.15.9' ],
+15 silly audit   'for-in': [ '1.0.2' ],
+15 silly audit   'for-own': [ '1.0.0' ],
+15 silly audit   'fraction.js': [ '4.3.7' ],
+15 silly audit   'fragment-cache': [ '0.2.1' ],
+15 silly audit   fresh: [ '0.5.2' ],
+15 silly audit   'fs-extra': [ '3.0.1' ],
+15 silly audit   'fs-mkdirp-stream': [ '1.0.0' ],
+15 silly audit   'fs.realpath': [ '1.0.0' ],
+15 silly audit   fsevents: [ '2.3.3', '1.2.13' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   'get-caller-file': [ '2.0.5', '1.0.3' ],
+15 silly audit   'get-intrinsic': [ '1.2.4' ],
+15 silly audit   'get-value': [ '2.0.6' ],
+15 silly audit   glob: [ '7.2.3' ],
+15 silly audit   'glob-parent': [ '5.1.2', '3.1.0' ],
+15 silly audit   'glob-stream': [ '6.1.0' ],
+15 silly audit   'is-glob': [ '3.1.0', '4.0.3' ],
+15 silly audit   'glob-watcher': [ '5.0.5' ],
+15 silly audit   'is-binary-path': [ '1.0.1', '2.1.0' ],
+15 silly audit   micromatch: [ '3.1.10', '4.0.8' ],
+15 silly audit   readdirp: [ '2.2.1', '3.6.0', '4.0.2' ],
+15 silly audit   'to-regex-range': [ '2.1.1', '5.0.1' ],
+15 silly audit   'global-modules': [ '1.0.0' ],
+15 silly audit   'global-prefix': [ '1.0.2' ],
+15 silly audit   glogg: [ '2.2.0', '1.0.2' ],
+15 silly audit   gopd: [ '1.0.1' ],
+15 silly audit   'graceful-fs': [ '4.2.11' ],
+15 silly audit   gulp: [ '4.0.2' ],
+15 silly audit   'gulp-autoprefixer': [ '8.0.0' ],
+15 silly audit   'gulp-cli': [ '3.0.0', '2.3.0' ],
+15 silly audit   yargs: [ '16.2.0', '7.1.2', '17.1.1', '17.7.2' ],
+15 silly audit   'yargs-parser': [ '20.2.9', '5.0.1', '21.1.1' ],
+15 silly audit   'gulp-file-include': [ '2.3.0' ],
+15 silly audit   'gulp-header-comment': [ '0.10.0' ],
+15 silly audit   'gulp-rimraf': [ '1.0.0' ],
+15 silly audit   'gulp-sass': [ '5.1.0' ],
+15 silly audit   'gulp-sourcemaps': [ '3.0.0' ],
+15 silly audit   'is-plain-object': [ '2.0.4', '5.0.0' ],
+15 silly audit   gulplog: [ '1.0.0', '2.2.0' ],
+15 silly audit   interpret: [ '1.4.0', '3.1.1' ],
+15 silly audit   'is-fullwidth-code-point': [ '1.0.0', '3.0.0' ],
+15 silly audit   liftoff: [ '3.1.0', '5.0.0' ],
+15 silly audit   'mute-stdout': [ '1.0.1', '2.0.0' ],
+15 silly audit   rechoir: [ '0.6.2', '0.8.0' ],
+15 silly audit   'replace-homedir': [ '1.0.0', '2.0.0' ],
+15 silly audit   'semver-greatest-satisfied-range': [ '1.1.0', '2.0.0' ],
+15 silly audit   sparkles: [ '1.0.1', '2.1.0' ],
+15 silly audit   'string-width': [ '1.0.2', '4.2.3' ],
+15 silly audit   'strip-ansi': [ '3.0.1', '6.0.1' ],
+15 silly audit   v8flags: [ '3.2.0', '4.0.1' ],
+15 silly audit   'wrap-ansi': [ '2.1.0', '7.0.0' ],
+15 silly audit   y18n: [ '3.2.2', '5.0.8' ],
+15 silly audit   'has-flag': [ '4.0.0' ],
+15 silly audit   'has-property-descriptors': [ '1.0.2' ],
+15 silly audit   'has-proto': [ '1.0.3' ],
+15 silly audit   'has-symbols': [ '1.0.3' ],
+15 silly audit   'has-value': [ '1.0.0', '0.3.1' ],
+15 silly audit   'has-values': [ '1.0.0', '0.1.4' ],
+15 silly audit   hasown: [ '2.0.2' ],
+15 silly audit   'homedir-polyfill': [ '1.0.3' ],
+15 silly audit   'hosted-git-info': [ '2.8.9' ],
+15 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+15 silly audit   statuses: [ '2.0.1', '1.4.0', '1.5.0', '1.3.1' ],
+15 silly audit   'http-proxy': [ '1.18.1' ],
+15 silly audit   'iconv-lite': [ '0.4.24' ],
+15 silly audit   immutable: [ '3.8.2', '4.3.7' ],
+15 silly audit   inflight: [ '1.0.6' ],
+15 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+15 silly audit   ini: [ '1.3.8' ],
+15 silly audit   'invert-kv': [ '1.0.0' ],
+15 silly audit   'is-absolute': [ '1.0.0' ],
+15 silly audit   'is-accessor-descriptor': [ '1.0.1' ],
+15 silly audit   'is-arrayish': [ '0.2.1' ],
+15 silly audit   'is-buffer': [ '1.1.6' ],
+15 silly audit   'is-core-module': [ '2.15.1' ],
+15 silly audit   'is-data-descriptor': [ '1.0.1' ],
+15 silly audit   'is-extglob': [ '2.1.1' ],
+15 silly audit   'is-negated-glob': [ '1.0.0' ],
+15 silly audit   'is-number-like': [ '1.0.8' ],
+15 silly audit   'is-promise': [ '2.2.2' ],
+15 silly audit   'is-relative': [ '1.0.0' ],
+15 silly audit   'is-unc-path': [ '1.0.0' ],
+15 silly audit   'is-utf8': [ '0.2.1' ],
+15 silly audit   'is-valid-glob': [ '1.0.0' ],
+15 silly audit   'is-windows': [ '1.0.2' ],
+15 silly audit   'is-wsl': [ '1.1.0' ],
+15 silly audit   isarray: [ '1.0.0' ],
+15 silly audit   isexe: [ '2.0.0' ],
+15 silly audit   isobject: [ '3.0.1', '2.1.0' ],
+15 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+15 silly audit   json5: [ '2.2.3' ],
+15 silly audit   jsonfile: [ '3.0.1' ],
+15 silly audit   'just-debounce': [ '1.1.0' ],
+15 silly audit   'last-run': [ '1.1.1' ],
+15 silly audit   lazystream: [ '1.0.1' ],
+15 silly audit   lcid: [ '1.0.0' ],
+15 silly audit   lead: [ '1.0.0' ],
+15 silly audit   limiter: [ '1.1.5' ],
+15 silly audit   'load-json-file': [ '1.1.0' ],
+15 silly audit   localtunnel: [ '2.0.2' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+15 silly audit   'lodash.isfinite': [ '3.3.2' ],
+15 silly audit   'lru-queue': [ '0.1.0' ],
+15 silly audit   'magic-string': [ '0.25.7' ],
+15 silly audit   'make-iterator': [ '1.0.1' ],
+15 silly audit   'map-cache': [ '0.2.2' ],
+15 silly audit   'map-visit': [ '1.0.0' ],
+15 silly audit   matchdep: [ '2.0.0' ],
+15 silly audit   memoizee: [ '0.4.17' ],
+15 silly audit   mime: [ '1.4.1' ],
+15 silly audit   'mime-db': [ '1.52.0' ],
+15 silly audit   'mime-types': [ '2.1.35' ],
+15 silly audit   minimatch: [ '3.1.2' ],
+15 silly audit   mitt: [ '1.2.0' ],
+15 silly audit   'mixin-deep': [ '1.3.2' ],
+15 silly audit   moment: [ '2.29.1' ],
+15 silly audit   nan: [ '2.22.0' ],
+15 silly audit   nanoid: [ '3.3.7' ],
+15 silly audit   nanomatch: [ '1.2.13' ],
+15 silly audit   negotiator: [ '0.6.3' ],
+15 silly audit   'next-tick': [ '1.1.0' ],
+15 silly audit   'node-addon-api': [ '7.1.1' ],
+15 silly audit   'node-releases': [ '2.0.18' ],
+15 silly audit   'normalize-package-data': [ '2.5.0' ],
+15 silly audit   semver: [ '5.7.2', '6.3.1' ],
+15 silly audit   'normalize-range': [ '0.1.2' ],
+15 silly audit   'now-and-later': [ '2.0.1' ],
+15 silly audit   'number-is-nan': [ '1.0.1' ],
+15 silly audit   'object-assign': [ '4.1.1' ],
+15 silly audit   'object-copy': [ '0.1.0' ],
+15 silly audit   'object-keys': [ '1.1.1' ],
+15 silly audit   'object-visit': [ '1.0.1' ],
+15 silly audit   'object.assign': [ '4.1.5' ],
+15 silly audit   'object.defaults': [ '1.1.0' ],
+15 silly audit   'object.map': [ '1.0.1' ],
+15 silly audit   'object.pick': [ '1.3.0' ],
+15 silly audit   'object.reduce': [ '1.0.1' ],
+15 silly audit   'on-finished': [ '2.3.0' ],
+15 silly audit   once: [ '1.4.0' ],
+15 silly audit   openurl: [ '1.1.1' ],
+15 silly audit   opn: [ '5.3.0' ],
+15 silly audit   'ordered-read-streams': [ '1.0.1' ],
+15 silly audit   'os-locale': [ '1.4.0' ],
+15 silly audit   'parse-filepath': [ '1.0.2' ],
+15 silly audit   'parse-json': [ '2.2.0' ],
+15 silly audit   'parse-node-version': [ '1.0.1' ],
+15 silly audit   'parse-passwd': [ '1.0.0' ],
+15 silly audit   parseurl: [ '1.3.3' ],
+15 silly audit   pascalcase: [ '0.1.1' ],
+15 silly audit   'path-dirname': [ '1.0.2' ],
+15 silly audit   'path-exists': [ '2.1.0' ],
+15 silly audit   'path-is-absolute': [ '1.0.1' ],
+15 silly audit   'path-parse': [ '1.0.7' ],
+15 silly audit   'path-root': [ '0.1.1' ],
+15 silly audit   'path-root-regex': [ '0.1.2' ],
+15 silly audit   'path-type': [ '1.1.0' ],
+15 silly audit   picomatch: [ '2.3.1' ],
+15 silly audit   pify: [ '2.3.0' ],
+15 silly audit   pinkie: [ '2.0.4' ],
+15 silly audit   'pinkie-promise': [ '2.0.1' ],
+15 silly audit   'plugin-error': [ '1.0.1' ],
+15 silly audit   portscanner: [ '2.2.0' ],
+15 silly audit   'posix-character-classes': [ '0.1.1' ],
+15 silly audit   'postcss-value-parser': [ '4.2.0' ],
+15 silly audit   'pretty-hrtime': [ '1.0.3' ],
+15 silly audit   'process-nextick-args': [ '2.0.1' ],
+15 silly audit   pump: [ '2.0.1' ],
+15 silly audit   pumpify: [ '1.5.1' ],
+15 silly audit   q: [ '1.5.1' ],
+15 silly audit   'range-parser': [ '1.2.1' ],
+15 silly audit   'raw-body': [ '2.5.2' ],
+15 silly audit   'read-pkg': [ '1.1.0' ],
+15 silly audit   'read-pkg-up': [ '1.0.1' ],
+15 silly audit   'regex-not': [ '1.0.2' ],
+15 silly audit   'remove-bom-buffer': [ '3.0.0' ],
+15 silly audit   'remove-bom-stream': [ '1.2.0' ],
+15 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+15 silly audit   'repeat-element': [ '1.1.4' ],
+15 silly audit   'repeat-string': [ '1.6.1' ],
+15 silly audit   'replace-ext': [ '2.0.0', '1.0.1' ],
+15 silly audit   'require-directory': [ '2.1.1' ],
+15 silly audit   'require-main-filename': [ '1.0.1' ],
+15 silly audit   'requires-port': [ '1.0.0' ],
+15 silly audit   resolve: [ '1.22.8' ],
+15 silly audit   'resolve-dir': [ '1.0.1' ],
+15 silly audit   'resolve-options': [ '1.1.0' ],
+15 silly audit   'resolve-url': [ '0.2.1' ],
+15 silly audit   'resp-modifier': [ '6.0.2' ],
+15 silly audit   ret: [ '0.1.15' ],
+15 silly audit   rimraf: [ '2.7.1' ],
+15 silly audit   rx: [ '4.1.0' ],
+15 silly audit   'safe-regex': [ '1.1.0' ],
+15 silly audit   'safer-buffer': [ '2.1.2' ],
+15 silly audit   sass: [ '1.80.3' ],
+15 silly audit   send: [ '0.16.2' ],
+15 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+15 silly audit   'serve-index': [ '1.9.1' ],
+15 silly audit   'serve-static': [ '1.13.2' ],
+15 silly audit   'server-destroy': [ '1.0.1' ],
+15 silly audit   'set-blocking': [ '2.0.0' ],
+15 silly audit   'set-function-length': [ '1.2.2' ],
+15 silly audit   'set-value': [ '2.0.1' ],
+15 silly audit   snapdragon: [ '0.8.2' ],
+15 silly audit   'snapdragon-node': [ '2.1.1' ],
+15 silly audit   'snapdragon-util': [ '3.0.1' ],
+15 silly audit   'source-map': [ '0.5.7', '0.6.1' ],
+15 silly audit   'source-map-resolve': [ '0.5.3', '0.6.0' ],
+15 silly audit   'socket.io': [ '4.8.0' ],
+15 silly audit   'socket.io-adapter': [ '2.5.5' ],
+15 silly audit   'socket.io-client': [ '4.8.0' ],
+15 silly audit   'socket.io-parser': [ '4.2.4' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   'source-map-url': [ '0.4.1' ],
+15 silly audit   'sourcemap-codec': [ '1.4.8' ],
+15 silly audit   'spdx-correct': [ '3.2.0' ],
+15 silly audit   'spdx-exceptions': [ '2.5.0' ],
+15 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+15 silly audit   'spdx-license-ids': [ '3.0.20' ],
+15 silly audit   'split-string': [ '3.1.0' ],
+15 silly audit   'stack-trace': [ '0.0.10' ],
+15 silly audit   'static-extend': [ '0.1.2' ],
+15 silly audit   'stream-exhaust': [ '1.0.2' ],
+15 silly audit   'stream-shift': [ '1.0.3' ],
+15 silly audit   'stream-throttle': [ '0.1.3' ],
+15 silly audit   'strip-bom': [ '2.0.0' ],
+15 silly audit   'strip-bom-string': [ '1.0.0' ],
+15 silly audit   'supports-color': [ '7.2.0' ],
+15 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+15 silly audit   sver: [ '1.8.4' ],
+15 silly audit   'sver-compat': [ '1.5.0' ],
+15 silly audit   'through2-filter': [ '3.0.0' ],
+15 silly audit   'time-stamp': [ '1.1.0' ],
+15 silly audit   'timers-ext': [ '0.1.8' ],
+15 silly audit   'to-absolute-glob': [ '2.0.2' ],
+15 silly audit   'to-object-path': [ '0.3.0' ],
+15 silly audit   'to-regex': [ '3.0.2' ],
+15 silly audit   'to-through': [ '2.0.0' ],
+15 silly audit   toidentifier: [ '1.0.1' ],
+15 silly audit   type: [ '2.7.3' ],
+15 silly audit   typedarray: [ '0.0.6' ],
+15 silly audit   'ua-parser-js': [ '1.0.39' ],
+15 silly audit   'unc-path-regex': [ '0.1.2' ],
+15 silly audit   undertaker: [ '1.3.0' ],
+15 silly audit   'undertaker-registry': [ '1.0.1' ],
+15 silly audit   'undici-types': [ '6.19.8' ],
+15 silly audit   'union-value': [ '1.0.1' ],
+15 silly audit   'unique-stream': [ '2.3.1' ],
+15 silly audit   universalify: [ '0.1.2' ],
+15 silly audit   unpipe: [ '1.0.0' ],
+15 silly audit   'unset-value': [ '1.0.0' ],
+15 silly audit   upath: [ '1.2.0' ],
+15 silly audit   'update-browserslist-db': [ '1.1.1' ],
+15 silly audit   urix: [ '0.1.0' ],
+15 silly audit   use: [ '3.1.1' ],
+15 silly audit   'util-deprecate': [ '1.0.2' ],
+15 silly audit   'utils-merge': [ '1.0.1' ],
+15 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+15 silly audit   'value-or-function': [ '3.0.0' ],
+15 silly audit   vary: [ '1.1.2' ],
+15 silly audit   vinyl: [ '2.2.1' ],
+15 silly audit   'vinyl-fs': [ '3.0.3' ],
+15 silly audit   'vinyl-sourcemap': [ '1.1.0' ],
+15 silly audit   'vinyl-sourcemaps-apply': [ '0.2.1' ],
+15 silly audit   which: [ '1.3.1' ],
+15 silly audit   'which-module': [ '1.0.0' ],
+15 silly audit   wrappy: [ '1.0.2' ],
+15 silly audit   ws: [ '8.17.1' ],
+15 silly audit   'xmlhttprequest-ssl': [ '2.1.1' ],
+15 silly audit   xtend: [ '4.0.2' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 426ms
+17 silly audit report {
+17 silly audit report   postcss: [
+17 silly audit report     {
+17 silly audit report       id: 1094544,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-7fh5-64p2-3v2j',
+17 silly audit report       title: 'PostCSS line return parsing error',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<8.4.31',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   axios: [
+17 silly audit report     {
+17 silly audit report       id: 1097679,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+17 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=0.8.1 <0.28.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   braces: [
+17 silly audit report     {
+17 silly audit report       id: 1098094,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-grv7-fg5c-xmjg',
+17 silly audit report       title: 'Uncontrolled resource consumption in braces',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<3.0.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   micromatch: [
+17 silly audit report     {
+17 silly audit report       id: 1098681,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-952p-6rrq-rcjv',
+17 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in micromatch',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<4.0.8',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   moment: [
+17 silly audit report     {
+17 silly audit report       id: 1095083,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-8hfj-j24r-96c4',
+17 silly audit report       title: "Path Traversal: 'dir/../../filename' in moment.locale",
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<2.29.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1095072,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-wc69-rhjr-hc9g',
+17 silly audit report       title: 'Moment.js vulnerable to Inefficient Regular Expression Complexity',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=2.18.0 <2.29.4',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   send: [
+17 silly audit report     {
+17 silly audit report       id: 1099525,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-m6fv-jmcg-4jfg',
+17 silly audit report       title: 'send vulnerable to template injection that can lead to XSS',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<0.19.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   'serve-static': [
+17 silly audit report     {
+17 silly audit report       id: 1099527,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-cm22-4g7w-348p',
+17 silly audit report       title: 'serve-static vulnerable to template injection that can lead to XSS',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<1.16.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+20 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+21 silly packumentCache corgi:https://registry.npmjs.org/micromatch cache-miss
+22 silly packumentCache corgi:https://registry.npmjs.org/moment cache-miss
+23 silly packumentCache corgi:https://registry.npmjs.org/send cache-miss
+24 silly packumentCache corgi:https://registry.npmjs.org/serve-static cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/moment 36ms (cache hit)
+26 silly packumentCache corgi:https://registry.npmjs.org/moment set size:95498 disposed:false
+27 http fetch GET 200 https://registry.npmjs.org/micromatch 39ms (cache hit)
+28 silly packumentCache corgi:https://registry.npmjs.org/micromatch set size:71776 disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/axios 42ms (cache hit)
+30 silly packumentCache corgi:https://registry.npmjs.org/axios set size:217819 disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/postcss 47ms (cache hit)
+32 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:329561 disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/braces 51ms (cache hit)
+34 silly packumentCache corgi:https://registry.npmjs.org/braces set size:35919 disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/serve-static 49ms (cache hit)
+36 silly packumentCache corgi:https://registry.npmjs.org/serve-static set size:55328 disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/send 51ms (cache hit)
+38 silly packumentCache corgi:https://registry.npmjs.org/send set size:59867 disposed:false
+39 silly packumentCache corgi:https://registry.npmjs.org/@gulp-sourcemaps%2fidentity-map cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@gulp-sourcemaps%2fidentity-map 3ms (cache hit)
+41 silly packumentCache corgi:https://registry.npmjs.org/@gulp-sourcemaps%2fidentity-map set size:7353 disposed:false
+42 silly packumentCache corgi:https://registry.npmjs.org/localtunnel cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/localtunnel 3ms (cache hit)
+44 silly packumentCache corgi:https://registry.npmjs.org/localtunnel set size:25176 disposed:false
+45 silly packumentCache corgi:https://registry.npmjs.org/chokidar cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/chokidar 4ms (cache hit)
+47 silly packumentCache corgi:https://registry.npmjs.org/chokidar set size:116913 disposed:false
+48 silly packumentCache corgi:https://registry.npmjs.org/anymatch cache-miss
+49 silly packumentCache corgi:https://registry.npmjs.org/readdirp cache-miss
+50 silly packumentCache corgi:https://registry.npmjs.org/findup-sync cache-miss
+51 silly packumentCache corgi:https://registry.npmjs.org/matchdep cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/readdirp 10ms (cache hit)
+53 silly packumentCache corgi:https://registry.npmjs.org/readdirp set size:43370 disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/findup-sync 11ms (cache hit)
+55 silly packumentCache corgi:https://registry.npmjs.org/findup-sync set size:14006 disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/anymatch 12ms (cache hit)
+57 silly packumentCache corgi:https://registry.npmjs.org/anymatch set size:18345 disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/matchdep 12ms (cache hit)
+59 silly packumentCache corgi:https://registry.npmjs.org/matchdep set size:5568 disposed:false
+60 silly packumentCache corgi:https://registry.npmjs.org/gulp-header-comment cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/gulp-header-comment 4ms (cache hit)
+62 silly packumentCache corgi:https://registry.npmjs.org/gulp-header-comment set size:17095 disposed:false
+63 silly packumentCache corgi:https://registry.npmjs.org/browser-sync cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/browser-sync 7ms (cache hit)
+65 silly packumentCache corgi:https://registry.npmjs.org/browser-sync set size:521103 disposed:false
+66 silly packumentCache corgi:https://registry.npmjs.org/gulp-sourcemaps cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/gulp-sourcemaps 5ms (cache hit)
+68 silly packumentCache corgi:https://registry.npmjs.org/gulp-sourcemaps set size:59764 disposed:false
+69 silly packumentCache corgi:https://registry.npmjs.org/glob-watcher cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/glob-watcher 6ms (cache hit)
+71 silly packumentCache corgi:https://registry.npmjs.org/glob-watcher set size:20253 disposed:false
+72 silly packumentCache corgi:https://registry.npmjs.org/liftoff cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/liftoff 4ms (cache hit)
+74 silly packumentCache corgi:https://registry.npmjs.org/liftoff set size:44251 disposed:false
+75 silly packumentCache corgi:https://registry.npmjs.org/gulp-cli cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/gulp-cli 4ms (cache hit)
+77 silly packumentCache corgi:https://registry.npmjs.org/gulp-cli set size:27597 disposed:false
+78 silly packumentCache corgi:https://registry.npmjs.org/gulp cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/gulp 4ms (cache hit)
+80 silly packumentCache corgi:https://registry.npmjs.org/gulp set size:60484 disposed:false
+81 silly packumentCache corgi:https://registry.npmjs.org/gulp-autoprefixer cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/gulp-autoprefixer 3ms (cache hit)
+83 silly packumentCache corgi:https://registry.npmjs.org/gulp-autoprefixer set size:27518 disposed:false
+84 warn audit No fix available for gulp-header-comment@*
+85 warn audit Updating browser-sync to 3.0.3, which is a SemVer major change.
+86 warn audit Updating gulp-sourcemaps to 2.6.5, which is a SemVer major change.
+87 warn audit Updating gulp to 5.0.0, which is a SemVer major change.
+88 silly idealTree buildDeps
+89 silly fetch manifest browser-sync@3.0.3
+90 silly packumentCache full:https://registry.npmjs.org/browser-sync cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/browser-sync 51ms (cache hit)
+92 silly packumentCache full:https://registry.npmjs.org/browser-sync set size:916343 disposed:false
+93 silly fetch manifest gulp@5.0.0
+94 silly packumentCache full:https://registry.npmjs.org/gulp cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/gulp 85ms (cache hit)
+96 silly packumentCache full:https://registry.npmjs.org/gulp set size:153251 disposed:false
+97 silly fetch manifest gulp-header-comment@^0.10.0
+98 silly packumentCache full:https://registry.npmjs.org/gulp-header-comment cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/gulp-header-comment 4ms (cache hit)
+100 silly packumentCache full:https://registry.npmjs.org/gulp-header-comment set size:32466 disposed:false
+101 silly fetch manifest gulp-sourcemaps@2.6.5
+102 silly packumentCache full:https://registry.npmjs.org/gulp-sourcemaps cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/gulp-sourcemaps 4ms (cache hit)
+104 silly packumentCache full:https://registry.npmjs.org/gulp-sourcemaps set size:161504 disposed:false
+105 silly placeDep ROOT browser-sync@3.0.3 REPLACE for: aviato@1.1.0 want: 3.0.3
+106 silly placeDep ROOT gulp@5.0.0 REPLACE for: aviato@1.1.0 want: 5.0.0
+107 silly placeDep ROOT gulp-header-comment@0.10.0 KEEP for: aviato@1.1.0 want: ^0.10.0
+108 silly placeDep ROOT gulp-sourcemaps@2.6.5 REPLACE for: aviato@1.1.0 want: 2.6.5
+109 silly fetch manifest browser-sync-client@^3.0.3
+110 silly packumentCache full:https://registry.npmjs.org/browser-sync-client cache-miss
+111 silly fetch manifest browser-sync-ui@^3.0.3
+112 silly packumentCache full:https://registry.npmjs.org/browser-sync-ui cache-miss
+113 silly fetch manifest connect-history-api-fallback@^1
+114 silly packumentCache full:https://registry.npmjs.org/connect-history-api-fallback cache-miss
+115 silly fetch manifest etag@^1.8.1
+116 silly packumentCache full:https://registry.npmjs.org/etag cache-miss
+117 silly fetch manifest fresh@^0.5.2
+118 silly packumentCache full:https://registry.npmjs.org/fresh cache-miss
+119 silly fetch manifest immutable@^3
+120 silly packumentCache full:https://registry.npmjs.org/immutable cache-miss
+121 silly fetch manifest send@^0.19.0
+122 silly packumentCache full:https://registry.npmjs.org/send cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/connect-history-api-fallback 12ms (cache hit)
+124 silly packumentCache full:https://registry.npmjs.org/connect-history-api-fallback set size:30068 disposed:false
+125 silly fetch manifest serve-static@^1.16.2
+126 silly packumentCache full:https://registry.npmjs.org/serve-static cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/fresh 13ms (cache hit)
+128 silly packumentCache full:https://registry.npmjs.org/fresh set size:25367 disposed:false
+129 silly fetch manifest server-destroy@1.0.1
+130 silly packumentCache full:https://registry.npmjs.org/server-destroy cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/etag 15ms (cache hit)
+132 silly packumentCache full:https://registry.npmjs.org/etag set size:29972 disposed:false
+133 silly fetch manifest vinyl-fs@^4.0.0
+134 silly packumentCache full:https://registry.npmjs.org/vinyl-fs cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/immutable 17ms (cache hit)
+136 silly packumentCache full:https://registry.npmjs.org/immutable set size:222924 disposed:false
+137 silly fetch manifest undertaker@^2.0.0
+138 silly packumentCache full:https://registry.npmjs.org/undertaker cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/browser-sync-client 25ms (cache hit)
+140 silly packumentCache full:https://registry.npmjs.org/browser-sync-client set size:238376 disposed:false
+141 silly fetch manifest glob-watcher@^6.0.0
+142 silly packumentCache full:https://registry.npmjs.org/glob-watcher cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/browser-sync-ui 30ms (cache hit)
+144 silly packumentCache full:https://registry.npmjs.org/browser-sync-ui set size:288819 disposed:false
+145 silly fetch manifest @gulp-sourcemaps/identity-map@1.X
+146 silly packumentCache full:https://registry.npmjs.org/@gulp-sourcemaps%2fidentity-map cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/send 32ms (cache hit)
+148 silly packumentCache full:https://registry.npmjs.org/send set size:145447 disposed:false
+149 silly fetch manifest acorn@5.X
+150 silly packumentCache full:https://registry.npmjs.org/acorn cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/glob-watcher 20ms (cache hit)
+152 silly packumentCache full:https://registry.npmjs.org/glob-watcher set size:48955 disposed:false
+153 silly fetch manifest css@2.X
+154 silly packumentCache full:https://registry.npmjs.org/css cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/serve-static 38ms (cache hit)
+156 silly packumentCache full:https://registry.npmjs.org/serve-static set size:144171 disposed:false
+157 silly fetch manifest source-map@~0.6.0
+158 silly packumentCache full:https://registry.npmjs.org/source-map cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/server-destroy 40ms (cache hit)
+160 silly packumentCache full:https://registry.npmjs.org/server-destroy set size:3472 disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/@gulp-sourcemaps%2fidentity-map 22ms (cache hit)
+162 silly packumentCache full:https://registry.npmjs.org/@gulp-sourcemaps%2fidentity-map set size:16500 disposed:false
+163 http fetch GET 200 https://registry.npmjs.org/undertaker 35ms (cache hit)
+164 silly packumentCache full:https://registry.npmjs.org/undertaker set size:65911 disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/vinyl-fs 42ms (cache hit)
+166 silly packumentCache full:https://registry.npmjs.org/vinyl-fs set size:108878 disposed:false
+167 http fetch GET 200 https://registry.npmjs.org/acorn 26ms (cache hit)
+168 silly packumentCache full:https://registry.npmjs.org/acorn set size:372489 disposed:false
+169 http fetch GET 200 https://registry.npmjs.org/css 26ms (cache hit)
+170 silly packumentCache full:https://registry.npmjs.org/css set size:47997 disposed:false
+171 http fetch GET 200 https://registry.npmjs.org/source-map 23ms (cache hit)
+172 silly packumentCache full:https://registry.npmjs.org/source-map set size:243251 disposed:false
+173 silly placeDep ROOT browser-sync-client@3.0.3 OK for: browser-sync@3.0.3 want: ^3.0.3
+174 silly placeDep ROOT browser-sync-ui@3.0.3 OK for: browser-sync@3.0.3 want: ^3.0.3
+175 silly placeDep ROOT connect-history-api-fallback@1.6.0 OK for: browser-sync@3.0.3 want: ^1
+176 silly placeDep ROOT etag@1.8.1 OK for: browser-sync@3.0.3 want: ^1.8.1
+177 silly placeDep ROOT fresh@0.5.2 OK for: browser-sync@3.0.3 want: ^0.5.2
+178 silly placeDep ROOT immutable@3.8.2 OK for: browser-sync@3.0.3 want: ^3
+179 silly placeDep ROOT send@0.19.1 OK for: browser-sync@3.0.3 want: ^0.19.0
+180 silly placeDep ROOT serve-static@1.16.2 OK for: browser-sync@3.0.3 want: ^1.16.2
+181 silly placeDep ROOT server-destroy@1.0.1 OK for: browser-sync@3.0.3 want: 1.0.1
+182 silly fetch manifest etag@1.8.1
+183 silly packumentCache full:https://registry.npmjs.org/etag cache-hit
+184 silly fetch manifest fresh@0.5.2
+185 silly packumentCache full:https://registry.npmjs.org/fresh cache-hit
+186 silly fetch manifest mitt@^1.1.3
+187 silly packumentCache full:https://registry.npmjs.org/mitt cache-miss
+188 silly fetch manifest async-each-series@0.1.1
+189 silly packumentCache full:https://registry.npmjs.org/async-each-series cache-miss
+190 silly fetch manifest socket.io-client@^4.4.1
+191 silly packumentCache full:https://registry.npmjs.org/socket.io-client cache-miss
+192 silly fetch manifest stream-throttle@^0.1.3
+193 silly packumentCache full:https://registry.npmjs.org/stream-throttle cache-miss
+194 silly fetch manifest ms@2.1.3
+195 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+196 silly fetch manifest mime@1.6.0
+197 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+198 silly fetch manifest destroy@1.2.0
+199 silly packumentCache full:https://registry.npmjs.org/destroy cache-miss
+200 http fetch GET 200 https://registry.npmjs.org/mitt 13ms (cache hit)
+201 silly packumentCache full:https://registry.npmjs.org/mitt set size:61450 disposed:false
+202 silly fetch manifest statuses@2.0.1
+203 silly packumentCache full:https://registry.npmjs.org/statuses cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/stream-throttle 15ms (cache hit)
+205 silly packumentCache full:https://registry.npmjs.org/stream-throttle set size:8103 disposed:false
+206 silly fetch manifest encodeurl@~2.0.0
+207 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/destroy 15ms (cache hit)
+209 silly packumentCache full:https://registry.npmjs.org/destroy set size:15683 disposed:false
+210 silly fetch manifest on-finished@2.4.1
+211 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+212 http fetch GET 200 https://registry.npmjs.org/socket.io-client 20ms (cache hit)
+213 silly packumentCache full:https://registry.npmjs.org/socket.io-client set size:399636 disposed:false
+214 silly fetch manifest range-parser@~1.2.1
+215 silly packumentCache full:https://registry.npmjs.org/range-parser cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/mime 24ms (cache hit)
+217 silly packumentCache full:https://registry.npmjs.org/mime set size:119814 disposed:false
+218 silly fetch manifest encodeurl@~2.0.0
+219 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/async-each-series 32ms (cache hit)
+221 silly packumentCache full:https://registry.npmjs.org/async-each-series set size:9710 disposed:false
+222 silly fetch manifest send@0.19.0
+223 silly packumentCache full:https://registry.npmjs.org/send cache-hit
+224 http fetch GET 200 https://registry.npmjs.org/ms 30ms (cache hit)
+225 silly packumentCache full:https://registry.npmjs.org/ms set size:84885 disposed:false
+226 http fetch GET 200 https://registry.npmjs.org/encodeurl 24ms (cache hit)
+227 silly packumentCache full:https://registry.npmjs.org/encodeurl set size:12296 disposed:false
+228 http fetch GET 200 https://registry.npmjs.org/on-finished 23ms (cache hit)
+229 silly packumentCache full:https://registry.npmjs.org/on-finished set size:23152 disposed:false
+230 http fetch GET 200 https://registry.npmjs.org/statuses 28ms (cache hit)
+231 silly packumentCache full:https://registry.npmjs.org/statuses set size:34272 disposed:false
+232 http fetch GET 200 https://registry.npmjs.org/range-parser 18ms (cache hit)
+233 silly packumentCache full:https://registry.npmjs.org/range-parser set size:22168 disposed:false
+234 http fetch GET 200 https://registry.npmjs.org/encodeurl 15ms (cache hit)
+235 silly packumentCache full:https://registry.npmjs.org/encodeurl set size:12296 disposed:false
+236 silly packumentCache full:https://registry.npmjs.org/encodeurl dispose
+237 silly placeDep ROOT mitt@1.2.0 OK for: browser-sync-client@3.0.3 want: ^1.1.3
+238 silly placeDep ROOT async-each-series@0.1.1 OK for: browser-sync-ui@3.0.3 want: 0.1.1
+239 silly placeDep ROOT socket.io-client@4.8.0 OK for: browser-sync-ui@3.0.3 want: ^4.4.1
+240 silly placeDep ROOT stream-throttle@0.1.3 OK for: browser-sync-ui@3.0.3 want: ^0.1.3
+241 silly fetch manifest debug@~4.3.2
+242 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+243 silly fetch manifest engine.io-client@~6.6.1
+244 silly packumentCache full:https://registry.npmjs.org/engine.io-client cache-miss
+245 silly fetch manifest commander@^2.2.0
+246 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+247 silly fetch manifest limiter@^1.0.5
+248 silly packumentCache full:https://registry.npmjs.org/limiter cache-miss
+249 http fetch GET 200 https://registry.npmjs.org/limiter 6ms (cache hit)
+250 silly packumentCache full:https://registry.npmjs.org/limiter set size:37160 disposed:false
+251 http fetch GET 200 https://registry.npmjs.org/commander 9ms (cache hit)
+252 silly packumentCache full:https://registry.npmjs.org/commander set size:942287 disposed:false
+253 http fetch GET 200 https://registry.npmjs.org/debug 20ms (cache hit)
+254 silly packumentCache full:https://registry.npmjs.org/debug set size:188929 disposed:false
+255 http fetch GET 200 https://registry.npmjs.org/engine.io-client 24ms (cache hit)
+256 silly packumentCache full:https://registry.npmjs.org/engine.io-client set size:451684 disposed:false
+257 silly placeDep ROOT glob-watcher@6.0.0 OK for: gulp@5.0.0 want: ^6.0.0
+258 silly placeDep ROOT undertaker@2.0.0 OK for: gulp@5.0.0 want: ^2.0.0
+259 silly placeDep ROOT vinyl-fs@4.0.0 OK for: gulp@5.0.0 want: ^4.0.0
+260 silly fetch manifest async-done@^2.0.0
+261 silly packumentCache full:https://registry.npmjs.org/async-done cache-miss
+262 silly fetch manifest bach@^2.0.1
+263 silly packumentCache full:https://registry.npmjs.org/bach cache-miss
+264 silly fetch manifest fast-levenshtein@^3.0.0
+265 silly packumentCache full:https://registry.npmjs.org/fast-levenshtein cache-miss
+266 silly fetch manifest last-run@^2.0.0
+267 silly packumentCache full:https://registry.npmjs.org/last-run cache-miss
+268 silly fetch manifest undertaker-registry@^2.0.0
+269 silly packumentCache full:https://registry.npmjs.org/undertaker-registry cache-miss
+270 silly fetch manifest fs-mkdirp-stream@^2.0.1
+271 silly packumentCache full:https://registry.npmjs.org/fs-mkdirp-stream cache-miss
+272 silly fetch manifest glob-stream@^8.0.0
+273 silly packumentCache full:https://registry.npmjs.org/glob-stream cache-miss
+274 http fetch GET 200 https://registry.npmjs.org/async-done 15ms (cache hit)
+275 silly packumentCache full:https://registry.npmjs.org/async-done set size:44399 disposed:false
+276 silly fetch manifest iconv-lite@^0.6.3
+277 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+278 http fetch GET 200 https://registry.npmjs.org/fs-mkdirp-stream 15ms (cache hit)
+279 silly packumentCache full:https://registry.npmjs.org/fs-mkdirp-stream set size:12637 disposed:false
+280 silly fetch manifest is-valid-glob@^1.0.0
+281 silly packumentCache full:https://registry.npmjs.org/is-valid-glob cache-miss
+282 http fetch GET 200 https://registry.npmjs.org/undertaker-registry 17ms (cache hit)
+283 silly packumentCache full:https://registry.npmjs.org/undertaker-registry set size:20946 disposed:false
+284 silly fetch manifest lead@^4.0.0
+285 silly packumentCache full:https://registry.npmjs.org/lead cache-miss
+286 http fetch GET 200 https://registry.npmjs.org/bach 20ms (cache hit)
+287 silly packumentCache full:https://registry.npmjs.org/bach set size:40472 disposed:false
+288 silly fetch manifest resolve-options@^2.0.0
+289 silly packumentCache full:https://registry.npmjs.org/resolve-options cache-miss
+290 http fetch GET 200 https://registry.npmjs.org/last-run 21ms (cache hit)
+291 silly packumentCache full:https://registry.npmjs.org/last-run set size:16209 disposed:false
+292 silly fetch manifest stream-composer@^1.0.2
+293 silly packumentCache full:https://registry.npmjs.org/stream-composer cache-miss
+294 http fetch GET 200 https://registry.npmjs.org/glob-stream 20ms (cache hit)
+295 silly packumentCache full:https://registry.npmjs.org/glob-stream set size:93558 disposed:false
+296 silly fetch manifest streamx@^2.14.0
+297 silly packumentCache full:https://registry.npmjs.org/streamx cache-miss
+298 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein 30ms (cache hit)
+299 silly packumentCache full:https://registry.npmjs.org/fast-levenshtein set size:39336 disposed:false
+300 silly fetch manifest to-through@^3.0.0
+301 silly packumentCache full:https://registry.npmjs.org/to-through cache-miss
+302 http fetch GET 200 https://registry.npmjs.org/iconv-lite 27ms (cache hit)
+303 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:115994 disposed:false
+304 silly fetch manifest value-or-function@^4.0.0
+305 silly packumentCache full:https://registry.npmjs.org/value-or-function cache-miss
+306 http fetch GET 200 https://registry.npmjs.org/resolve-options 24ms (cache hit)
+307 silly packumentCache full:https://registry.npmjs.org/resolve-options set size:12542 disposed:false
+308 silly fetch manifest vinyl@^3.0.0
+309 silly packumentCache full:https://registry.npmjs.org/vinyl cache-miss
+310 http fetch GET 200 https://registry.npmjs.org/lead 27ms (cache hit)
+311 silly packumentCache full:https://registry.npmjs.org/lead set size:13908 disposed:false
+312 silly fetch manifest vinyl-sourcemap@^2.0.0
+313 silly packumentCache full:https://registry.npmjs.org/vinyl-sourcemap cache-miss
+314 http fetch GET 200 https://registry.npmjs.org/is-valid-glob 30ms (cache hit)
+315 silly packumentCache full:https://registry.npmjs.org/is-valid-glob set size:12696 disposed:false
+316 http fetch GET 200 https://registry.npmjs.org/to-through 17ms (cache hit)
+317 silly packumentCache full:https://registry.npmjs.org/to-through set size:12579 disposed:false
+318 http fetch GET 200 https://registry.npmjs.org/value-or-function 9ms (cache hit)
+319 silly packumentCache full:https://registry.npmjs.org/value-or-function set size:21890 disposed:false
+320 http fetch GET 200 https://registry.npmjs.org/vinyl 8ms (cache hit)
+321 silly packumentCache full:https://registry.npmjs.org/vinyl set size:72659 disposed:false
+322 http fetch GET 200 https://registry.npmjs.org/vinyl-sourcemap 8ms (cache hit)
+323 silly packumentCache full:https://registry.npmjs.org/vinyl-sourcemap set size:23749 disposed:false
+324 http fetch GET 200 https://registry.npmjs.org/stream-composer 83ms (cache miss)
+325 silly packumentCache full:https://registry.npmjs.org/stream-composer set size:undefined disposed:false
+326 http fetch GET 200 https://registry.npmjs.org/streamx 210ms (cache miss)
+327 silly packumentCache full:https://registry.npmjs.org/streamx set size:undefined disposed:false
+328 silly placeDep ROOT async-done@2.0.0 OK for: glob-watcher@6.0.0 want: ^2.0.0
+329 silly fetch manifest end-of-stream@^1.4.4
+330 silly packumentCache full:https://registry.npmjs.org/end-of-stream cache-miss
+331 silly fetch manifest stream-exhaust@^1.0.2
+332 silly packumentCache full:https://registry.npmjs.org/stream-exhaust cache-miss
+333 http fetch GET 200 https://registry.npmjs.org/end-of-stream 8ms (cache hit)
+334 silly packumentCache full:https://registry.npmjs.org/end-of-stream set size:26267 disposed:false
+335 http fetch GET 200 https://registry.npmjs.org/stream-exhaust 9ms (cache hit)
+336 silly packumentCache full:https://registry.npmjs.org/stream-exhaust set size:5964 disposed:false
+337 silly placeDep ROOT end-of-stream@1.4.4 OK for: async-done@2.0.0 want: ^1.4.4
+338 silly placeDep ROOT stream-exhaust@1.0.2 OK for: async-done@2.0.0 want: ^1.0.2
+339 silly fetch manifest moment@2.29.1
+340 silly packumentCache full:https://registry.npmjs.org/moment cache-miss
+341 http fetch GET 200 https://registry.npmjs.org/moment 4ms (cache hit)
+342 silly packumentCache full:https://registry.npmjs.org/moment set size:241555 disposed:false
+343 silly placeDep ROOT moment@2.29.1 KEEP for: gulp-header-comment@0.10.0 want: 2.29.1
+344 silly placeDep ROOT @gulp-sourcemaps/identity-map@1.0.2 OK for: gulp-sourcemaps@2.6.5 want: 1.X
+345 silly placeDep ROOT acorn@5.7.4 OK for: gulp-sourcemaps@2.6.5 want: 5.X
+346 silly placeDep ROOT css@2.2.4 OK for: gulp-sourcemaps@2.6.5 want: 2.X
+347 silly placeDep ROOT source-map@0.6.1 OK for: gulp-sourcemaps@2.6.5 want: ~0.6.0
+348 silly fetch manifest acorn@^5.0.3
+349 silly packumentCache full:https://registry.npmjs.org/acorn cache-hit
+350 silly fetch manifest css@^2.2.1
+351 silly packumentCache full:https://registry.npmjs.org/css cache-hit
+352 silly fetch manifest normalize-path@^2.1.1
+353 silly packumentCache full:https://registry.npmjs.org/normalize-path cache-miss
+354 silly fetch manifest source-map@^0.6.0
+355 silly packumentCache full:https://registry.npmjs.org/source-map cache-hit
+356 silly fetch manifest through2@^2.0.3
+357 silly packumentCache full:https://registry.npmjs.org/through2 cache-miss
+358 silly fetch manifest source-map@^0.6.1
+359 silly packumentCache full:https://registry.npmjs.org/source-map cache-hit
+360 silly fetch manifest source-map-resolve@^0.5.2
+361 silly packumentCache full:https://registry.npmjs.org/source-map-resolve cache-miss
+362 silly fetch manifest urix@^0.1.0
+363 silly packumentCache full:https://registry.npmjs.org/urix cache-miss
+364 http fetch GET 200 https://registry.npmjs.org/normalize-path 11ms (cache hit)
+365 silly packumentCache full:https://registry.npmjs.org/normalize-path set size:28713 disposed:false
+366 http fetch GET 200 https://registry.npmjs.org/through2 11ms (cache hit)
+367 silly packumentCache full:https://registry.npmjs.org/through2 set size:74174 disposed:false
+368 http fetch GET 200 https://registry.npmjs.org/source-map-resolve 12ms (cache hit)
+369 silly packumentCache full:https://registry.npmjs.org/source-map-resolve set size:39406 disposed:false
+370 http fetch GET 200 https://registry.npmjs.org/urix 9ms (cache hit)
+371 silly packumentCache full:https://registry.npmjs.org/urix set size:2824 disposed:false
+372 silly placeDep node_modules/@gulp-sourcemaps/identity-map normalize-path@2.1.1 OK for: @gulp-sourcemaps/identity-map@1.0.2 want: ^2.1.1
+373 silly placeDep node_modules/@gulp-sourcemaps/identity-map through2@2.0.5 OK for: @gulp-sourcemaps/identity-map@1.0.2 want: ^2.0.3
+374 silly fetch manifest readable-stream@~2.3.6
+375 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+376 http fetch GET 200 https://registry.npmjs.org/readable-stream 6ms (cache hit)
+377 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:272167 disposed:false
+378 silly placeDep ROOT source-map-resolve@0.5.3 OK for: css@2.2.4 want: ^0.5.2
+379 silly placeDep ROOT urix@0.1.0 OK for: css@2.2.4 want: ^0.1.0
+380 silly fetch manifest atob@^2.1.2
+381 silly packumentCache full:https://registry.npmjs.org/atob cache-miss
+382 silly fetch manifest decode-uri-component@^0.2.0
+383 silly packumentCache full:https://registry.npmjs.org/decode-uri-component cache-miss
+384 silly fetch manifest resolve-url@^0.2.1
+385 silly packumentCache full:https://registry.npmjs.org/resolve-url cache-miss
+386 silly fetch manifest source-map-url@^0.4.0
+387 silly packumentCache full:https://registry.npmjs.org/source-map-url cache-miss
+388 http fetch GET 200 https://registry.npmjs.org/atob 7ms (cache hit)
+389 silly packumentCache full:https://registry.npmjs.org/atob set size:18312 disposed:false
+390 http fetch GET 200 https://registry.npmjs.org/decode-uri-component 8ms (cache hit)
+391 silly packumentCache full:https://registry.npmjs.org/decode-uri-component set size:20325 disposed:false
+392 http fetch GET 200 https://registry.npmjs.org/source-map-url 7ms (cache hit)
+393 silly packumentCache full:https://registry.npmjs.org/source-map-url set size:12423 disposed:false
+394 http fetch GET 200 https://registry.npmjs.org/resolve-url 8ms (cache hit)
+395 silly packumentCache full:https://registry.npmjs.org/resolve-url set size:7770 disposed:false
+396 silly placeDep ROOT destroy@1.2.0 OK for: send@0.19.1 want: 1.2.0
+397 silly placeDep node_modules/send encodeurl@2.0.0 OK for: send@0.19.1 want: ~2.0.0
+398 silly placeDep ROOT mime@1.6.0 OK for: send@0.19.1 want: 1.6.0
+399 silly placeDep node_modules/send ms@2.1.3 OK for: send@0.19.1 want: 2.1.3
+400 silly placeDep node_modules/send on-finished@2.4.1 OK for: send@0.19.1 want: 2.4.1
+401 silly placeDep ROOT range-parser@1.2.1 OK for: send@0.19.1 want: ~1.2.1
+402 silly placeDep node_modules/send statuses@2.0.1 OK for: send@0.19.1 want: 2.0.1
+403 silly placeDep node_modules/serve-static encodeurl@2.0.0 OK for: serve-static@1.16.2 want: ~2.0.0
+404 silly placeDep node_modules/serve-static send@0.19.0 OK for: serve-static@1.16.2 want: 0.19.0
+405 silly fetch manifest encodeurl@~1.0.2
+406 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-hit
+407 silly placeDep node_modules/socket.io-client debug@4.3.7 OK for: socket.io-client@4.8.0 want: ~4.3.2
+408 silly placeDep ROOT engine.io-client@6.6.1 OK for: socket.io-client@4.8.0 want: ~6.6.1
+409 silly fetch manifest ms@^2.1.3
+410 silly packumentCache full:https://registry.npmjs.org/ms cache-hit
+411 silly fetch manifest debug@~4.3.1
+412 silly packumentCache full:https://registry.npmjs.org/debug cache-hit
+413 silly fetch manifest xmlhttprequest-ssl@~2.1.1
+414 silly packumentCache full:https://registry.npmjs.org/xmlhttprequest-ssl cache-miss
+415 http fetch GET 200 https://registry.npmjs.org/xmlhttprequest-ssl 3ms (cache hit)
+416 silly packumentCache full:https://registry.npmjs.org/xmlhttprequest-ssl set size:30217 disposed:false
+417 silly placeDep node_modules/engine.io-client debug@4.3.7 OK for: engine.io-client@6.6.1 want: ~4.3.1
+418 silly placeDep ROOT xmlhttprequest-ssl@2.1.1 OK for: engine.io-client@6.6.1 want: ~2.1.1
+419 silly placeDep ROOT atob@2.1.2 OK for: source-map-resolve@0.5.3 want: ^2.1.2
+420 silly placeDep ROOT decode-uri-component@0.2.2 OK for: source-map-resolve@0.5.3 want: ^0.2.0
+421 silly placeDep ROOT resolve-url@0.2.1 OK for: source-map-resolve@0.5.3 want: ^0.2.1
+422 silly placeDep ROOT source-map-url@0.4.1 OK for: source-map-resolve@0.5.3 want: ^0.4.0
+423 silly placeDep ROOT commander@2.20.3 OK for: stream-throttle@0.1.3 want: ^2.2.0
+424 silly placeDep ROOT limiter@1.1.5 OK for: stream-throttle@0.1.3 want: ^1.0.5
+425 silly placeDep ROOT bach@2.0.1 OK for: undertaker@2.0.0 want: ^2.0.1
+426 silly placeDep ROOT fast-levenshtein@3.0.0 OK for: undertaker@2.0.0 want: ^3.0.0
+427 silly placeDep ROOT last-run@2.0.0 OK for: undertaker@2.0.0 want: ^2.0.0
+428 silly placeDep ROOT undertaker-registry@2.0.0 OK for: undertaker@2.0.0 want: ^2.0.0
+429 silly fetch manifest async-settle@^2.0.0
+430 silly packumentCache full:https://registry.npmjs.org/async-settle cache-miss
+431 silly fetch manifest now-and-later@^3.0.0
+432 silly packumentCache full:https://registry.npmjs.org/now-and-later cache-miss
+433 silly fetch manifest fastest-levenshtein@^1.0.7
+434 silly packumentCache full:https://registry.npmjs.org/fastest-levenshtein cache-miss
+435 http fetch GET 200 https://registry.npmjs.org/async-settle 8ms (cache hit)
+436 silly packumentCache full:https://registry.npmjs.org/async-settle set size:15401 disposed:false
+437 http fetch GET 200 https://registry.npmjs.org/now-and-later 8ms (cache hit)
+438 silly packumentCache full:https://registry.npmjs.org/now-and-later set size:30861 disposed:false
+439 http fetch GET 200 https://registry.npmjs.org/fastest-levenshtein 72ms (cache miss)
+440 silly packumentCache full:https://registry.npmjs.org/fastest-levenshtein set size:undefined disposed:false
+441 silly placeDep ROOT async-settle@2.0.0 OK for: bach@2.0.1 want: ^2.0.0
+442 silly placeDep ROOT now-and-later@3.0.0 OK for: bach@2.0.1 want: ^3.0.0
+443 silly placeDep ROOT fastest-levenshtein@1.0.16 OK for: fast-levenshtein@3.0.0 want: ^1.0.7
+444 silly placeDep ROOT fs-mkdirp-stream@2.0.1 OK for: vinyl-fs@4.0.0 want: ^2.0.1
+445 silly placeDep ROOT glob-stream@8.0.2 OK for: vinyl-fs@4.0.0 want: ^8.0.0
+446 silly placeDep node_modules/vinyl-fs iconv-lite@0.6.3 OK for: vinyl-fs@4.0.0 want: ^0.6.3
+447 silly placeDep ROOT is-valid-glob@1.0.0 OK for: vinyl-fs@4.0.0 want: ^1.0.0
+448 silly placeDep ROOT lead@4.0.0 OK for: vinyl-fs@4.0.0 want: ^4.0.0
+449 silly placeDep ROOT resolve-options@2.0.0 OK for: vinyl-fs@4.0.0 want: ^2.0.0
+450 silly placeDep ROOT stream-composer@1.0.2 OK for: vinyl-fs@4.0.0 want: ^1.0.2
+451 silly placeDep ROOT streamx@2.20.1 OK for: vinyl-fs@4.0.0 want: ^2.14.0
+452 silly placeDep ROOT to-through@3.0.0 OK for: vinyl-fs@4.0.0 want: ^3.0.0
+453 silly placeDep ROOT value-or-function@4.0.0 OK for: vinyl-fs@4.0.0 want: ^4.0.0
+454 silly placeDep node_modules/vinyl-fs vinyl@3.0.0 OK for: vinyl-fs@4.0.0 want: ^3.0.0
+455 silly placeDep ROOT vinyl-sourcemap@2.0.0 OK for: vinyl-fs@4.0.0 want: ^2.0.0
+456 silly fetch manifest streamx@^2.12.0
+457 silly packumentCache full:https://registry.npmjs.org/streamx cache-miss
+458 silly fetch manifest @gulpjs/to-absolute-glob@^4.0.0
+459 silly packumentCache full:https://registry.npmjs.org/@gulpjs%2fto-absolute-glob cache-miss
+460 silly fetch manifest fastq@^1.13.0
+461 silly packumentCache full:https://registry.npmjs.org/fastq cache-miss
+462 silly fetch manifest glob-parent@^6.0.2
+463 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-miss
+464 silly fetch manifest is-negated-glob@^1.0.0
+465 silly packumentCache full:https://registry.npmjs.org/is-negated-glob cache-miss
+466 silly fetch manifest streamx@^2.12.5
+467 silly packumentCache full:https://registry.npmjs.org/streamx cache-miss
+468 silly fetch manifest streamx@^2.13.2
+469 silly packumentCache full:https://registry.npmjs.org/streamx cache-miss
+470 http fetch GET 200 https://registry.npmjs.org/glob-parent 12ms (cache hit)
+471 silly packumentCache full:https://registry.npmjs.org/glob-parent set size:42445 disposed:false
+472 silly fetch manifest fast-fifo@^1.3.2
+473 silly packumentCache full:https://registry.npmjs.org/fast-fifo cache-miss
+474 http fetch GET 200 https://registry.npmjs.org/streamx 13ms (cache hit)
+475 silly packumentCache full:https://registry.npmjs.org/streamx set size:146891 disposed:false
+476 silly fetch manifest queue-tick@^1.0.1
+477 silly packumentCache full:https://registry.npmjs.org/queue-tick cache-miss
+478 http fetch GET 200 https://registry.npmjs.org/streamx 23ms (cache hit)
+479 silly packumentCache full:https://registry.npmjs.org/streamx set size:146891 disposed:false
+480 silly packumentCache full:https://registry.npmjs.org/streamx dispose
+481 silly fetch manifest text-decoder@^1.1.0
+482 silly packumentCache full:https://registry.npmjs.org/text-decoder cache-miss
+483 http fetch GET 200 https://registry.npmjs.org/streamx 32ms (cache hit)
+484 silly packumentCache full:https://registry.npmjs.org/streamx set size:146891 disposed:true
+485 silly packumentCache full:https://registry.npmjs.org/streamx dispose
+486 silly fetch manifest bare-events@^2.2.0
+487 silly packumentCache full:https://registry.npmjs.org/bare-events cache-miss
+488 http fetch GET 200 https://registry.npmjs.org/is-negated-glob 34ms (cache hit)
+489 silly packumentCache full:https://registry.npmjs.org/is-negated-glob set size:8300 disposed:false
+490 silly fetch manifest teex@^1.0.1
+491 silly packumentCache full:https://registry.npmjs.org/teex cache-miss
+492 http fetch GET 200 https://registry.npmjs.org/fastq 60ms (cache miss)
+493 silly packumentCache full:https://registry.npmjs.org/fastq set size:undefined disposed:false
+494 silly fetch manifest convert-source-map@^2.0.0
+495 silly packumentCache full:https://registry.npmjs.org/convert-source-map cache-miss
+496 http fetch GET 200 https://registry.npmjs.org/convert-source-map 3ms (cache hit)
+497 silly packumentCache full:https://registry.npmjs.org/convert-source-map set size:66997 disposed:false
+498 silly fetch manifest vinyl-contents@^2.0.0
+499 silly packumentCache full:https://registry.npmjs.org/vinyl-contents cache-miss
+500 http fetch GET 200 https://registry.npmjs.org/@gulpjs%2fto-absolute-glob 152ms (cache miss)
+501 silly packumentCache full:https://registry.npmjs.org/@gulpjs%2fto-absolute-glob set size:undefined disposed:false
+502 http fetch GET 200 https://registry.npmjs.org/vinyl-contents 129ms (cache miss)
+503 silly packumentCache full:https://registry.npmjs.org/vinyl-contents set size:undefined disposed:false
+504 http fetch GET 200 https://registry.npmjs.org/queue-tick 277ms (cache miss)
+505 silly packumentCache full:https://registry.npmjs.org/queue-tick set size:undefined disposed:false
+506 http fetch GET 200 https://registry.npmjs.org/fast-fifo 280ms (cache miss)
+507 silly packumentCache full:https://registry.npmjs.org/fast-fifo set size:undefined disposed:false
+508 http fetch GET 200 https://registry.npmjs.org/text-decoder 270ms (cache miss)
+509 silly packumentCache full:https://registry.npmjs.org/text-decoder set size:undefined disposed:false
+510 http fetch GET 200 https://registry.npmjs.org/bare-events 264ms (cache miss)
+511 silly packumentCache full:https://registry.npmjs.org/bare-events set size:undefined disposed:false
+512 http fetch GET 200 https://registry.npmjs.org/teex 291ms (cache miss)
+513 silly packumentCache full:https://registry.npmjs.org/teex set size:undefined disposed:false
+514 silly placeDep ROOT @gulpjs/to-absolute-glob@4.0.0 OK for: glob-stream@8.0.2 want: ^4.0.0
+515 silly placeDep ROOT fastq@1.17.1 OK for: glob-stream@8.0.2 want: ^1.13.0
+516 silly placeDep node_modules/glob-stream glob-parent@6.0.2 OK for: glob-stream@8.0.2 want: ^6.0.2
+517 silly placeDep ROOT is-negated-glob@1.0.0 OK for: glob-stream@8.0.2 want: ^1.0.0
+518 silly fetch manifest reusify@^1.0.4
+519 silly packumentCache full:https://registry.npmjs.org/reusify cache-miss
+520 http fetch GET 200 https://registry.npmjs.org/reusify 54ms (cache miss)
+521 silly packumentCache full:https://registry.npmjs.org/reusify set size:undefined disposed:false
+522 silly placeDep ROOT reusify@1.0.4 OK for: fastq@1.17.1 want: ^1.0.4
+523 silly placeDep ROOT bare-events@2.5.0 OK for: streamx@2.20.1 want: ^2.2.0
+524 silly placeDep ROOT fast-fifo@1.3.2 OK for: streamx@2.20.1 want: ^1.3.2
+525 silly placeDep ROOT queue-tick@1.0.1 OK for: streamx@2.20.1 want: ^1.0.1
+526 silly placeDep ROOT text-decoder@1.2.1 OK for: streamx@2.20.1 want: ^1.1.0
+527 silly placeDep node_modules/vinyl-sourcemap convert-source-map@2.0.0 OK for: vinyl-sourcemap@2.0.0 want: ^2.0.0
+528 silly placeDep node_modules/vinyl-sourcemap vinyl@3.0.0 OK for: vinyl-sourcemap@2.0.0 want: ^3.0.0
+529 silly placeDep ROOT vinyl-contents@2.0.0 OK for: vinyl-sourcemap@2.0.0 want: ^2.0.0
+530 silly fetch manifest bl@^5.0.0
+531 silly packumentCache full:https://registry.npmjs.org/bl cache-miss
+532 http fetch GET 200 https://registry.npmjs.org/bl 63ms (cache miss)
+533 silly packumentCache full:https://registry.npmjs.org/bl set size:undefined disposed:false
+534 silly placeDep ROOT bl@5.1.0 OK for: vinyl-contents@2.0.0 want: ^5.0.0
+535 silly placeDep node_modules/vinyl-contents vinyl@3.0.0 OK for: vinyl-contents@2.0.0 want: ^3.0.0
+536 silly fetch manifest buffer@^6.0.3
+537 silly packumentCache full:https://registry.npmjs.org/buffer cache-miss
+538 http fetch GET 200 https://registry.npmjs.org/buffer 74ms (cache miss)
+539 silly packumentCache full:https://registry.npmjs.org/buffer set size:undefined disposed:false
+540 silly placeDep ROOT buffer@6.0.3 OK for: bl@5.1.0 want: ^6.0.3
+541 silly fetch manifest base64-js@^1.3.1
+542 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+543 silly fetch manifest ieee754@^1.2.1
+544 silly packumentCache full:https://registry.npmjs.org/ieee754 cache-miss
+545 http fetch GET 200 https://registry.npmjs.org/ieee754 49ms (cache miss)
+546 silly packumentCache full:https://registry.npmjs.org/ieee754 set size:undefined disposed:false
+547 http fetch GET 200 https://registry.npmjs.org/base64-js 51ms (cache miss)
+548 silly packumentCache full:https://registry.npmjs.org/base64-js set size:undefined disposed:false
+549 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@6.0.3 want: ^1.3.1
+550 silly placeDep ROOT ieee754@1.2.1 OK for: buffer@6.0.3 want: ^1.2.1
+551 silly placeDep node_modules/@gulp-sourcemaps/identity-map readable-stream@2.3.8 OK for: through2@2.0.5 want: ~2.3.6
+552 silly fetch manifest safe-buffer@~5.1.1
+553 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+554 silly fetch manifest string_decoder@~1.1.1
+555 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+556 http fetch GET 200 https://registry.npmjs.org/safe-buffer 7ms (cache hit)
+557 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+558 http fetch GET 200 https://registry.npmjs.org/string_decoder 8ms (cache hit)
+559 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+560 silly placeDep node_modules/@gulp-sourcemaps/identity-map safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+561 silly placeDep node_modules/@gulp-sourcemaps/identity-map string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+562 silly placeDep node_modules/engine.io-client ms@2.1.3 OK for: debug@4.3.7 want: ^2.1.3
+563 silly placeDep node_modules/serve-static/node_modules/send encodeurl@1.0.2 OK for: send@0.19.0 want: ~1.0.2
+564 silly placeDep node_modules/serve-static ms@2.1.3 OK for: send@0.19.0 want: 2.1.3
+565 silly placeDep node_modules/serve-static on-finished@2.4.1 OK for: send@0.19.0 want: 2.4.1
+566 silly placeDep node_modules/serve-static statuses@2.0.1 OK for: send@0.19.0 want: 2.0.1
+567 silly placeDep node_modules/socket.io-client ms@2.1.3 OK for: debug@4.3.7 want: ^2.1.3
+568 silly placeDep ROOT teex@1.0.1 OK for: vinyl@3.0.0 want: ^1.0.1
+569 silly reify mark retired [
+569 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@gulp-sourcemaps/identity-map'
+569 silly reify ]
+570 silly reify mark retired [
+570 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/acorn',
+570 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/acorn'
+570 silly reify ]
+571 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/append-buffer' ]
+572 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/archy' ]
+573 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/arr-filter' ]
+574 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/arr-flatten' ]
+575 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/arr-map' ]
+576 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/array-initial' ]
+577 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/array-last' ]
+578 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/array-sort' ]
+579 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/array-unique' ]
+580 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/async-done' ]
+581 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/async-each' ]
+582 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/async-settle' ]
+583 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/axios' ]
+584 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/bach' ]
+585 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/base' ]
+586 silly reify mark retired [
+586 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/browser-sync',
+586 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/browser-sync'
+586 silly reify ]
+587 silly reify mark retired [
+587 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/browser-sync-client'
+587 silly reify ]
+588 silly reify mark retired [
+588 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/browser-sync-ui'
+588 silly reify ]
+589 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/buffer-equal' ]
+590 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/cache-base' ]
+591 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/call-bind' ]
+592 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/camelcase' ]
+593 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/class-utils' ]
+594 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/code-point-at' ]
+595 silly reify mark retired [
+595 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/collection-map'
+595 silly reify ]
+596 silly reify mark retired [
+596 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/collection-visit'
+596 silly reify ]
+597 silly reify mark retired [
+597 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/component-emitter'
+597 silly reify ]
+598 silly reify mark retired [
+598 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/copy-descriptor'
+598 silly reify ]
+599 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/css' ]
+600 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/decamelize' ]
+601 silly reify mark retired [
+601 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/default-compare'
+601 silly reify ]
+602 silly reify mark retired [
+602 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/default-resolution'
+602 silly reify ]
+603 silly reify mark retired [
+603 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/define-data-property'
+603 silly reify ]
+604 silly reify mark retired [
+604 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/define-properties'
+604 silly reify ]
+605 silly reify mark retired [
+605 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/define-property'
+605 silly reify ]
+606 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/destroy' ]
+607 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/duplexify' ]
+608 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/error-ex' ]
+609 silly reify mark retired [
+609 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/es-define-property'
+609 silly reify ]
+610 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/es-errors' ]
+611 silly reify mark retired [
+611 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/expand-brackets'
+611 silly reify ]
+612 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/extglob' ]
+613 silly reify mark retired [
+613 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/fast-levenshtein'
+613 silly reify ]
+614 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/find-up' ]
+615 silly reify mark retired [
+615 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/flush-write-stream'
+615 silly reify ]
+616 silly reify mark retired [
+616 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/fragment-cache'
+616 silly reify ]
+617 silly reify mark retired [
+617 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/fs-mkdirp-stream'
+617 silly reify ]
+618 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/get-intrinsic' ]
+619 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/get-value' ]
+620 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/glob-stream' ]
+621 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/glob-watcher' ]
+622 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/gopd' ]
+623 silly reify mark retired [
+623 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/gulp',
+623 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/gulp'
+623 silly reify ]
+624 silly reify mark retired [
+624 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/gulp-sourcemaps'
+624 silly reify ]
+625 silly reify mark retired [
+625 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/has-property-descriptors'
+625 silly reify ]
+626 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/has-proto' ]
+627 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/has-symbols' ]
+628 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/has-value' ]
+629 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/has-values' ]
+630 silly reify mark retired [
+630 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/hosted-git-info'
+630 silly reify ]
+631 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/invert-kv' ]
+632 silly reify mark retired [
+632 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-accessor-descriptor'
+632 silly reify ]
+633 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/is-arrayish' ]
+634 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/is-buffer' ]
+635 silly reify mark retired [
+635 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-data-descriptor'
+635 silly reify ]
+636 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/is-descriptor' ]
+637 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/is-utf8' ]
+638 silly reify mark retired [
+638 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/json-stable-stringify-without-jsonify'
+638 silly reify ]
+639 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/just-debounce' ]
+640 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/kind-of' ]
+641 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/last-run' ]
+642 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/lazystream' ]
+643 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/lcid' ]
+644 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/lead' ]
+645 silly reify mark retired [
+645 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/load-json-file'
+645 silly reify ]
+646 silly reify mark retired [
+646 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/localtunnel',
+646 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/lt'
+646 silly reify ]
+647 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/make-iterator' ]
+648 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/map-visit' ]
+649 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/matchdep' ]
+650 silly reify mark retired [
+650 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/mime',
+650 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/mime'
+650 silly reify ]
+651 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/mixin-deep' ]
+652 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/nanomatch' ]
+653 silly reify mark retired [
+653 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/normalize-package-data'
+653 silly reify ]
+654 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/now-and-later' ]
+655 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/number-is-nan' ]
+656 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/object-copy' ]
+657 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/object-keys' ]
+658 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/object-visit' ]
+659 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/object.assign' ]
+660 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/object.map' ]
+661 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/object.reduce' ]
+662 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/openurl' ]
+663 silly reify mark retired [
+663 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/ordered-read-streams'
+663 silly reify ]
+664 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/os-locale' ]
+665 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/parse-json' ]
+666 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/pascalcase' ]
+667 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/path-dirname' ]
+668 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/path-exists' ]
+669 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/path-type' ]
+670 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/pify' ]
+671 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/pinkie' ]
+672 silly reify mark retired [
+672 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pinkie-promise'
+672 silly reify ]
+673 silly reify mark retired [
+673 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/posix-character-classes'
+673 silly reify ]
+674 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/pretty-hrtime' ]
+675 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/pump' ]
+676 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/pumpify' ]
+677 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/read-pkg' ]
+678 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/read-pkg-up' ]
+679 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/regex-not' ]
+680 silly reify mark retired [
+680 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/remove-bom-buffer'
+680 silly reify ]
+681 silly reify mark retired [
+681 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/remove-bom-stream'
+681 silly reify ]
+682 silly reify mark retired [
+682 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/repeat-element'
+682 silly reify ]
+683 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/repeat-string' ]
+684 silly reify mark retired [
+684 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/require-main-filename'
+684 silly reify ]
+685 silly reify mark retired [
+685 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/resolve-options'
+685 silly reify ]
+686 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/ret' ]
+687 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/safe-regex' ]
+688 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/send' ]
+689 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/serve-static' ]
+690 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/set-blocking' ]
+691 silly reify mark retired [
+691 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/set-function-length'
+691 silly reify ]
+692 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/set-value' ]
+693 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/snapdragon' ]
+694 silly reify mark retired [
+694 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/snapdragon-node'
+694 silly reify ]
+695 silly reify mark retired [
+695 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/snapdragon-util'
+695 silly reify ]
+696 silly reify mark retired [
+696 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/source-map-resolve'
+696 silly reify ]
+697 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-correct' ]
+698 silly reify mark retired [
+698 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-exceptions'
+698 silly reify ]
+699 silly reify mark retired [
+699 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-expression-parse'
+699 silly reify ]
+700 silly reify mark retired [
+700 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-license-ids'
+700 silly reify ]
+701 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/split-string' ]
+702 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/stack-trace' ]
+703 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/static-extend' ]
+704 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/stream-shift' ]
+705 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/strip-bom' ]
+706 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/sver-compat' ]
+707 silly reify mark retired [
+707 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/through2-filter'
+707 silly reify ]
+708 silly reify mark retired [
+708 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/to-absolute-glob'
+708 silly reify ]
+709 silly reify mark retired [
+709 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/to-object-path'
+709 silly reify ]
+710 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/to-regex' ]
+711 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/to-through' ]
+712 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/undertaker' ]
+713 silly reify mark retired [
+713 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/undertaker-registry'
+713 silly reify ]
+714 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/union-value' ]
+715 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/unique-stream' ]
+716 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/unset-value' ]
+717 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/upath' ]
+718 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/use' ]
+719 silly reify mark retired [
+719 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/validate-npm-package-license'
+719 silly reify ]
+720 silly reify mark retired [
+720 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/value-or-function'
+720 silly reify ]
+721 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/vinyl-fs' ]
+722 silly reify mark retired [
+722 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/vinyl-sourcemap'
+722 silly reify ]
+723 silly reify mark retired [ '/home/pmickler09/aviato-bootstrap-main/node_modules/which-module' ]
+724 silly reify moves {
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@gulp-sourcemaps/identity-map': '/home/pmickler09/aviato-bootstrap-main/node_modules/@gulp-sourcemaps/.identity-map-AIOKEDSu',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/acorn': '/home/pmickler09/aviato-bootstrap-main/node_modules/.acorn-kqSmyoVa',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/acorn': '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/.acorn-UejO4798',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/append-buffer': '/home/pmickler09/aviato-bootstrap-main/node_modules/.append-buffer-YjMiHNoj',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/archy': '/home/pmickler09/aviato-bootstrap-main/node_modules/.archy-JuUVekC2',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/arr-filter': '/home/pmickler09/aviato-bootstrap-main/node_modules/.arr-filter-Jj7X88Kt',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/arr-flatten': '/home/pmickler09/aviato-bootstrap-main/node_modules/.arr-flatten-BXSDa6fJ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/arr-map': '/home/pmickler09/aviato-bootstrap-main/node_modules/.arr-map-Xo0cfuLF',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/array-initial': '/home/pmickler09/aviato-bootstrap-main/node_modules/.array-initial-12ppt22q',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/array-last': '/home/pmickler09/aviato-bootstrap-main/node_modules/.array-last-t6YGRk4i',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/array-sort': '/home/pmickler09/aviato-bootstrap-main/node_modules/.array-sort-P4426A6f',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/array-unique': '/home/pmickler09/aviato-bootstrap-main/node_modules/.array-unique-uuFsg8Vq',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/async-done': '/home/pmickler09/aviato-bootstrap-main/node_modules/.async-done-YVZk6nV8',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/async-each': '/home/pmickler09/aviato-bootstrap-main/node_modules/.async-each-g6WpGVT8',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/async-settle': '/home/pmickler09/aviato-bootstrap-main/node_modules/.async-settle-f2zrXJrM',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/axios': '/home/pmickler09/aviato-bootstrap-main/node_modules/.axios-HB1q34fu',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/bach': '/home/pmickler09/aviato-bootstrap-main/node_modules/.bach-sNRLk7Qo',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/base': '/home/pmickler09/aviato-bootstrap-main/node_modules/.base-w6voD5Xq',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/browser-sync': '/home/pmickler09/aviato-bootstrap-main/node_modules/.browser-sync-IazI8cHF',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/browser-sync': '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/.browser-sync-AP1Kua23',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/browser-sync-client': '/home/pmickler09/aviato-bootstrap-main/node_modules/.browser-sync-client-YpAWxHpg',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/browser-sync-ui': '/home/pmickler09/aviato-bootstrap-main/node_modules/.browser-sync-ui-K1W8EzT5',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/buffer-equal': '/home/pmickler09/aviato-bootstrap-main/node_modules/.buffer-equal-7R0AmigR',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/cache-base': '/home/pmickler09/aviato-bootstrap-main/node_modules/.cache-base-6L1qmmWA',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/call-bind': '/home/pmickler09/aviato-bootstrap-main/node_modules/.call-bind-UabMdZHg',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/camelcase': '/home/pmickler09/aviato-bootstrap-main/node_modules/.camelcase-7ffAFCHt',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/class-utils': '/home/pmickler09/aviato-bootstrap-main/node_modules/.class-utils-dmehpdSd',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/code-point-at': '/home/pmickler09/aviato-bootstrap-main/node_modules/.code-point-at-EjvXRUTB',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/collection-map': '/home/pmickler09/aviato-bootstrap-main/node_modules/.collection-map-waJHVG3f',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/collection-visit': '/home/pmickler09/aviato-bootstrap-main/node_modules/.collection-visit-Ui6ZAaRA',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/component-emitter': '/home/pmickler09/aviato-bootstrap-main/node_modules/.component-emitter-RNeRR0mT',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/copy-descriptor': '/home/pmickler09/aviato-bootstrap-main/node_modules/.copy-descriptor-B2Z5T38t',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/css': '/home/pmickler09/aviato-bootstrap-main/node_modules/.css-nCca2X7f',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/decamelize': '/home/pmickler09/aviato-bootstrap-main/node_modules/.decamelize-LK8Js40q',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/default-compare': '/home/pmickler09/aviato-bootstrap-main/node_modules/.default-compare-V4yqmHU2',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/default-resolution': '/home/pmickler09/aviato-bootstrap-main/node_modules/.default-resolution-poAumB4G',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/define-data-property': '/home/pmickler09/aviato-bootstrap-main/node_modules/.define-data-property-XIXU6NFQ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/define-properties': '/home/pmickler09/aviato-bootstrap-main/node_modules/.define-properties-w24jHJKA',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/define-property': '/home/pmickler09/aviato-bootstrap-main/node_modules/.define-property-N599eZq4',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/destroy': '/home/pmickler09/aviato-bootstrap-main/node_modules/.destroy-16pR8f4S',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/duplexify': '/home/pmickler09/aviato-bootstrap-main/node_modules/.duplexify-po88OAAj',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/error-ex': '/home/pmickler09/aviato-bootstrap-main/node_modules/.error-ex-IEoqwsAJ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/es-define-property': '/home/pmickler09/aviato-bootstrap-main/node_modules/.es-define-property-U7jXGU1k',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/es-errors': '/home/pmickler09/aviato-bootstrap-main/node_modules/.es-errors-fdGcjQjW',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/expand-brackets': '/home/pmickler09/aviato-bootstrap-main/node_modules/.expand-brackets-1NcXALqn',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/extglob': '/home/pmickler09/aviato-bootstrap-main/node_modules/.extglob-kRKnEDuD',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/fast-levenshtein': '/home/pmickler09/aviato-bootstrap-main/node_modules/.fast-levenshtein-WOViUkfh',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/find-up': '/home/pmickler09/aviato-bootstrap-main/node_modules/.find-up-6uTBFFoN',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/flush-write-stream': '/home/pmickler09/aviato-bootstrap-main/node_modules/.flush-write-stream-BBQyNBL2',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/fragment-cache': '/home/pmickler09/aviato-bootstrap-main/node_modules/.fragment-cache-AmtkIKWD',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/fs-mkdirp-stream': '/home/pmickler09/aviato-bootstrap-main/node_modules/.fs-mkdirp-stream-fEr9K853',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/get-intrinsic': '/home/pmickler09/aviato-bootstrap-main/node_modules/.get-intrinsic-eoFivwPT',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/get-value': '/home/pmickler09/aviato-bootstrap-main/node_modules/.get-value-NHLcx3ai',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/glob-stream': '/home/pmickler09/aviato-bootstrap-main/node_modules/.glob-stream-9KCimAq4',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/glob-watcher': '/home/pmickler09/aviato-bootstrap-main/node_modules/.glob-watcher-6L0tbhHc',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/gopd': '/home/pmickler09/aviato-bootstrap-main/node_modules/.gopd-CcbtcQ3w',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/gulp': '/home/pmickler09/aviato-bootstrap-main/node_modules/.gulp-omAf3PFT',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/gulp': '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/.gulp-Yhux97BA',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/gulp-sourcemaps': '/home/pmickler09/aviato-bootstrap-main/node_modules/.gulp-sourcemaps-yAIqLCix',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/has-property-descriptors': '/home/pmickler09/aviato-bootstrap-main/node_modules/.has-property-descriptors-2wM44qqm',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/has-proto': '/home/pmickler09/aviato-bootstrap-main/node_modules/.has-proto-Pp5ERZxI',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/has-symbols': '/home/pmickler09/aviato-bootstrap-main/node_modules/.has-symbols-98Zq64vR',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/has-value': '/home/pmickler09/aviato-bootstrap-main/node_modules/.has-value-dUYd7b8o',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/has-values': '/home/pmickler09/aviato-bootstrap-main/node_modules/.has-values-vYbuRnUA',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/hosted-git-info': '/home/pmickler09/aviato-bootstrap-main/node_modules/.hosted-git-info-M0LUaQlA',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/invert-kv': '/home/pmickler09/aviato-bootstrap-main/node_modules/.invert-kv-iDHmf9uS',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-accessor-descriptor': '/home/pmickler09/aviato-bootstrap-main/node_modules/.is-accessor-descriptor-8eeXeKQT',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-arrayish': '/home/pmickler09/aviato-bootstrap-main/node_modules/.is-arrayish-fb4PyUDx',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-buffer': '/home/pmickler09/aviato-bootstrap-main/node_modules/.is-buffer-Xqi9qLPE',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-data-descriptor': '/home/pmickler09/aviato-bootstrap-main/node_modules/.is-data-descriptor-QbLIDXNn',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-descriptor': '/home/pmickler09/aviato-bootstrap-main/node_modules/.is-descriptor-69B9nwp5',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/is-utf8': '/home/pmickler09/aviato-bootstrap-main/node_modules/.is-utf8-ZgH9OFbU',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/json-stable-stringify-without-jsonify': '/home/pmickler09/aviato-bootstrap-main/node_modules/.json-stable-stringify-without-jsonify-zNlkhXx5',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/just-debounce': '/home/pmickler09/aviato-bootstrap-main/node_modules/.just-debounce-nnRioVZw',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/kind-of': '/home/pmickler09/aviato-bootstrap-main/node_modules/.kind-of-JxHwcP06',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/last-run': '/home/pmickler09/aviato-bootstrap-main/node_modules/.last-run-ZYuhCQsq',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/lazystream': '/home/pmickler09/aviato-bootstrap-main/node_modules/.lazystream-0j3l6QoE',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/lcid': '/home/pmickler09/aviato-bootstrap-main/node_modules/.lcid-WNVvWSWp',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/lead': '/home/pmickler09/aviato-bootstrap-main/node_modules/.lead-XpiYL7ez',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/load-json-file': '/home/pmickler09/aviato-bootstrap-main/node_modules/.load-json-file-X9EOLF1T',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/localtunnel': '/home/pmickler09/aviato-bootstrap-main/node_modules/.localtunnel-Sy9ZOyHz',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/lt': '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/.lt-Su3KnZpJ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/make-iterator': '/home/pmickler09/aviato-bootstrap-main/node_modules/.make-iterator-DAIZ9mat',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/map-visit': '/home/pmickler09/aviato-bootstrap-main/node_modules/.map-visit-4ntSgYyM',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/matchdep': '/home/pmickler09/aviato-bootstrap-main/node_modules/.matchdep-7RpaDCHn',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/mime': '/home/pmickler09/aviato-bootstrap-main/node_modules/.mime-eskGzoqs',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/mime': '/home/pmickler09/aviato-bootstrap-main/node_modules/.bin/.mime-pHrEISdJ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/mixin-deep': '/home/pmickler09/aviato-bootstrap-main/node_modules/.mixin-deep-nK1EQw8q',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/nanomatch': '/home/pmickler09/aviato-bootstrap-main/node_modules/.nanomatch-gjfVTuFy',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/normalize-package-data': '/home/pmickler09/aviato-bootstrap-main/node_modules/.normalize-package-data-lHd1OPUS',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/now-and-later': '/home/pmickler09/aviato-bootstrap-main/node_modules/.now-and-later-OfCDWo9N',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/number-is-nan': '/home/pmickler09/aviato-bootstrap-main/node_modules/.number-is-nan-Ts19jXEc',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/object-copy': '/home/pmickler09/aviato-bootstrap-main/node_modules/.object-copy-ZmOO9uJm',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/object-keys': '/home/pmickler09/aviato-bootstrap-main/node_modules/.object-keys-NjVARI4T',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/object-visit': '/home/pmickler09/aviato-bootstrap-main/node_modules/.object-visit-t69mE2Ji',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/object.assign': '/home/pmickler09/aviato-bootstrap-main/node_modules/.object.assign-O8EfOY8g',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/object.map': '/home/pmickler09/aviato-bootstrap-main/node_modules/.object.map-BClm2ygt',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/object.reduce': '/home/pmickler09/aviato-bootstrap-main/node_modules/.object.reduce-6aFvD9dM',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/openurl': '/home/pmickler09/aviato-bootstrap-main/node_modules/.openurl-pMCrssU8',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/ordered-read-streams': '/home/pmickler09/aviato-bootstrap-main/node_modules/.ordered-read-streams-llXqWMcq',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/os-locale': '/home/pmickler09/aviato-bootstrap-main/node_modules/.os-locale-gtot8Twc',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/parse-json': '/home/pmickler09/aviato-bootstrap-main/node_modules/.parse-json-Tpe6MPVy',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pascalcase': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pascalcase-oLV4FWMy',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/path-dirname': '/home/pmickler09/aviato-bootstrap-main/node_modules/.path-dirname-DJlROYDP',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/path-exists': '/home/pmickler09/aviato-bootstrap-main/node_modules/.path-exists-NGJyedkk',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/path-type': '/home/pmickler09/aviato-bootstrap-main/node_modules/.path-type-dBqfJj3e',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pify': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pify-Ivfq4DHT',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pinkie': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pinkie-ierODan8',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pinkie-promise': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pinkie-promise-2NUHQDq6',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/posix-character-classes': '/home/pmickler09/aviato-bootstrap-main/node_modules/.posix-character-classes-600Dbu1d',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pretty-hrtime': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pretty-hrtime-CD8oAgpR',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pump': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pump-1a0EUUhP',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/pumpify': '/home/pmickler09/aviato-bootstrap-main/node_modules/.pumpify-P8PDyOgq',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/read-pkg': '/home/pmickler09/aviato-bootstrap-main/node_modules/.read-pkg-FljoSzzn',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/read-pkg-up': '/home/pmickler09/aviato-bootstrap-main/node_modules/.read-pkg-up-srrsEERC',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/regex-not': '/home/pmickler09/aviato-bootstrap-main/node_modules/.regex-not-FfFp0X93',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/remove-bom-buffer': '/home/pmickler09/aviato-bootstrap-main/node_modules/.remove-bom-buffer-FjT4VBiS',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/remove-bom-stream': '/home/pmickler09/aviato-bootstrap-main/node_modules/.remove-bom-stream-TU7PW3wj',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/repeat-element': '/home/pmickler09/aviato-bootstrap-main/node_modules/.repeat-element-6jdeM0Ot',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/repeat-string': '/home/pmickler09/aviato-bootstrap-main/node_modules/.repeat-string-Nwrix2vI',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/require-main-filename': '/home/pmickler09/aviato-bootstrap-main/node_modules/.require-main-filename-a89kadRT',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/resolve-options': '/home/pmickler09/aviato-bootstrap-main/node_modules/.resolve-options-DzKFBNVt',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/ret': '/home/pmickler09/aviato-bootstrap-main/node_modules/.ret-4sqEXgoR',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/safe-regex': '/home/pmickler09/aviato-bootstrap-main/node_modules/.safe-regex-hzsgqkGH',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/send': '/home/pmickler09/aviato-bootstrap-main/node_modules/.send-DZlwsZXL',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/serve-static': '/home/pmickler09/aviato-bootstrap-main/node_modules/.serve-static-5VHQnxsL',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/set-blocking': '/home/pmickler09/aviato-bootstrap-main/node_modules/.set-blocking-vqBWCJhd',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/set-function-length': '/home/pmickler09/aviato-bootstrap-main/node_modules/.set-function-length-vEqN5I77',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/set-value': '/home/pmickler09/aviato-bootstrap-main/node_modules/.set-value-09As5Azp',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/snapdragon': '/home/pmickler09/aviato-bootstrap-main/node_modules/.snapdragon-bmhwTHDr',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/snapdragon-node': '/home/pmickler09/aviato-bootstrap-main/node_modules/.snapdragon-node-XmrhcJTZ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/snapdragon-util': '/home/pmickler09/aviato-bootstrap-main/node_modules/.snapdragon-util-f4XyudgE',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/source-map-resolve': '/home/pmickler09/aviato-bootstrap-main/node_modules/.source-map-resolve-WWJQlcGR',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-correct': '/home/pmickler09/aviato-bootstrap-main/node_modules/.spdx-correct-4rZ1eGER',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-exceptions': '/home/pmickler09/aviato-bootstrap-main/node_modules/.spdx-exceptions-eAw2Lmb9',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-expression-parse': '/home/pmickler09/aviato-bootstrap-main/node_modules/.spdx-expression-parse-IUzRnQpa',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/spdx-license-ids': '/home/pmickler09/aviato-bootstrap-main/node_modules/.spdx-license-ids-QdDYIHN6',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/split-string': '/home/pmickler09/aviato-bootstrap-main/node_modules/.split-string-HxHjf0x5',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/stack-trace': '/home/pmickler09/aviato-bootstrap-main/node_modules/.stack-trace-YO7A45qX',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/static-extend': '/home/pmickler09/aviato-bootstrap-main/node_modules/.static-extend-YiuhuzEL',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/stream-shift': '/home/pmickler09/aviato-bootstrap-main/node_modules/.stream-shift-fmW4zigi',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/strip-bom': '/home/pmickler09/aviato-bootstrap-main/node_modules/.strip-bom-Ff7e9hxd',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/sver-compat': '/home/pmickler09/aviato-bootstrap-main/node_modules/.sver-compat-p2PDb0Yn',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/through2-filter': '/home/pmickler09/aviato-bootstrap-main/node_modules/.through2-filter-4tZqfbs8',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/to-absolute-glob': '/home/pmickler09/aviato-bootstrap-main/node_modules/.to-absolute-glob-0lIW2OTg',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/to-object-path': '/home/pmickler09/aviato-bootstrap-main/node_modules/.to-object-path-vdZekRzJ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/to-regex': '/home/pmickler09/aviato-bootstrap-main/node_modules/.to-regex-izSyRyS1',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/to-through': '/home/pmickler09/aviato-bootstrap-main/node_modules/.to-through-QcmeMlSh',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/undertaker': '/home/pmickler09/aviato-bootstrap-main/node_modules/.undertaker-VJJ67yaC',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/undertaker-registry': '/home/pmickler09/aviato-bootstrap-main/node_modules/.undertaker-registry-7f9u1gOm',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/union-value': '/home/pmickler09/aviato-bootstrap-main/node_modules/.union-value-qOUDbdS1',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/unique-stream': '/home/pmickler09/aviato-bootstrap-main/node_modules/.unique-stream-5t92vjcy',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/unset-value': '/home/pmickler09/aviato-bootstrap-main/node_modules/.unset-value-AjdxSmqo',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/upath': '/home/pmickler09/aviato-bootstrap-main/node_modules/.upath-oXBVR9H0',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/use': '/home/pmickler09/aviato-bootstrap-main/node_modules/.use-XQoBMDqD',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/validate-npm-package-license': '/home/pmickler09/aviato-bootstrap-main/node_modules/.validate-npm-package-license-5UqgP5aS',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/value-or-function': '/home/pmickler09/aviato-bootstrap-main/node_modules/.value-or-function-EUdkRgSJ',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/vinyl-fs': '/home/pmickler09/aviato-bootstrap-main/node_modules/.vinyl-fs-noKW5bep',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/vinyl-sourcemap': '/home/pmickler09/aviato-bootstrap-main/node_modules/.vinyl-sourcemap-UxSuFVSz',
+724 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/which-module': '/home/pmickler09/aviato-bootstrap-main/node_modules/.which-module-SAvRBQ2H'
+724 silly reify }
+725 silly audit bulk request {
+725 silly audit   picocolors: [ '1.1.1' ],
+725 silly audit   postcss: [ '8.4.47' ],
+725 silly audit   through2: [ '2.0.5', '3.0.2', '4.0.2' ],
+725 silly audit   '@gulp-sourcemaps/map-sources': [ '1.0.0' ],
+725 silly audit   'normalize-path': [ '2.1.1', '3.0.0' ],
+725 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+725 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+725 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+725 silly audit   '@gulpjs/messages': [ '1.1.0' ],
+725 silly audit   '@parcel/watcher': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-android-arm64': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-darwin-arm64': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-darwin-x64': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-freebsd-x64': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-win32-arm64': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-win32-ia32': [ '2.4.1' ],
+725 silly audit   '@parcel/watcher-win32-x64': [ '2.4.1' ],
+725 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+725 silly audit   '@types/cookie': [ '0.4.1' ],
+725 silly audit   '@types/cors': [ '2.8.17' ],
+725 silly audit   '@types/node': [ '22.7.8' ],
+725 silly audit   accepts: [ '1.3.8' ],
+725 silly audit   'ansi-colors': [ '4.1.1', '1.1.0' ],
+725 silly audit   'ansi-gray': [ '0.1.1' ],
+725 silly audit   'ansi-regex': [ '5.0.1' ],
+725 silly audit   'ansi-styles': [ '4.3.0' ],
+725 silly audit   'ansi-wrap': [ '0.1.0' ],
+725 silly audit   anymatch: [ '3.1.3' ],
+725 silly audit   'arr-diff': [ '4.0.0' ],
+725 silly audit   'arr-union': [ '3.1.0' ],
+725 silly audit   'array-each': [ '1.0.1' ],
+725 silly audit   'is-number': [ '7.0.0' ],
+725 silly audit   'array-slice': [ '1.1.0' ],
+725 silly audit   'assign-symbols': [ '1.0.0' ],
+725 silly audit   async: [ '2.6.4' ],
+725 silly audit   autoprefixer: [ '10.4.20' ],
+725 silly audit   'balanced-match': [ '1.0.2' ],
+725 silly audit   base64id: [ '2.0.0' ],
+725 silly audit   batch: [ '0.6.1' ],
+725 silly audit   'binary-extensions': [ '2.3.0' ],
+725 silly audit   'brace-expansion': [ '1.1.11' ],
+725 silly audit   braces: [ '3.0.3' ],
+725 silly audit   browserslist: [ '4.24.2' ],
+725 silly audit   'bs-recipes': [ '1.3.4' ],
+725 silly audit   'buffer-from': [ '1.1.2' ],
+725 silly audit   bytes: [ '3.1.2' ],
+725 silly audit   'caniuse-lite': [ '1.0.30001669' ],
+725 silly audit   chalk: [ '4.1.2' ],
+725 silly audit   chokidar: [ '3.6.0', '4.0.1' ],
+725 silly audit   cliui: [ '8.0.1', '7.0.4' ],
+725 silly audit   clone: [ '2.1.2' ],
+725 silly audit   'clone-buffer': [ '1.0.0' ],
+725 silly audit   'clone-stats': [ '1.0.0' ],
+725 silly audit   'cloneable-readable': [ '1.1.3' ],
+725 silly audit   'color-convert': [ '2.0.1' ],
+725 silly audit   'color-name': [ '1.1.4' ],
+725 silly audit   'color-support': [ '1.1.3' ],
+725 silly audit   commenting: [ '1.1.0' ],
+725 silly audit   'concat-map': [ '0.0.1' ],
+725 silly audit   'concat-stream': [ '2.0.0' ],
+725 silly audit   connect: [ '3.6.6' ],
+725 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+725 silly audit   cookie: [ '0.7.2' ],
+725 silly audit   'copy-props': [ '4.0.0' ],
+725 silly audit   'core-util-is': [ '1.0.3' ],
+725 silly audit   cors: [ '2.8.5' ],
+725 silly audit   d: [ '1.0.2' ],
+725 silly audit   debug: [ '2.6.9', '3.2.7', '4.3.7' ],
+725 silly audit   'debug-fabulous': [ '1.1.0' ],
+725 silly audit   ms: [ '2.1.3', '2.0.0' ],
+725 silly audit   depd: [ '2.0.0', '1.1.2' ],
+725 silly audit   'detect-file': [ '1.0.0' ],
+725 silly audit   'detect-libc': [ '1.0.3' ],
+725 silly audit   'detect-newline': [ '2.1.0' ],
+725 silly audit   'dev-ip': [ '1.0.1' ],
+725 silly audit   'each-props': [ '3.0.0' ],
+725 silly audit   'easy-extender': [ '2.3.4' ],
+725 silly audit   'eazy-logger': [ '4.0.1' ],
+725 silly audit   'ee-first': [ '1.1.1' ],
+725 silly audit   'electron-to-chromium': [ '1.5.42' ],
+725 silly audit   'emoji-regex': [ '8.0.0' ],
+725 silly audit   encodeurl: [ '1.0.2', '2.0.0' ],
+725 silly audit   'engine.io': [ '6.6.2' ],
+725 silly audit   'engine.io-parser': [ '5.2.3' ],
+725 silly audit   'es5-ext': [ '0.10.64' ],
+725 silly audit   'es6-iterator': [ '2.0.3' ],
+725 silly audit   'es6-symbol': [ '3.1.4' ],
+725 silly audit   'es6-weak-map': [ '2.0.3' ],
+725 silly audit   escalade: [ '3.2.0' ],
+725 silly audit   'escape-html': [ '1.0.3' ],
+725 silly audit   esniff: [ '2.0.1' ],
+725 silly audit   'event-emitter': [ '0.3.5' ],
+725 silly audit   eventemitter3: [ '4.0.7' ],
+725 silly audit   'extend-shallow': [ '3.0.2' ],
+725 silly audit   'is-extendable': [ '1.0.1' ],
+725 silly audit   'expand-tilde': [ '2.0.2' ],
+725 silly audit   ext: [ '1.7.0' ],
+725 silly audit   extend: [ '3.0.2' ],
+725 silly audit   'fancy-log': [ '1.3.3' ],
+725 silly audit   'fill-range': [ '7.1.1' ],
+725 silly audit   finalhandler: [ '1.1.0' ],
+725 silly audit   'findup-sync': [ '5.0.0' ],
+725 silly audit   fined: [ '2.0.0' ],
+725 silly audit   'flagged-respawn': [ '2.0.0' ],
+725 silly audit   flatnest: [ '1.0.1' ],
+725 silly audit   'follow-redirects': [ '1.15.9' ],
+725 silly audit   'for-in': [ '1.0.2' ],
+725 silly audit   'for-own': [ '1.0.0' ],
+725 silly audit   'fraction.js': [ '4.3.7' ],
+725 silly audit   'fs-extra': [ '3.0.1' ],
+725 silly audit   'fs.realpath': [ '1.0.0' ],
+725 silly audit   fsevents: [ '2.3.3' ],
+725 silly audit   'function-bind': [ '1.1.2' ],
+725 silly audit   'get-caller-file': [ '2.0.5' ],
+725 silly audit   glob: [ '7.2.3' ],
+725 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+725 silly audit   'is-glob': [ '4.0.3' ],
+725 silly audit   'is-binary-path': [ '2.1.0' ],
+725 silly audit   micromatch: [ '4.0.8' ],
+725 silly audit   readdirp: [ '3.6.0', '4.0.2' ],
+725 silly audit   'to-regex-range': [ '5.0.1' ],
+725 silly audit   'global-modules': [ '1.0.0' ],
+725 silly audit   'global-prefix': [ '1.0.2' ],
+725 silly audit   glogg: [ '2.2.0' ],
+725 silly audit   'graceful-fs': [ '4.2.11' ],
+725 silly audit   'gulp-autoprefixer': [ '8.0.0' ],
+725 silly audit   'gulp-cli': [ '3.0.0' ],
+725 silly audit   yargs: [ '16.2.0', '17.7.2' ],
+725 silly audit   'yargs-parser': [ '20.2.9', '21.1.1' ],
+725 silly audit   'gulp-file-include': [ '2.3.0' ],
+725 silly audit   'gulp-header-comment': [ '0.10.0' ],
+725 silly audit   'gulp-rimraf': [ '1.0.0' ],
+725 silly audit   'gulp-sass': [ '5.1.0' ],
+725 silly audit   'is-plain-object': [ '2.0.4', '5.0.0' ],
+725 silly audit   gulplog: [ '2.2.0' ],
+725 silly audit   interpret: [ '3.1.1' ],
+725 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+725 silly audit   liftoff: [ '5.0.0' ],
+725 silly audit   'mute-stdout': [ '2.0.0' ],
+725 silly audit   rechoir: [ '0.8.0' ],
+725 silly audit   'replace-homedir': [ '2.0.0' ],
+725 silly audit   'semver-greatest-satisfied-range': [ '2.0.0' ],
+725 silly audit   sparkles: [ '2.1.0' ],
+725 silly audit   'string-width': [ '4.2.3' ],
+725 silly audit   'strip-ansi': [ '6.0.1' ],
+725 silly audit   v8flags: [ '4.0.1' ],
+725 silly audit   'wrap-ansi': [ '7.0.0' ],
+725 silly audit   y18n: [ '5.0.8' ],
+725 silly audit   'has-flag': [ '4.0.0' ],
+725 silly audit   hasown: [ '2.0.2' ],
+725 silly audit   'homedir-polyfill': [ '1.0.3' ],
+725 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+725 silly audit   statuses: [ '2.0.1', '1.5.0', '1.3.1' ],
+725 silly audit   'http-proxy': [ '1.18.1' ],
+725 silly audit   'iconv-lite': [ '0.4.24', '0.6.3' ],
+725 silly audit   immutable: [ '4.3.7', '3.8.2' ],
+725 silly audit   inflight: [ '1.0.6' ],
+725 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+725 silly audit   ini: [ '1.3.8' ],
+725 silly audit   'is-absolute': [ '1.0.0' ],
+725 silly audit   'is-core-module': [ '2.15.1' ],
+725 silly audit   'is-extglob': [ '2.1.1' ],
+725 silly audit   'is-number-like': [ '1.0.8' ],
+725 silly audit   'is-promise': [ '2.2.2' ],
+725 silly audit   'is-relative': [ '1.0.0' ],
+725 silly audit   'is-unc-path': [ '1.0.0' ],
+725 silly audit   'is-windows': [ '1.0.2' ],
+725 silly audit   'is-wsl': [ '1.1.0' ],
+725 silly audit   isarray: [ '1.0.0' ],
+725 silly audit   isexe: [ '2.0.0' ],
+725 silly audit   isobject: [ '3.0.1' ],
+725 silly audit   json5: [ '2.2.3' ],
+725 silly audit   jsonfile: [ '3.0.1' ],
+725 silly audit   lodash: [ '4.17.21' ],
+725 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+725 silly audit   'lodash.isfinite': [ '3.3.2' ],
+725 silly audit   'lru-queue': [ '0.1.0' ],
+725 silly audit   'magic-string': [ '0.25.7' ],
+725 silly audit   'map-cache': [ '0.2.2' ],
+725 silly audit   memoizee: [ '0.4.17' ],
+725 silly audit   'mime-db': [ '1.52.0' ],
+725 silly audit   'mime-types': [ '2.1.35' ],
+725 silly audit   minimatch: [ '3.1.2' ],
+725 silly audit   moment: [ '2.29.1' ],
+725 silly audit   nanoid: [ '3.3.7' ],
+725 silly audit   negotiator: [ '0.6.3' ],
+725 silly audit   'next-tick': [ '1.1.0' ],
+725 silly audit   'node-addon-api': [ '7.1.1' ],
+725 silly audit   'node-releases': [ '2.0.18' ],
+725 silly audit   semver: [ '6.3.1' ],
+725 silly audit   'normalize-range': [ '0.1.2' ],
+725 silly audit   'object-assign': [ '4.1.1' ],
+725 silly audit   'object.defaults': [ '1.1.0' ],
+725 silly audit   'object.pick': [ '1.3.0' ],
+725 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+725 silly audit   once: [ '1.4.0' ],
+725 silly audit   opn: [ '5.3.0' ],
+725 silly audit   'parse-filepath': [ '1.0.2' ],
+725 silly audit   'parse-node-version': [ '1.0.1' ],
+725 silly audit   'parse-passwd': [ '1.0.0' ],
+725 silly audit   parseurl: [ '1.3.3' ],
+725 silly audit   'path-is-absolute': [ '1.0.1' ],
+725 silly audit   'path-parse': [ '1.0.7' ],
+725 silly audit   'path-root': [ '0.1.1' ],
+725 silly audit   'path-root-regex': [ '0.1.2' ],
+725 silly audit   picomatch: [ '2.3.1' ],
+725 silly audit   'plugin-error': [ '1.0.1' ],
+725 silly audit   portscanner: [ '2.2.0' ],
+725 silly audit   'postcss-value-parser': [ '4.2.0' ],
+725 silly audit   'process-nextick-args': [ '2.0.1' ],
+725 silly audit   q: [ '1.5.1' ],
+725 silly audit   'raw-body': [ '2.5.2' ],
+725 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+725 silly audit   'replace-ext': [ '2.0.0', '1.0.1' ],
+725 silly audit   'require-directory': [ '2.1.1' ],
+725 silly audit   'requires-port': [ '1.0.0' ],
+725 silly audit   resolve: [ '1.22.8' ],
+725 silly audit   'resolve-dir': [ '1.0.1' ],
+725 silly audit   'resp-modifier': [ '6.0.2' ],
+725 silly audit   rimraf: [ '2.7.1' ],
+725 silly audit   rx: [ '4.1.0' ],
+725 silly audit   'safer-buffer': [ '2.1.2' ],
+725 silly audit   sass: [ '1.80.3' ],
+725 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+725 silly audit   'serve-index': [ '1.9.1' ],
+725 silly audit   'source-map': [ '0.5.7', '0.6.1' ],
+725 silly audit   'socket.io': [ '4.8.0' ],
+725 silly audit   'socket.io-adapter': [ '2.5.5' ],
+725 silly audit   'socket.io-parser': [ '4.2.4' ],
+725 silly audit   'source-map-js': [ '1.2.1' ],
+725 silly audit   'sourcemap-codec': [ '1.4.8' ],
+725 silly audit   'strip-bom-string': [ '1.0.0' ],
+725 silly audit   'supports-color': [ '7.2.0' ],
+725 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+725 silly audit   sver: [ '1.8.4' ],
+725 silly audit   'time-stamp': [ '1.1.0' ],
+725 silly audit   'timers-ext': [ '0.1.8' ],
+725 silly audit   toidentifier: [ '1.0.1' ],
+725 silly audit   type: [ '2.7.3' ],
+725 silly audit   typedarray: [ '0.0.6' ],
+725 silly audit   'ua-parser-js': [ '1.0.39' ],
+725 silly audit   'unc-path-regex': [ '0.1.2' ],
+725 silly audit   'undici-types': [ '6.19.8' ],
+725 silly audit   universalify: [ '0.1.2' ],
+725 silly audit   unpipe: [ '1.0.0' ],
+725 silly audit   'update-browserslist-db': [ '1.1.1' ],
+725 silly audit   'util-deprecate': [ '1.0.2' ],
+725 silly audit   'utils-merge': [ '1.0.1' ],
+725 silly audit   vary: [ '1.1.2' ],
+725 silly audit   vinyl: [ '2.2.1', '3.0.0' ],
+725 silly audit   'vinyl-sourcemaps-apply': [ '0.2.1' ],
+725 silly audit   which: [ '1.3.1' ],
+725 silly audit   wrappy: [ '1.0.2' ],
+725 silly audit   ws: [ '8.17.1' ],
+725 silly audit   xtend: [ '4.0.2' ],
+725 silly audit   'browser-sync': [ '3.0.3' ],
+725 silly audit   gulp: [ '5.0.0' ],
+725 silly audit   'gulp-sourcemaps': [ '2.6.5' ],
+725 silly audit   'browser-sync-client': [ '3.0.3' ],
+725 silly audit   'browser-sync-ui': [ '3.0.3' ],
+725 silly audit   'connect-history-api-fallback': [ '1.6.0' ],
+725 silly audit   etag: [ '1.8.1' ],
+725 silly audit   fresh: [ '0.5.2' ],
+725 silly audit   send: [ '0.19.1', '0.19.0' ],
+725 silly audit   'serve-static': [ '1.16.2' ],
+725 silly audit   'server-destroy': [ '1.0.1' ],
+725 silly audit   mitt: [ '1.2.0' ],
+725 silly audit   'async-each-series': [ '0.1.1' ],
+725 silly audit   'socket.io-client': [ '4.8.0' ],
+725 silly audit   'stream-throttle': [ '0.1.3' ],
+725 silly audit   'glob-watcher': [ '6.0.0' ],
+725 silly audit   undertaker: [ '2.0.0' ],
+725 silly audit   'vinyl-fs': [ '4.0.0' ],
+725 silly audit   'async-done': [ '2.0.0' ],
+725 silly audit   'end-of-stream': [ '1.4.4' ],
+725 silly audit   'stream-exhaust': [ '1.0.2' ],
+725 silly audit   '@gulp-sourcemaps/identity-map': [ '1.0.2' ],
+725 silly audit   acorn: [ '5.7.4' ],
+725 silly audit   css: [ '2.2.4' ],
+725 silly audit   'source-map-resolve': [ '0.5.3' ],
+725 silly audit   urix: [ '0.1.0' ],
+725 silly audit   destroy: [ '1.2.0' ],
+725 silly audit   mime: [ '1.6.0' ],
+725 silly audit   'range-parser': [ '1.2.1' ],
+725 silly audit   'engine.io-client': [ '6.6.1' ],
+725 silly audit   'xmlhttprequest-ssl': [ '2.1.1' ],
+725 silly audit   atob: [ '2.1.2' ],
+725 silly audit   'decode-uri-component': [ '0.2.2' ],
+725 silly audit   'resolve-url': [ '0.2.1' ],
+725 silly audit   'source-map-url': [ '0.4.1' ],
+725 silly audit   commander: [ '2.20.3' ],
+725 silly audit   limiter: [ '1.1.5' ],
+725 silly audit   bach: [ '2.0.1' ],
+725 silly audit   'fast-levenshtein': [ '3.0.0' ],
+725 silly audit   'last-run': [ '2.0.0' ],
+725 silly audit   'undertaker-registry': [ '2.0.0' ],
+725 silly audit   'async-settle': [ '2.0.0' ],
+725 silly audit   'now-and-later': [ '3.0.0' ],
+725 silly audit   'fastest-levenshtein': [ '1.0.16' ],
+725 silly audit   'fs-mkdirp-stream': [ '2.0.1' ],
+725 silly audit   'glob-stream': [ '8.0.2' ],
+725 silly audit   'is-valid-glob': [ '1.0.0' ],
+725 silly audit   lead: [ '4.0.0' ],
+725 silly audit   'resolve-options': [ '2.0.0' ],
+725 silly audit   'stream-composer': [ '1.0.2' ],
+725 silly audit   streamx: [ '2.20.1' ],
+725 silly audit   'to-through': [ '3.0.0' ],
+725 silly audit   'value-or-function': [ '4.0.0' ],
+725 silly audit   'vinyl-sourcemap': [ '2.0.0' ],
+725 silly audit   '@gulpjs/to-absolute-glob': [ '4.0.0' ],
+725 silly audit   fastq: [ '1.17.1' ],
+725 silly audit   'is-negated-glob': [ '1.0.0' ],
+725 silly audit   reusify: [ '1.0.4' ],
+725 silly audit   'bare-events': [ '2.5.0' ],
+725 silly audit   'fast-fifo': [ '1.3.2' ],
+725 silly audit   'queue-tick': [ '1.0.1' ],
+725 silly audit   'text-decoder': [ '1.2.1' ],
+725 silly audit   'vinyl-contents': [ '2.0.0' ],
+725 silly audit   bl: [ '5.1.0' ],
+725 silly audit   buffer: [ '6.0.3' ],
+725 silly audit   'base64-js': [ '1.5.1' ],
+725 silly audit   ieee754: [ '1.2.1' ],
+725 silly audit   teex: [ '1.0.1' ]
+725 silly audit }
+726 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/fsevents
+727 silly reify mark deleted [ '/home/pmickler09/aviato-bootstrap-main/node_modules/fsevents' ]
+728 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-x64
+729 silly reify mark deleted [
+729 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-x64'
+729 silly reify ]
+730 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-ia32
+731 silly reify mark deleted [
+731 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-ia32'
+731 silly reify ]
+732 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-arm64
+733 silly reify mark deleted [
+733 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-win32-arm64'
+733 silly reify ]
+734 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-musl
+735 silly reify mark deleted [
+735 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-musl'
+735 silly reify ]
+736 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-glibc
+737 silly reify mark deleted [
+737 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm64-glibc'
+737 silly reify ]
+738 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm-glibc
+739 silly reify mark deleted [
+739 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-linux-arm-glibc'
+739 silly reify ]
+740 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-freebsd-x64
+741 silly reify mark deleted [
+741 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-freebsd-x64'
+741 silly reify ]
+742 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-x64
+743 silly reify mark deleted [
+743 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-x64'
+743 silly reify ]
+744 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-arm64
+745 silly reify mark deleted [
+745 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-darwin-arm64'
+745 silly reify ]
+746 verbose reify failed optional dependency /home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-android-arm64
+747 silly reify mark deleted [
+747 silly reify   '/home/pmickler09/aviato-bootstrap-main/node_modules/@parcel/watcher-android-arm64'
+747 silly reify ]
+748 silly tarball no local data for to-through@https://registry.npmjs.org/to-through/-/to-through-3.0.0.tgz. Extracting by manifest.
+749 silly tarball no local data for gulp@https://registry.npmjs.org/gulp/-/gulp-5.0.0.tgz. Extracting by manifest.
+750 silly tarball no local data for glob-watcher@https://registry.npmjs.org/glob-watcher/-/glob-watcher-6.0.0.tgz. Extracting by manifest.
+751 silly tarball no local data for fs-mkdirp-stream@https://registry.npmjs.org/fs-mkdirp-stream/-/fs-mkdirp-stream-2.0.1.tgz. Extracting by manifest.
+752 silly tarball no local data for ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz. Extracting by manifest.
+753 silly tarball no local data for teex@https://registry.npmjs.org/teex/-/teex-1.0.1.tgz. Extracting by manifest.
+754 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+755 silly tarball no local data for bl@https://registry.npmjs.org/bl/-/bl-5.1.0.tgz. Extracting by manifest.
+756 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz. Extracting by manifest.
+757 silly tarball no local data for vinyl-contents@https://registry.npmjs.org/vinyl-contents/-/vinyl-contents-2.0.0.tgz. Extracting by manifest.
+758 silly tarball no local data for text-decoder@https://registry.npmjs.org/text-decoder/-/text-decoder-1.2.1.tgz. Extracting by manifest.
+759 silly tarball no local data for vinyl@https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz. Extracting by manifest.
+760 silly tarball no local data for queue-tick@https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz. Extracting by manifest.
+761 silly tarball no local data for bare-events@https://registry.npmjs.org/bare-events/-/bare-events-2.5.0.tgz. Extracting by manifest.
+762 silly tarball no local data for fast-fifo@https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz. Extracting by manifest.
+763 silly tarball no local data for reusify@https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz. Extracting by manifest.
+764 silly tarball no local data for fastq@https://registry.npmjs.org/fastq/-/fastq-1.17.1.tgz. Extracting by manifest.
+765 silly tarball no local data for @gulpjs/to-absolute-glob@https://registry.npmjs.org/@gulpjs/to-absolute-glob/-/to-absolute-glob-4.0.0.tgz. Extracting by manifest.
+766 silly tarball no local data for streamx@https://registry.npmjs.org/streamx/-/streamx-2.20.1.tgz. Extracting by manifest.
+767 silly tarball no local data for stream-composer@https://registry.npmjs.org/stream-composer/-/stream-composer-1.0.2.tgz. Extracting by manifest.
+768 silly tarball no local data for fastest-levenshtein@https://registry.npmjs.org/fastest-levenshtein/-/fastest-levenshtein-1.0.16.tgz. Extracting by manifest.
+769 silly tarball no local data for vinyl-sourcemap@https://registry.npmjs.org/vinyl-sourcemap/-/vinyl-sourcemap-2.0.0.tgz. Extracting by manifest.
+770 silly tarball no local data for vinyl@https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz. Extracting by manifest.
+771 silly tarball no local data for convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+772 silly tarball no local data for vinyl-fs@https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-4.0.0.tgz. Extracting by manifest.
+773 silly tarball no local data for vinyl@https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz. Extracting by manifest.
+774 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz. Extracting by manifest.
+775 silly tarball no local data for value-or-function@https://registry.npmjs.org/value-or-function/-/value-or-function-4.0.0.tgz. Extracting by manifest.
+776 silly tarball no local data for undertaker-registry@https://registry.npmjs.org/undertaker-registry/-/undertaker-registry-2.0.0.tgz. Extracting by manifest.
+777 silly tarball no local data for undertaker@https://registry.npmjs.org/undertaker/-/undertaker-2.0.0.tgz. Extracting by manifest.
+778 silly tarball no local data for send@https://registry.npmjs.org/send/-/send-0.19.1.tgz. Extracting by manifest.
+779 silly tarball no local data for resolve-options@https://registry.npmjs.org/resolve-options/-/resolve-options-2.0.0.tgz. Extracting by manifest.
+780 silly tarball no local data for now-and-later@https://registry.npmjs.org/now-and-later/-/now-and-later-3.0.0.tgz. Extracting by manifest.
+781 silly tarball no local data for last-run@https://registry.npmjs.org/last-run/-/last-run-2.0.0.tgz. Extracting by manifest.
+782 silly tarball no local data for lead@https://registry.npmjs.org/lead/-/lead-4.0.0.tgz. Extracting by manifest.
+783 silly tarball no local data for gulp-sourcemaps@https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.5.tgz. Extracting by manifest.
+784 silly tarball no local data for glob-stream@https://registry.npmjs.org/glob-stream/-/glob-stream-8.0.2.tgz. Extracting by manifest.
+785 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz. Extracting by manifest.
+786 silly tarball no local data for fast-levenshtein@https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-3.0.0.tgz. Extracting by manifest.
+787 silly tarball no local data for css@https://registry.npmjs.org/css/-/css-2.2.4.tgz. Extracting by manifest.
+788 silly tarball no local data for browser-sync-ui@https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-3.0.3.tgz. Extracting by manifest.
+789 silly tarball no local data for browser-sync-client@https://registry.npmjs.org/browser-sync-client/-/browser-sync-client-3.0.3.tgz. Extracting by manifest.
+790 silly tarball no local data for browser-sync@https://registry.npmjs.org/browser-sync/-/browser-sync-3.0.3.tgz. Extracting by manifest.
+791 silly tarball no local data for bach@https://registry.npmjs.org/bach/-/bach-2.0.1.tgz. Extracting by manifest.
+792 silly tarball no local data for async-settle@https://registry.npmjs.org/async-settle/-/async-settle-2.0.0.tgz. Extracting by manifest.
+793 silly tarball no local data for async-done@https://registry.npmjs.org/async-done/-/async-done-2.0.0.tgz. Extracting by manifest.
+794 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz. Extracting by manifest.
+795 silly tarball no local data for @gulp-sourcemaps/identity-map@https://registry.npmjs.org/@gulp-sourcemaps/identity-map/-/identity-map-1.0.2.tgz. Extracting by manifest.
+796 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 182ms
+797 silly audit report {
+797 silly audit report   moment: [
+797 silly audit report     {
+797 silly audit report       id: 1095083,
+797 silly audit report       url: 'https://github.com/advisories/GHSA-8hfj-j24r-96c4',
+797 silly audit report       title: "Path Traversal: 'dir/../../filename' in moment.locale",
+797 silly audit report       severity: 'high',
+797 silly audit report       vulnerable_versions: '<2.29.2',
+797 silly audit report       cwe: [Array],
+797 silly audit report       cvss: [Object]
+797 silly audit report     },
+797 silly audit report     {
+797 silly audit report       id: 1095072,
+797 silly audit report       url: 'https://github.com/advisories/GHSA-wc69-rhjr-hc9g',
+797 silly audit report       title: 'Moment.js vulnerable to Inefficient Regular Expression Complexity',
+797 silly audit report       severity: 'high',
+797 silly audit report       vulnerable_versions: '>=2.18.0 <2.29.4',
+797 silly audit report       cwe: [Array],
+797 silly audit report       cvss: [Object]
+797 silly audit report     }
+797 silly audit report   ]
+797 silly audit report }
+798 silly packumentCache corgi:https://registry.npmjs.org/moment cache-hit
+799 silly packumentCache corgi:https://registry.npmjs.org/gulp-header-comment cache-hit
+800 http fetch GET 200 https://registry.npmjs.org/fs-mkdirp-stream/-/fs-mkdirp-stream-2.0.1.tgz 209ms (cache miss)
+801 warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+802 http fetch GET 200 https://registry.npmjs.org/glob-watcher/-/glob-watcher-6.0.0.tgz 214ms (cache miss)
+803 http fetch GET 200 https://registry.npmjs.org/gulp/-/gulp-5.0.0.tgz 215ms (cache miss)
+804 http fetch GET 200 https://registry.npmjs.org/to-through/-/to-through-3.0.0.tgz 229ms (cache miss)
+805 http fetch GET 200 https://registry.npmjs.org/teex/-/teex-1.0.1.tgz 223ms (cache miss)
+806 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 224ms (cache miss)
+807 http fetch GET 200 https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz 251ms (cache miss)
+808 http fetch GET 200 https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz 252ms (cache miss)
+809 http fetch GET 200 https://registry.npmjs.org/stream-composer/-/stream-composer-1.0.2.tgz 268ms (cache miss)
+810 http fetch GET 200 https://registry.npmjs.org/@gulpjs/to-absolute-glob/-/to-absolute-glob-4.0.0.tgz 294ms (cache miss)
+811 http fetch GET 200 https://registry.npmjs.org/streamx/-/streamx-2.20.1.tgz 323ms (cache miss)
+812 http fetch GET 200 https://registry.npmjs.org/fastq/-/fastq-1.17.1.tgz 331ms (cache miss)
+813 http fetch GET 200 https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 326ms (cache miss)
+814 http fetch GET 200 https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz 327ms (cache miss)
+815 http fetch GET 200 https://registry.npmjs.org/value-or-function/-/value-or-function-4.0.0.tgz 336ms (cache miss)
+816 http fetch GET 200 https://registry.npmjs.org/fastest-levenshtein/-/fastest-levenshtein-1.0.16.tgz 346ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/vinyl-sourcemap/-/vinyl-sourcemap-2.0.0.tgz 354ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz 352ms (cache miss)
+819 http fetch GET 200 https://registry.npmjs.org/undertaker-registry/-/undertaker-registry-2.0.0.tgz 366ms (cache miss)
+820 http fetch GET 200 https://registry.npmjs.org/resolve-options/-/resolve-options-2.0.0.tgz 384ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/last-run/-/last-run-2.0.0.tgz 382ms (cache miss)
+822 http fetch GET 200 https://registry.npmjs.org/now-and-later/-/now-and-later-3.0.0.tgz 402ms (cache miss)
+823 http fetch GET 200 https://registry.npmjs.org/send/-/send-0.19.1.tgz 410ms (cache miss)
+824 http fetch GET 200 https://registry.npmjs.org/lead/-/lead-4.0.0.tgz 406ms (cache miss)
+825 http fetch GET 200 https://registry.npmjs.org/glob-stream/-/glob-stream-8.0.2.tgz 414ms (cache miss)
+826 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-3.0.0.tgz 411ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz 422ms (cache miss)
+828 http fetch GET 200 https://registry.npmjs.org/undertaker/-/undertaker-2.0.0.tgz 441ms (cache miss)
+829 http fetch GET 200 https://registry.npmjs.org/async-settle/-/async-settle-2.0.0.tgz 435ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/css/-/css-2.2.4.tgz 444ms (cache miss)
+831 http fetch GET 200 https://registry.npmjs.org/async-done/-/async-done-2.0.0.tgz 441ms (cache miss)
+832 http fetch GET 200 https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-2.6.5.tgz 454ms (cache miss)
+833 http fetch GET 200 https://registry.npmjs.org/bach/-/bach-2.0.1.tgz 447ms (cache miss)
+834 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 484ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/vinyl-contents/-/vinyl-contents-2.0.0.tgz 482ms (cache miss)
+836 http fetch GET 200 https://registry.npmjs.org/text-decoder/-/text-decoder-1.2.1.tgz 485ms (cache miss)
+837 http fetch GET 200 https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz 486ms (cache miss)
+838 http fetch GET 200 https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz 492ms (cache miss)
+839 http fetch GET 200 https://registry.npmjs.org/@gulp-sourcemaps/identity-map/-/identity-map-1.0.2.tgz 460ms (cache miss)
+840 http fetch GET 200 https://registry.npmjs.org/bare-events/-/bare-events-2.5.0.tgz 493ms (cache miss)
+841 http fetch GET 200 https://registry.npmjs.org/browser-sync-client/-/browser-sync-client-3.0.3.tgz 465ms (cache miss)
+842 http fetch GET 200 https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-4.0.0.tgz 490ms (cache miss)
+843 http fetch GET 200 https://registry.npmjs.org/bl/-/bl-5.1.0.tgz 503ms (cache miss)
+844 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz 503ms (cache miss)
+845 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 533ms (cache miss)
+846 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz 568ms (cache miss)
+847 http fetch GET 200 https://registry.npmjs.org/browser-sync/-/browser-sync-3.0.3.tgz 600ms (cache miss)
+848 http fetch GET 200 https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-3.0.3.tgz 639ms (cache miss)
+849 silly ADD node_modules/teex
+850 silly ADD node_modules/ieee754
+851 silly ADD node_modules/base64-js
+852 silly ADD node_modules/buffer
+853 silly ADD node_modules/bl
+854 silly ADD node_modules/vinyl-contents
+855 silly ADD node_modules/vinyl-contents/node_modules/vinyl
+856 silly ADD node_modules/text-decoder
+857 silly ADD node_modules/queue-tick
+858 silly ADD node_modules/fast-fifo
+859 silly ADD node_modules/bare-events
+860 silly ADD node_modules/reusify
+861 silly ADD node_modules/fastq
+862 silly ADD node_modules/@gulpjs/to-absolute-glob
+863 silly ADD node_modules/streamx
+864 silly ADD node_modules/stream-composer
+865 silly ADD node_modules/fastest-levenshtein
+866 silly ADD
+867 silly ADD
+868 silly ADD
+869 silly ADD
+870 silly ADD node_modules/@parcel/watcher-linux-x64-musl
+871 silly ADD
+872 silly ADD
+873 silly ADD
+874 silly ADD
+875 silly ADD
+876 silly ADD
+877 silly ADD
+878 silly REMOVE node_modules/which-module
+879 silly CHANGE node_modules/vinyl-sourcemap
+880 silly ADD node_modules/vinyl-sourcemap/node_modules/vinyl
+881 silly ADD node_modules/vinyl-sourcemap/node_modules/convert-source-map
+882 silly REMOVE node_modules/vinyl-sourcemap/node_modules/normalize-path
+883 silly CHANGE node_modules/vinyl-fs
+884 silly ADD node_modules/vinyl-fs/node_modules/vinyl
+885 silly ADD node_modules/vinyl-fs/node_modules/iconv-lite
+886 silly REMOVE node_modules/vinyl-fs/node_modules/through2
+887 silly REMOVE node_modules/vinyl-fs/node_modules/string_decoder
+888 silly REMOVE node_modules/vinyl-fs/node_modules/safe-buffer
+889 silly REMOVE node_modules/vinyl-fs/node_modules/readable-stream
+890 silly CHANGE node_modules/value-or-function
+891 silly REMOVE node_modules/validate-npm-package-license
+892 silly REMOVE node_modules/use
+893 silly REMOVE node_modules/upath
+894 silly REMOVE node_modules/unset-value
+895 silly REMOVE node_modules/unset-value/node_modules/has-values
+896 silly REMOVE node_modules/unset-value/node_modules/has-value
+897 silly REMOVE node_modules/unset-value/node_modules/has-value/node_modules/isobject
+898 silly REMOVE node_modules/unique-stream
+899 silly REMOVE node_modules/union-value
+900 silly REMOVE node_modules/union-value/node_modules/is-extendable
+901 silly CHANGE node_modules/undertaker-registry
+902 silly CHANGE node_modules/undertaker
+903 silly CHANGE node_modules/to-through
+904 silly REMOVE node_modules/to-through/node_modules/through2
+905 silly REMOVE node_modules/to-through/node_modules/string_decoder
+906 silly REMOVE node_modules/to-through/node_modules/safe-buffer
+907 silly REMOVE node_modules/to-through/node_modules/readable-stream
+908 silly REMOVE node_modules/to-regex
+909 silly REMOVE node_modules/to-regex/node_modules/is-descriptor
+910 silly REMOVE node_modules/to-regex/node_modules/define-property
+911 silly REMOVE node_modules/to-object-path
+912 silly REMOVE node_modules/to-object-path/node_modules/kind-of
+913 silly REMOVE node_modules/to-absolute-glob
+914 silly REMOVE node_modules/through2-filter
+915 silly REMOVE node_modules/through2-filter/node_modules/through2
+916 silly REMOVE node_modules/through2-filter/node_modules/string_decoder
+917 silly REMOVE node_modules/through2-filter/node_modules/safe-buffer
+918 silly REMOVE node_modules/through2-filter/node_modules/readable-stream
+919 silly REMOVE node_modules/sver-compat
+920 silly REMOVE node_modules/strip-bom
+921 silly REMOVE node_modules/stream-shift
+922 silly REMOVE node_modules/static-extend
+923 silly REMOVE node_modules/stack-trace
+924 silly REMOVE node_modules/split-string
+925 silly REMOVE node_modules/spdx-license-ids
+926 silly REMOVE node_modules/spdx-expression-parse
+927 silly REMOVE node_modules/spdx-exceptions
+928 silly REMOVE node_modules/spdx-correct
+929 silly CHANGE node_modules/source-map-resolve
+930 silly REMOVE node_modules/snapdragon-util
+931 silly REMOVE node_modules/snapdragon-util/node_modules/kind-of
+932 silly REMOVE node_modules/snapdragon-node
+933 silly REMOVE node_modules/snapdragon-node/node_modules/is-descriptor
+934 silly REMOVE node_modules/snapdragon-node/node_modules/define-property
+935 silly REMOVE node_modules/snapdragon
+936 silly REMOVE node_modules/snapdragon/node_modules/source-map-resolve
+937 silly REMOVE node_modules/snapdragon/node_modules/source-map
+938 silly REMOVE node_modules/snapdragon/node_modules/is-extendable
+939 silly REMOVE node_modules/snapdragon/node_modules/extend-shallow
+940 silly REMOVE node_modules/set-value
+941 silly REMOVE node_modules/set-value/node_modules/is-plain-object
+942 silly REMOVE node_modules/set-value/node_modules/is-extendable
+943 silly REMOVE node_modules/set-value/node_modules/extend-shallow
+944 silly REMOVE node_modules/set-function-length
+945 silly REMOVE node_modules/set-blocking
+946 silly CHANGE node_modules/serve-static
+947 silly ADD node_modules/serve-static/node_modules/statuses
+948 silly ADD node_modules/serve-static/node_modules/on-finished
+949 silly ADD node_modules/serve-static/node_modules/ms
+950 silly ADD node_modules/serve-static/node_modules/send
+951 silly ADD node_modules/serve-static/node_modules/send/node_modules/encodeurl
+952 silly ADD node_modules/serve-static/node_modules/encodeurl
+953 silly CHANGE node_modules/send
+954 silly ADD node_modules/send/node_modules/on-finished
+955 silly ADD node_modules/send/node_modules/ms
+956 silly ADD node_modules/send/node_modules/encodeurl
+957 silly CHANGE node_modules/send/node_modules/statuses
+958 silly REMOVE node_modules/send/node_modules/setprototypeof
+959 silly REMOVE node_modules/send/node_modules/inherits
+960 silly REMOVE node_modules/send/node_modules/http-errors
+961 silly REMOVE node_modules/send/node_modules/depd
+962 silly REMOVE node_modules/safe-regex
+963 silly REMOVE node_modules/ret
+964 silly CHANGE node_modules/resolve-options
+965 silly REMOVE node_modules/require-main-filename
+966 silly REMOVE node_modules/repeat-string
+967 silly REMOVE node_modules/repeat-element
+968 silly REMOVE node_modules/remove-bom-stream
+969 silly REMOVE node_modules/remove-bom-stream/node_modules/through2
+970 silly REMOVE node_modules/remove-bom-stream/node_modules/string_decoder
+971 silly REMOVE node_modules/remove-bom-stream/node_modules/safe-buffer
+972 silly REMOVE node_modules/remove-bom-stream/node_modules/readable-stream
+973 silly REMOVE node_modules/remove-bom-buffer
+974 silly REMOVE node_modules/regex-not
+975 silly REMOVE node_modules/read-pkg-up
+976 silly REMOVE node_modules/read-pkg
+977 silly REMOVE node_modules/pumpify
+978 silly REMOVE node_modules/pump
+979 silly REMOVE node_modules/pretty-hrtime
+980 silly REMOVE node_modules/posix-character-classes
+981 silly REMOVE node_modules/pinkie-promise
+982 silly REMOVE node_modules/pinkie
+983 silly REMOVE node_modules/pify
+984 silly REMOVE node_modules/path-type
+985 silly REMOVE node_modules/path-exists
+986 silly REMOVE node_modules/path-dirname
+987 silly REMOVE node_modules/pascalcase
+988 silly REMOVE node_modules/parse-json
+989 silly REMOVE node_modules/os-locale
+990 silly REMOVE node_modules/ordered-read-streams
+991 silly REMOVE node_modules/ordered-read-streams/node_modules/string_decoder
+992 silly REMOVE node_modules/ordered-read-streams/node_modules/safe-buffer
+993 silly REMOVE node_modules/ordered-read-streams/node_modules/readable-stream
+994 silly REMOVE node_modules/openurl
+995 silly REMOVE node_modules/object.reduce
+996 silly REMOVE node_modules/object.map
+997 silly REMOVE node_modules/object.assign
+998 silly REMOVE node_modules/object-visit
+999 silly REMOVE node_modules/object-keys
+1000 silly REMOVE node_modules/object-copy
+1001 silly REMOVE node_modules/object-copy/node_modules/kind-of
+1002 silly REMOVE node_modules/number-is-nan
+1003 silly CHANGE node_modules/now-and-later
+1004 silly REMOVE node_modules/normalize-package-data
+1005 silly REMOVE node_modules/normalize-package-data/node_modules/semver
+1006 silly REMOVE node_modules/nanomatch
+1007 silly REMOVE node_modules/nanomatch/node_modules/is-descriptor
+1008 silly REMOVE node_modules/nanomatch/node_modules/define-property
+1009 silly REMOVE node_modules/mixin-deep
+1010 silly CHANGE node_modules/mime
+1011 silly REMOVE node_modules/matchdep
+1012 silly REMOVE node_modules/matchdep/node_modules/to-regex-range
+1013 silly REMOVE node_modules/matchdep/node_modules/micromatch
+1014 silly REMOVE node_modules/matchdep/node_modules/is-number
+1015 silly REMOVE node_modules/matchdep/node_modules/is-number/node_modules/kind-of
+1016 silly REMOVE node_modules/matchdep/node_modules/is-glob
+1017 silly REMOVE node_modules/matchdep/node_modules/is-extendable
+1018 silly REMOVE node_modules/matchdep/node_modules/is-descriptor
+1019 silly REMOVE node_modules/matchdep/node_modules/findup-sync
+1020 silly REMOVE node_modules/matchdep/node_modules/fill-range
+1021 silly REMOVE node_modules/matchdep/node_modules/fill-range/node_modules/extend-shallow
+1022 silly REMOVE node_modules/matchdep/node_modules/define-property
+1023 silly REMOVE node_modules/matchdep/node_modules/braces
+1024 silly REMOVE node_modules/matchdep/node_modules/braces/node_modules/extend-shallow
+1025 silly REMOVE node_modules/map-visit
+1026 silly REMOVE node_modules/make-iterator
+1027 silly REMOVE node_modules/localtunnel
+1028 silly REMOVE node_modules/localtunnel/node_modules/yargs-parser
+1029 silly REMOVE node_modules/localtunnel/node_modules/yargs
+1030 silly REMOVE node_modules/localtunnel/node_modules/ms
+1031 silly REMOVE node_modules/localtunnel/node_modules/debug
+1032 silly REMOVE node_modules/localtunnel/node_modules/cliui
+1033 silly REMOVE node_modules/load-json-file
+1034 silly CHANGE node_modules/lead
+1035 silly REMOVE node_modules/lcid
+1036 silly REMOVE node_modules/lazystream
+1037 silly REMOVE node_modules/lazystream/node_modules/string_decoder
+1038 silly REMOVE node_modules/lazystream/node_modules/safe-buffer
+1039 silly REMOVE node_modules/lazystream/node_modules/readable-stream
+1040 silly CHANGE node_modules/last-run
+1041 silly REMOVE node_modules/kind-of
+1042 silly REMOVE node_modules/just-debounce
+1043 silly REMOVE node_modules/json-stable-stringify-without-jsonify
+1044 silly REMOVE node_modules/is-utf8
+1045 silly REMOVE node_modules/is-descriptor
+1046 silly REMOVE node_modules/is-data-descriptor
+1047 silly REMOVE node_modules/is-buffer
+1048 silly REMOVE node_modules/is-arrayish
+1049 silly REMOVE node_modules/is-accessor-descriptor
+1050 silly REMOVE node_modules/invert-kv
+1051 silly REMOVE node_modules/hosted-git-info
+1052 silly REMOVE node_modules/has-values
+1053 silly REMOVE node_modules/has-values/node_modules/kind-of
+1054 silly REMOVE node_modules/has-values/node_modules/is-number
+1055 silly REMOVE node_modules/has-values/node_modules/is-number/node_modules/kind-of
+1056 silly REMOVE node_modules/has-value
+1057 silly REMOVE node_modules/has-symbols
+1058 silly REMOVE node_modules/has-proto
+1059 silly REMOVE node_modules/has-property-descriptors
+1060 silly CHANGE node_modules/gulp-sourcemaps
+1061 silly CHANGE node_modules/gulp
+1062 silly REMOVE node_modules/gulp/node_modules/yargs-parser
+1063 silly REMOVE node_modules/gulp/node_modules/yargs
+1064 silly REMOVE node_modules/gulp/node_modules/y18n
+1065 silly REMOVE node_modules/gulp/node_modules/wrap-ansi
+1066 silly REMOVE node_modules/gulp/node_modules/v8flags
+1067 silly REMOVE node_modules/gulp/node_modules/to-regex-range
+1068 silly REMOVE node_modules/gulp/node_modules/strip-ansi
+1069 silly REMOVE node_modules/gulp/node_modules/string-width
+1070 silly REMOVE node_modules/gulp/node_modules/string_decoder
+1071 silly REMOVE node_modules/gulp/node_modules/sparkles
+1072 silly REMOVE node_modules/gulp/node_modules/semver-greatest-satisfied-range
+1073 silly REMOVE node_modules/gulp/node_modules/safe-buffer
+1074 silly REMOVE node_modules/gulp/node_modules/replace-homedir
+1075 silly REMOVE node_modules/gulp/node_modules/rechoir
+1076 silly REMOVE node_modules/gulp/node_modules/readable-stream
+1077 silly REMOVE node_modules/gulp/node_modules/mute-stdout
+1078 silly REMOVE node_modules/gulp/node_modules/micromatch
+1079 silly REMOVE node_modules/gulp/node_modules/liftoff
+1080 silly REMOVE node_modules/gulp/node_modules/liftoff/node_modules/is-plain-object
+1081 silly REMOVE node_modules/gulp/node_modules/is-number
+1082 silly REMOVE node_modules/gulp/node_modules/is-number/node_modules/kind-of
+1083 silly REMOVE node_modules/gulp/node_modules/is-fullwidth-code-point
+1084 silly REMOVE node_modules/gulp/node_modules/is-extendable
+1085 silly REMOVE node_modules/gulp/node_modules/is-descriptor
+1086 silly REMOVE node_modules/gulp/node_modules/interpret
+1087 silly REMOVE node_modules/gulp/node_modules/gulplog
+1088 silly REMOVE node_modules/gulp/node_modules/gulp-cli
+1089 silly REMOVE node_modules/gulp/node_modules/glogg
+1090 silly REMOVE node_modules/gulp/node_modules/get-caller-file
+1091 silly REMOVE node_modules/gulp/node_modules/flagged-respawn
+1092 silly REMOVE node_modules/gulp/node_modules/fined
+1093 silly REMOVE node_modules/gulp/node_modules/fined/node_modules/is-plain-object
+1094 silly REMOVE node_modules/gulp/node_modules/findup-sync
+1095 silly REMOVE node_modules/gulp/node_modules/fill-range
+1096 silly REMOVE node_modules/gulp/node_modules/fill-range/node_modules/extend-shallow
+1097 silly REMOVE node_modules/gulp/node_modules/each-props
+1098 silly REMOVE node_modules/gulp/node_modules/each-props/node_modules/is-plain-object
+1099 silly REMOVE node_modules/gulp/node_modules/define-property
+1100 silly REMOVE node_modules/gulp/node_modules/copy-props
+1101 silly REMOVE node_modules/gulp/node_modules/concat-stream
+1102 silly REMOVE node_modules/gulp/node_modules/cliui
+1103 silly REMOVE node_modules/gulp/node_modules/braces
+1104 silly REMOVE node_modules/gulp/node_modules/braces/node_modules/extend-shallow
+1105 silly REMOVE node_modules/gulp/node_modules/ansi-regex
+1106 silly REMOVE node_modules/gulp/node_modules/ansi-colors
+1107 silly REMOVE node_modules/gopd
+1108 silly CHANGE node_modules/glob-watcher
+1109 silly REMOVE node_modules/glob-watcher/node_modules/to-regex-range
+1110 silly REMOVE node_modules/glob-watcher/node_modules/string_decoder
+1111 silly REMOVE node_modules/glob-watcher/node_modules/safe-buffer
+1112 silly REMOVE node_modules/glob-watcher/node_modules/readdirp
+1113 silly REMOVE node_modules/glob-watcher/node_modules/readable-stream
+1114 silly REMOVE node_modules/glob-watcher/node_modules/micromatch
+1115 silly REMOVE node_modules/glob-watcher/node_modules/is-number
+1116 silly REMOVE node_modules/glob-watcher/node_modules/is-number/node_modules/kind-of
+1117 silly REMOVE node_modules/glob-watcher/node_modules/is-extendable
+1118 silly REMOVE node_modules/glob-watcher/node_modules/is-descriptor
+1119 silly REMOVE node_modules/glob-watcher/node_modules/is-binary-path
+1120 silly REMOVE node_modules/glob-watcher/node_modules/glob-parent
+1121 silly REMOVE node_modules/glob-watcher/node_modules/glob-parent/node_modules/is-glob
+1122 silly REMOVE node_modules/glob-watcher/node_modules/fill-range
+1123 silly REMOVE node_modules/glob-watcher/node_modules/fill-range/node_modules/extend-shallow
+1124 silly REMOVE node_modules/glob-watcher/node_modules/define-property
+1125 silly REMOVE node_modules/glob-watcher/node_modules/chokidar
+1126 silly REMOVE node_modules/glob-watcher/node_modules/braces
+1127 silly REMOVE node_modules/glob-watcher/node_modules/braces/node_modules/extend-shallow
+1128 silly REMOVE node_modules/glob-watcher/node_modules/binary-extensions
+1129 silly REMOVE node_modules/glob-watcher/node_modules/anymatch
+1130 silly REMOVE node_modules/glob-watcher/node_modules/anymatch/node_modules/normalize-path
+1131 silly CHANGE node_modules/glob-stream
+1132 silly REMOVE node_modules/glob-stream/node_modules/string_decoder
+1133 silly REMOVE node_modules/glob-stream/node_modules/safe-buffer
+1134 silly REMOVE node_modules/glob-stream/node_modules/readable-stream
+1135 silly REMOVE node_modules/glob-stream/node_modules/is-glob
+1136 silly CHANGE node_modules/glob-stream/node_modules/glob-parent
+1137 silly REMOVE node_modules/get-value
+1138 silly REMOVE node_modules/get-intrinsic
+1139 silly CHANGE node_modules/fs-mkdirp-stream
+1140 silly REMOVE node_modules/fs-mkdirp-stream/node_modules/through2
+1141 silly REMOVE node_modules/fs-mkdirp-stream/node_modules/string_decoder
+1142 silly REMOVE node_modules/fs-mkdirp-stream/node_modules/safe-buffer
+1143 silly REMOVE node_modules/fs-mkdirp-stream/node_modules/readable-stream
+1144 silly REMOVE node_modules/fragment-cache
+1145 silly REMOVE node_modules/flush-write-stream
+1146 silly REMOVE node_modules/flush-write-stream/node_modules/string_decoder
+1147 silly REMOVE node_modules/flush-write-stream/node_modules/safe-buffer
+1148 silly REMOVE node_modules/flush-write-stream/node_modules/readable-stream
+1149 silly REMOVE node_modules/find-up
+1150 silly CHANGE node_modules/fast-levenshtein
+1151 silly REMOVE node_modules/extglob
+1152 silly REMOVE node_modules/extglob/node_modules/is-extendable
+1153 silly REMOVE node_modules/extglob/node_modules/is-descriptor
+1154 silly REMOVE node_modules/extglob/node_modules/extend-shallow
+1155 silly REMOVE node_modules/extglob/node_modules/define-property
+1156 silly REMOVE node_modules/expand-brackets
+1157 silly REMOVE node_modules/expand-brackets/node_modules/is-extendable
+1158 silly REMOVE node_modules/expand-brackets/node_modules/extend-shallow
+1159 silly REMOVE node_modules/es-errors
+1160 silly REMOVE node_modules/es-define-property
+1161 silly REMOVE node_modules/error-ex
+1162 silly REMOVE node_modules/duplexify
+1163 silly REMOVE node_modules/duplexify/node_modules/string_decoder
+1164 silly REMOVE node_modules/duplexify/node_modules/safe-buffer
+1165 silly REMOVE node_modules/duplexify/node_modules/readable-stream
+1166 silly CHANGE node_modules/destroy
+1167 silly REMOVE node_modules/define-property
+1168 silly REMOVE node_modules/define-properties
+1169 silly REMOVE node_modules/define-data-property
+1170 silly REMOVE node_modules/default-resolution
+1171 silly REMOVE node_modules/default-compare
+1172 silly REMOVE node_modules/default-compare/node_modules/kind-of
+1173 silly REMOVE node_modules/decamelize
+1174 silly CHANGE node_modules/css
+1175 silly REMOVE node_modules/copy-descriptor
+1176 silly REMOVE node_modules/component-emitter
+1177 silly REMOVE node_modules/collection-visit
+1178 silly REMOVE node_modules/collection-map
+1179 silly REMOVE node_modules/code-point-at
+1180 silly REMOVE node_modules/class-utils
+1181 silly REMOVE node_modules/camelcase
+1182 silly REMOVE node_modules/call-bind
+1183 silly REMOVE node_modules/cache-base
+1184 silly REMOVE node_modules/buffer-equal
+1185 silly CHANGE node_modules/browser-sync-ui
+1186 silly CHANGE node_modules/browser-sync-client
+1187 silly CHANGE node_modules/browser-sync
+1188 silly REMOVE node_modules/base
+1189 silly REMOVE node_modules/base/node_modules/is-descriptor
+1190 silly REMOVE node_modules/base/node_modules/define-property
+1191 silly CHANGE node_modules/bach
+1192 silly REMOVE node_modules/axios
+1193 silly CHANGE node_modules/async-settle
+1194 silly REMOVE node_modules/async-each
+1195 silly CHANGE node_modules/async-done
+1196 silly REMOVE node_modules/array-unique
+1197 silly REMOVE node_modules/array-sort
+1198 silly REMOVE node_modules/array-sort/node_modules/kind-of
+1199 silly REMOVE node_modules/array-last
+1200 silly REMOVE node_modules/array-last/node_modules/is-number
+1201 silly REMOVE node_modules/array-initial
+1202 silly REMOVE node_modules/array-initial/node_modules/is-number
+1203 silly REMOVE node_modules/arr-map
+1204 silly REMOVE node_modules/arr-flatten
+1205 silly REMOVE node_modules/arr-filter
+1206 silly REMOVE node_modules/archy
+1207 silly REMOVE node_modules/append-buffer
+1208 silly CHANGE node_modules/acorn
+1209 silly CHANGE node_modules/@gulp-sourcemaps/identity-map
+1210 silly ADD node_modules/@gulp-sourcemaps/identity-map/node_modules/string_decoder
+1211 silly ADD node_modules/@gulp-sourcemaps/identity-map/node_modules/safe-buffer
+1212 silly ADD node_modules/@gulp-sourcemaps/identity-map/node_modules/readable-stream
+1213 silly ADD node_modules/@gulp-sourcemaps/identity-map/node_modules/normalize-path
+1214 silly CHANGE node_modules/@gulp-sourcemaps/identity-map/node_modules/through2
+1215 silly REMOVE node_modules/@gulp-sourcemaps/identity-map/node_modules/postcss
+1216 silly REMOVE node_modules/@gulp-sourcemaps/identity-map/node_modules/picocolors
+1217 verbose cwd /home/pmickler09/aviato-bootstrap-main
+1218 verbose os Linux 6.6.46-04024-g9e7e147b4900
+1219 verbose node v20.17.0
+1220 verbose npm  v10.8.2
+1221 verbose exit 1
+1222 verbose code 1

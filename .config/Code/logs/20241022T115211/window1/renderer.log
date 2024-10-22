@@ -1,0 +1,5 @@
+2024-10-22 11:52:12.490 [info] Started local extension host with pid 5966.
+2024-10-22 11:52:16.001 [info] [perf] Render performance baseline is 62ms
+2024-10-22 11:52:29.114 [warning] [backup tracker] suspended, ignoring unregister event file:///home/pmickler09/aviato-bootstrap-main/package.json 
+2024-10-22 11:52:29.742 [info] Started local extension host with pid 6478.
+2024-10-22 11:52:32.617 [info] [perf] Render performance baseline is 58ms

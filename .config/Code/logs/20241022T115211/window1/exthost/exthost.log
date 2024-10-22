@@ -1,0 +1,32 @@
+2024-10-22 11:52:13.563 [info] Extension host with pid 5966 started
+2024-10-22 11:52:13.563 [info] Skipping acquiring lock for /home/pmickler09/.config/Code/User/workspaceStorage/63e4648ba13a7a99d147e74ef2d0d0bb.
+2024-10-22 11:52:13.963 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 11:52:13.984 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-22 11:52:14.748 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-22 11:52:14.752 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-22 11:52:14.884 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-22 11:52:15.017 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-22 11:52:15.192 [info] Eager extensions activated
+2024-10-22 11:52:15.241 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:15.244 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:15.278 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:15.289 [info] ExtensionService#_doActivateExtension tonybaloney.vscode-pets, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:20.237 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 11:52:20.257 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 11:52:20.280 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 11:52:29.107 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-22 11:52:29.137 [info] Extension host with pid 5966 exiting with code 0
+2024-10-22 11:52:30.352 [info] Extension host with pid 6478 started
+2024-10-22 11:52:30.352 [info] Skipping acquiring lock for /home/pmickler09/.config/Code/User/workspaceStorage/c5772b1aed059831d4749d46c4f51f37.
+2024-10-22 11:52:30.432 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-22 11:52:30.457 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-22 11:52:30.567 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-22 11:52:30.745 [info] Eager extensions activated
+2024-10-22 11:52:30.782 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:30.785 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:30.809 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:30.817 [info] ExtensionService#_doActivateExtension tonybaloney.vscode-pets, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 11:52:33.612 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-22 11:52:33.678 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 11:52:42.468 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-22 11:52:42.494 [info] Extension host with pid 6478 exiting with code 0
